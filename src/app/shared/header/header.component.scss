@@ -40,3 +40,33 @@
         }
     }
 }
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr;
+
+    .menu-navigation-logo {
+        width: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > img {
+            width: 100%;
+        }
+    }
+
+    .menu-navigation-items {
+        width: 50%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        list-style: none;
+    }
+}
