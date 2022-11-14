@@ -1,0 +1,42 @@
+.menu-top-line {
+    background-color: #1B5083;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .menu-logo {
+        width: 20%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-contact-items {
+        width: 80%;
+
+        list-style: none;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 8px;
+
+            > i, a {
+                color: #72A0BF;
+            }
+
+            .cellphone {
+                border-right: 1px solid #72A0BF;
+                padding-right: 10px;
+            }
+        }
+    }
+}
