@@ -1,0 +1,138 @@
+.entry-container {
+    background-image: url('/assets/images/png/entry-background-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .entry-left-text {
+        width: 65%;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-end;
+        align-items: center;
+
+        .entry-text {
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: flex-start;
+            align-items: center;
+
+            .entry-title {
+                font-size: 24px;
+                font-weight: 900;
+
+                letter-spacing: 0px;
+                line-height: 60px;
+
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                margin-bottom: 24px;
+
+                >h1 {
+                    color: #031D4C;
+                    text-size-adjust: 100%;
+
+                    font-weight: 900;
+                }
+            }
+
+            .entry-list {
+                font-size: 19px;
+                font-weight: 400;
+
+                line-height: 30px;
+
+                list-style: none;
+
+                >li {
+                    display: flex;
+                    font-weight: 400;
+
+                    >* {
+                        text-align: justify;
+                        color: #031D4C;
+                    }
+
+                    >i {
+                        font-size: 12px;
+                        margin: 9px 10px 0 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .entry-image-right {
+        width: 35%;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        >img {
+            aspect-ratio: 5/3;
+            padding: 10%;
+        }
+    }
+
+    .entry-buttons {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 24px;
+
+        padding: 0 5% 5% 5%;
+
+        .button-contract,
+        .button-know-more {
+            padding: 1rem 3rem;
+        }
+
+        .button-contract {
+            background-color: #3CCAD8;
+            border: transparent;
+            border-radius: 5px;
+
+            >p {
+                font-size: 17px;
+                font-weight: 600;
+                color: #031D4C;
+            }
+        }
+
+        .button-know-more {
+            background-color: #031D4C;
+            border: transparent;
+            border-radius: 5px;
+
+            >p {
+                font-size: 17px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+
+    .entry-images-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
