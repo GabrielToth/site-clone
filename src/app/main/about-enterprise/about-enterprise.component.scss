@@ -1,0 +1,261 @@
+.top-container {
+    background-color: #59ACE7;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .top-text-container {
+        width: 65%;
+        padding: 5%;
+
+        >h1 {
+            color: white;
+            font-size: 50px;
+            font-weight: 800;
+
+            margin-bottom: 20px;
+        }
+
+        >p {
+            color: white;
+            line-height: 2rem;
+            letter-spacing: 2px;
+
+            font-size: 18px;
+            font-weight: 200;
+        }
+    }
+
+    .top-image-container {
+        width: 35%;
+        padding: 5% 5% 5% 0;
+
+
+        >img {
+            width: 100%;
+        }
+    }
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    .about-soft-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        margin: 5% 0;
+
+        .about-principal-phrase {
+            width: 90%;
+
+            >h2 {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 24px;
+
+                text-align: center;
+            }
+        }
+
+        .about-description {
+            width: 90%;
+
+            display: flex;
+            justify-content: center;
+
+            gap: 16px;
+
+            .description-container {
+                width: 50%;
+
+                text-align: justify;
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    .category-blocks-container {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .blocks-container {
+            width: 100%;
+
+            padding: 3% 5%;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .block {
+                width: 200px;
+                height: 145px;
+
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+                align-items: center;
+
+                .block-icon {
+                    width: 100%;
+                    height: 45%;
+
+                    padding: 7% 0;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    >i {
+                        padding: 5%;
+                        font-size: 50px;
+
+                        color: rgba(255, 255, 255, 0.5);
+                    }
+                }
+
+                .block-description {
+                    width: 100%;
+                    height: 55%;
+
+                    >p {
+                        color: rgba(0, 0, 0, 0.4);
+                        text-align: center;
+                    }
+                }
+            }
+
+            .first {
+                background-color: #EF817B;
+            }
+
+            .second {
+                background-color: #FFA34B;
+            }
+
+            .third {
+                background-color: #FDCE68;
+            }
+
+            .fourth {
+                background-color: #8BD888;
+            }
+
+            .fifth {
+                background-color: #86CDCC;
+            }
+
+            .sixth {
+                background-color: #7DB8F0;
+            }
+        }
+    }
+}
+
+.enterprise-differential {
+    background-color: #59ACE7;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 6% 0;
+
+    .differential-container {
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 24px;
+
+        width: 80%;
+
+        .differential-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >h2 {
+                font-size: 24px;
+                font-weight: 600;
+
+                color: #fff;
+            }
+        }
+
+        .differential-description {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 65%;
+
+            >p {
+                color: #fff;
+
+                text-align: center;
+                line-height: 1.5rem;
+            }
+        }
+    }
+}
+
+.enterprise-partnership {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 36px;
+
+    .partnership-title {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 3%;
+
+        >h2 {
+            font-size: 36px;
+            font-weight: 700;
+
+
+        }
+    }
+
+    .partnership-logos {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-bottom: 3%;
+
+        gap: 36px;
+    }
+}

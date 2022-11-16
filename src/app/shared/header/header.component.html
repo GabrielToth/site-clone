@@ -24,14 +24,14 @@
             <nav class="menu-navigation">
                 <div class="menu-navigation-logo">
                     <img src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
-                        alt="Logo da softclever com um painél ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos'">
+                        alt="Logo da softclever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a href="#">Home</a>
+                        <a [routerLink]="['/home']" >Home</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a href="#">A Empresa</a>
+                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A Empresa</a>
                     </li>
                     <li class="menu-navigation-item">
                         <a href="#">Soluções</a>
