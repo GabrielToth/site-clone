@@ -1,0 +1,55 @@
+.navigation-buttons-container {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2%;
+
+    .navigation-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 24px;
+
+        .nav-button {
+            border-radius: 5px;
+
+            height: 80px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border: none;
+
+            >a {
+                margin: 5%;
+
+                color: #fff;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        .button-green {
+            background-color: #89AE11;
+        }
+        .button-orange {
+            background-color: #FFA500;
+        }
+        .button-blue {
+            background-color: #56AEE3;
+        }
+        .button-darkgreen {
+            background-color: #4DC247;
+        }
+
+    }
+
+
+}

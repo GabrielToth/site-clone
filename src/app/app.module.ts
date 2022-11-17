@@ -12,6 +12,9 @@ import { HomeComponent } from './main/home/home.component';
 import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterprise.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ClientsComponent } from './main/clients/clients.component';
+import { NavigationButtonsComponent } from './main/home/navigation-buttons/navigation-buttons.component';
+import { BeAPartnershipComponent } from './main/home/be-a-partnership/be-a-partnership.component';
+import { ContactComponent } from './main/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ClientsComponent } from './main/clients/clients.component';
     HomeComponent,
     AboutEnterpriseComponent,
     FooterComponent,
-    ClientsComponent
+    ClientsComponent,
+    NavigationButtonsComponent,
+    BeAPartnershipComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
