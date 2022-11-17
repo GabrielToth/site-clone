@@ -1,0 +1,80 @@
+.top-container {
+    background-color: #f8b02c;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .top-text-container {
+        width: 65%;
+        padding: 5%;
+
+        >h1 {
+            color: white;
+            font-size: 50px;
+            font-weight: 800;
+
+            margin-bottom: 20px;
+        }
+
+        >p {
+            color: white;
+            line-height: 2rem;
+            letter-spacing: 2px;
+
+            font-size: 18px;
+            font-weight: 200;
+        }
+    }
+
+    .top-image-container {
+        width: 35%;
+
+
+        >img {
+            width: 100%;
+        }
+    }
+}
+
+.enterprise-partnership {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 36px;
+
+    .partnership-title {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 3%;
+
+        >h2 {
+            font-size: 24px;
+            font-weight: 300;
+            margin: auto;
+
+            text-align: center;
+
+            margin-bottom: 24px;
+        }
+    }
+
+    .partnership-logos {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-bottom: 3%;
+
+        gap: 36px;
+    }
+}

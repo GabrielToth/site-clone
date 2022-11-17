@@ -11,6 +11,7 @@ import { ServicesCategoryComponent } from './main/home/services-category/service
 import { HomeComponent } from './main/home/home.component';
 import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterprise.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { ClientsComponent } from './main/clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     ServicesCategoryComponent,
     HomeComponent,
     AboutEnterpriseComponent,
-    FooterComponent
+    FooterComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
