@@ -17,6 +17,9 @@ import { BeAPartnershipComponent } from './main/home/be-a-partnership/be-a-partn
 import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsComponent } from './main/contact/forms/forms.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,11 +35,13 @@ import { SupportComponent } from './main/support/support.component';
     NavigationButtonsComponent,
     BeAPartnershipComponent,
     ContactComponent,
-    SupportComponent
+    SupportComponent,
+    FormsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

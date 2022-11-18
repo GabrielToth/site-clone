@@ -1,0 +1,48 @@
+.forms-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 3%;
+
+    .forms-left-contacts {
+        width: 30%;
+        min-width: 220px;
+        display: flex;
+        flex-direction: column;
+
+        .contact-cellphones {
+            display: flex;
+            flex-direction: column;
+
+            gap: 10px;
+
+            .cellphone {
+                display: flex;
+
+                gap: 10px;
+
+                font-size: 24px;
+            }
+
+            .cellphone-description {
+                font-size: 14px;
+            }
+        }
+
+        .contact-email {
+            display: flex;
+
+            font-size: 18px;
+        }
+    }
+
+    .forms-right {
+        width: 70%;
+
+
+    }
+}
