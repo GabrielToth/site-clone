@@ -2,47 +2,87 @@
     display: flex;
 
     justify-content: center;
-    align-items: center;
-
-    gap: 50px;
 
     padding: 3%;
 
+    gap: 50px;
+
+    background-color: deepskyblue;
+
     .forms-left-contacts {
-        width: 30%;
-        min-width: 220px;
+        margin-top: 6%;
+        max-width: 250px;
+
         display: flex;
         flex-direction: column;
+
+        gap: 24px;
 
         .contact-cellphones {
             display: flex;
             flex-direction: column;
+            justify-content: flex-end;
 
             gap: 10px;
 
             .cellphone {
                 display: flex;
+                justify-content: flex-end;
+                align-items: center;
 
                 gap: 10px;
 
                 font-size: 24px;
+
             }
 
             .cellphone-description {
+                display: flex;
+                justify-content: flex-end;
+
                 font-size: 14px;
+                text-align: end;
             }
         }
 
         .contact-email {
             display: flex;
+            justify-content: flex-end;
+            gap: 10px;
 
             font-size: 18px;
+        }
+
+        .contact-local {
+            display: flex;
+            justify-content: flex-end;
+
+            gap: 10px;
+
+            text-align: justify;
         }
     }
 
     .forms-right {
-        width: 70%;
+        width: 60%;
 
+        display: flex;
+        flex-direction: column;
 
+        justify-content: center;
+        align-items: center;
+
+        >h1 {
+            margin-bottom: 24px;
+
+            font-size: 36px;
+            font-weight: 700;
+            color: #000;
+        }
     }
+    
+}
+
+p, i {
+    color: white;
 }

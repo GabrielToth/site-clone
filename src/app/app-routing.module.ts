@@ -21,13 +21,13 @@ const routes: Routes = [
     component: ClientsComponent
   },
   {
+    path: "contact",
+    component: ContactComponent
+  },
+  {
     path: "support",
     component: SupportComponent
   },
-  {
-    path: "contact",
-    component: ContactComponent
-  }
 ];
 
 @NgModule({
