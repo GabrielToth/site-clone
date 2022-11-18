@@ -27,7 +27,7 @@ export class FormsComponent implements OnInit {
   }
 
   onSubmit(): void {
-     
+     console.log(this.formClient.value);
   }
 
 }
