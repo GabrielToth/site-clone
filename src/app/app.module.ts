@@ -15,6 +15,7 @@ import { ClientsComponent } from './main/clients/clients.component';
 import { NavigationButtonsComponent } from './main/home/navigation-buttons/navigation-buttons.component';
 import { BeAPartnershipComponent } from './main/home/be-a-partnership/be-a-partnership.component';
 import { ContactComponent } from './main/contact/contact.component';
+import { SupportComponent } from './main/support/support.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactComponent } from './main/contact/contact.component';
     ClientsComponent,
     NavigationButtonsComponent,
     BeAPartnershipComponent,
-    ContactComponent
+    ContactComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
