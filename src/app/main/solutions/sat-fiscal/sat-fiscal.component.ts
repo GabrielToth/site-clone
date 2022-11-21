@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TopPageContentTitleServiceTsService } from 'src/app/top-page-content-title.service';
 
 @Component({
