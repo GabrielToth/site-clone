@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { TopPageContentTitleServiceTsService } from 'src/app/top-page-content-title.service';
-import { TopPageContentComponent } from 'src/app/shared/top-page-content/top-page-content.component';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-presentation',
@@ -8,9 +6,5 @@ import { TopPageContentComponent } from 'src/app/shared/top-page-content/top-pag
   styleUrls: ['./presentation.component.scss']
 })
 export class PresentationComponent {
-  title?:string
-
-  constructor(private Title:TopPageContentTitleServiceTsService){
-    this.title = Title.getTitle("Apresentação das Soluções")
-  }
+  constructor(){}
 }
