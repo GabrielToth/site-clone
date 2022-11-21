@@ -35,7 +35,7 @@
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A Empresa</a>
                     </li>
-                    <li class="menu-navigation-item" (mouseenter)="onMouseEnter()">
+                    <li class="menu-navigation-item" id="solution" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeaveSolution()">
                         <a [routerLink]="['/presentation']">Soluções</a>
                         <app-solutions [ngClass]="{'display-solutions': display}" (mouseleave)="onMouseLeave()"></app-solutions>
                     </li>
