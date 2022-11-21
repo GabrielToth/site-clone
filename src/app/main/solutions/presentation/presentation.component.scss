@@ -2,6 +2,7 @@
 .content {
     text-align: center;
     margin-top: 3rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -51,6 +52,10 @@
 .buttons button a{
     background-color: #FF6E00;
     padding: 1.5rem  5rem;
+}
+
+.buttons button a#b2{
+    background-color: #4DC247;
 }
 
 .buttons button a#b2{

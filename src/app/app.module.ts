@@ -24,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
 import { SolutionsTitleComponent } from './shared/solutions-title/solutions-title.component';
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
+import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,6 @@ import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell
     BeAPartnershipComponent,
     ContactComponent,
     SupportComponent,
-
     FormsComponent,
 
     SolutionsComponent,
@@ -49,6 +49,7 @@ import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell
     SatFiscalComponent,
     SolutionsTitleComponent,
     BalconySellComponent,
+    CardsBottomComponent,
 
   ],
   imports: [
