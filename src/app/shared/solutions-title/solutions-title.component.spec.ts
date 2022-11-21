@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopPageContentComponent } from './top-page-content.component';
+import { SolutionsTitleComponent } from './solutions-title.component';
 
-describe('TopPageContentComponent', () => {
-  let component: TopPageContentComponent;
-  let fixture: ComponentFixture<TopPageContentComponent>;
+describe('SolutionsTitleComponent', () => {
+  let component: SolutionsTitleComponent;
+  let fixture: ComponentFixture<SolutionsTitleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TopPageContentComponent ]
+      declarations: [ SolutionsTitleComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TopPageContentComponent);
+    fixture = TestBed.createComponent(SolutionsTitleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

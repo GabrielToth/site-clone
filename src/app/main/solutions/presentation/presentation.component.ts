@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./presentation.component.scss']
 })
 export class PresentationComponent {
+  title?: string = 'Apresentação das Soluções';
+
   constructor(){}
 }
