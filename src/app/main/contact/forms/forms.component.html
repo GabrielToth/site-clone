@@ -1,0 +1,20 @@
+<form [formGroup]="formClient" class="forms-inputs" (ngSubmit)="onSubmit()">
+    <div class="minor-inputs">
+        <div class="input-camp">
+            <input type="text" placeholder="Nome" name="name" formControlName="name" aria-required="true" aria-invalid="false">
+        </div>
+        <div class="input-camp">
+            <input type="text" placeholder="Empresa" name="enterprise" formControlName="enterprise" aria-required="true" aria-invalid="false">
+        </div>
+        <div class="input-camp">
+            <input type="text" placeholder="Email" name="email" formControlName="email" aria-required="true" aria-invalid="false">
+        </div>
+        <div class="input-camp">
+            <input type="text" placeholder="Telefone" name="phone" formControlName="phone" aria-required="true" aria-invalid="false">
+        </div>
+    </div>
+    <div class="input-message">
+        <textarea placeholder="Mensagem" class="message" formControlName="message" aria-required="true" aria-invalid="false"></textarea>
+    </div>
+    <button type="submit" value="Enviar">ENVIAR</button>
+</form>

@@ -7,7 +7,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { MainComponent } from './main/main.component';
 import { EntryContentComponent } from './main/home/entry-content/entry-content.component';
 import { VideosPresentationComponent } from './main/home/videos-presentation/videos-presentation.component';
-import { ServicesCategoryComponent } from './main/home/services-category/services-category.component';
+import { ServicesCategoryComponent } from './shared/services-category/services-category.component';
 import { HomeComponent } from './main/home/home.component';
 import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterprise.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -20,6 +20,9 @@ import { SolutionsComponent } from './main/solutions/solutions.component';
 import { PresentationComponent } from './main/solutions/presentation/presentation.component';
 import { TopPageContentComponent } from './shared/top-page-content/top-page-content.component';
 import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsComponent } from './main/contact/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -37,14 +40,19 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
     BeAPartnershipComponent,
     ContactComponent,
     SupportComponent,
+
+    FormsComponent,
+
     SolutionsComponent,
     PresentationComponent,
     TopPageContentComponent,
     SatFiscalComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
