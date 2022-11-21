@@ -19,6 +19,8 @@ import { SupportComponent } from './main/support/support.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
+import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
+import { AppTopPageContentComponent } from './shared/app-top-page-content/app-top-page-content.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { FormsComponent } from './main/contact/forms/forms.component';
     ContactComponent,
     SupportComponent,
     FormsComponent,
+    PresentationSolutionsComponent,
+    AppTopPageContentComponent,
   ],
   imports: [
     BrowserModule,

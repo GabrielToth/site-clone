@@ -6,7 +6,7 @@ import { environment } from './../environments/environment';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit  {
+export class AppComponent {
   constructor() {
     console.log(environment.production); // Logs false for default environment
   }

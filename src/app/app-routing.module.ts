@@ -5,6 +5,7 @@ import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterpri
 import { ClientsComponent } from './main/clients/clients.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
+import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,10 @@ const routes: Routes = [
     path: "support",
     component: SupportComponent
   },
+  {
+    path: "solutions",
+    component: PresentationSolutionsComponent
+  }
 ];
 
 @NgModule({
