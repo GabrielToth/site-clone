@@ -1,0 +1,18 @@
+.content {
+    text-align: center;
+}
+
+.box-videos {
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+}
+
+.box-videos .video{
+    display: flex;
+    justify-content: center;
+}
+
+.box-videos .video img{
+    width: 500px;
+}
