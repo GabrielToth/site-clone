@@ -23,6 +23,7 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
+import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { FormsComponent } from './main/contact/forms/forms.component';
     PresentationComponent,
     TopPageContentComponent,
     SatFiscalComponent,
+    CardsBottomComponent,
 
   ],
   imports: [
