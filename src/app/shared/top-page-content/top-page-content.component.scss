@@ -1,0 +1,32 @@
+.page-comp {
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+  }
+
+  .page-comp .left ng-content h1{
+    font-size: 4rem;
+    color: #2AA0EF;
+  }
+  
+  .page-comp .right{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 100;
+    gap: 20px;
+  }
+  
+  .page-comp .right button{
+    background-color: #ffffff00;
+    border: none;
+  }
+  
+  .page-comp .right button a{
+    padding: 1.5rem 1rem ;
+    background-color: #2AA0EF;
+    color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 16px;
+  }
