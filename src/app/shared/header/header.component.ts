@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  constructor() { }
+  display: boolean = false;
 
-  ngOnInit(): void {
+  onMouseEnter() {
+    this.display = true;
   }
 
+  onMouseLeave() {
+    this.display = false;
+  }
 }

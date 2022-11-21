@@ -26,18 +26,18 @@
             <nav class="menu-navigation">
                 <div class="menu-navigation-logo">
                     <img src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
-                        alt="Logo da softclever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
+                        alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/home']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+                        <a [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A Empresa</a>
                     </li>
-                    <li class="menu-navigation-item" ng-mouseover="">
-                        <a href="#">Soluções</a>
-                        <app-solutions></app-solutions>
+                    <li class="menu-navigation-item" (mouseenter)="onMouseEnter()">
+                        <a [routerLink]="['/presentation']">Soluções</a>
+                        <app-solutions [ngClass]="{'display-solutions': display}" (mouseleave)="onMouseLeave()"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">Clientes</a>
