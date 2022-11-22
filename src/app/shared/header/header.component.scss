@@ -1,74 +1,94 @@
-.menu-top-line {
-    background-color: #1B5083;
+.block {
+    height: 113px;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu-inner{
+    position: fixed;
+    top: 0;
 
-    .menu-logo {
-        width: 20%;
+    .menu-top-line {
+        background-color: #1B5083;
 
         display: flex;
+        align-items: center;
         justify-content: center;
-        align-items: center;
-    }
 
-    .menu-contact-items {
-        width: 80%;
 
-        list-style: none;
+        .menu-logo {
+            width: 20%;
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .menu-item {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
 
-            gap: 8px;
+        .menu-contact-items {
+            width: 80%;
 
-            margin: 0 auto;
+            list-style: none;
 
-            > i, a {
-                color: #72A0BF;
-            }
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-            .cellphone {
-                border-right: 1px solid #72A0BF;
-                padding-right: 10px;
+            .menu-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                gap: 8px;
+
+                margin: 0 auto;
+
+                > i, a {
+                    color: #72A0BF;
+                }
+
+                .cellphone {
+                    border-right: 1px solid #72A0BF;
+                    padding-right: 10px;
+                }
             }
         }
     }
-}
 
-.menu-navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    grid-template-columns: 1fr 1fr;
-
-    .menu-navigation-logo {
-        width: 50%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        > img {
-            width: 100%;
-        }
-    }
-
-    .menu-navigation-items {
-        width: 50%;
-
+    .menu-navigation {
         display: flex;
         justify-content: space-around;
         align-items: center;
 
-        list-style: none;
+        grid-template-columns: 1fr 1fr;
+
+        background-color: white;
+
+        .menu-navigation-logo {
+            width: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            > img {
+                width: 100%;
+            }
+        }
+
+        .menu-navigation-items {
+            width: 50%;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            list-style: none;
+        }
     }
+}
+
+app-solutions {
+    display: none;
+}
+
+.display-solutions {
+    display: flex;
 }
