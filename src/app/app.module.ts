@@ -22,8 +22,9 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
-import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
-import { AppTopPageContentComponent } from './shared/app-top-page-content/app-top-page-content.component';
+import { SolutionsTitleComponent } from './shared/solutions-title/solutions-title.component';
+import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
+import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 
 @NgModule({
   declarations: [
@@ -43,8 +44,14 @@ import { AppTopPageContentComponent } from './shared/app-top-page-content/app-to
     SupportComponent,
 
     FormsComponent,
-    PresentationSolutionsComponent,
-    AppTopPageContentComponent,
+
+    SolutionsComponent,
+    PresentationComponent,
+    SatFiscalComponent,
+    SolutionsTitleComponent,
+    BalconySellComponent,
+    CardsBottomComponent,
+
   ],
   imports: [
     BrowserModule,
