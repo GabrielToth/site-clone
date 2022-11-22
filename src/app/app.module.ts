@@ -28,6 +28,7 @@ import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.compone
 import { SolutionsTopContentComponent } from './shared/solutions/solutions-top-content/solutions-top-content.component';
 import { FaqComponent } from './main/faq/faq.component';
 import { VideosPrincipalsComponent } from './shared/videos-principals/videos-principals.component';
+import { CardsCategoryNavigationComponent } from './shared/cards-category-navigation/cards-category-navigation.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { VideosPrincipalsComponent } from './shared/videos-principals/videos-pri
     SolutionsTopContentComponent,
     FaqComponent,
     VideosPrincipalsComponent,
+    CardsCategoryNavigationComponent,
 
   ],
   imports: [
