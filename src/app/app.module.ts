@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { MainComponent } from './main/main.component';
 import { EntryContentComponent } from './main/home/entry-content/entry-content.component';
-import { VideosPresentationComponent } from './main/home/videos-presentation/videos-presentation.component';
+import { VideosPresentationComponent } from './shared/videos-presentation/videos-presentation.component';
 import { ServicesCategoryComponent } from './shared/services-category/services-category.component';
 import { HomeComponent } from './main/home/home.component';
 import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterprise.component';
