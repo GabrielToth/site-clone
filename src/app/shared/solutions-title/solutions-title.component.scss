@@ -12,11 +12,10 @@
         height: 100%;
 
         display: flex;
+        justify-content: center;
         align-items: center;
 
         >h1 {
-            margin-left: 5%;
-
             font-size: 48px;
             font-weight: 700;
         }
