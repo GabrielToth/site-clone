@@ -7,6 +7,8 @@ import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
 import { PresentationComponent } from './main/solutions/presentation/presentation.component';
 import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
+import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
+import { FaqComponent } from './main/faq/faq.component';
 
 
 const routes: Routes = [
@@ -31,12 +33,20 @@ const routes: Routes = [
     component: SupportComponent
   },
   {
+    path: "faq",
+    component: FaqComponent
+  },
+  {
     path: "presentation",
     component: PresentationComponent
   },
   {
     path: "sat-fiscal",
     component: SatFiscalComponent
+  },
+  {
+    path: "balcony",
+    component: BalconySellComponent
   }
 ];
 
