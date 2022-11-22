@@ -5,8 +5,7 @@ import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterpri
 import { ClientsComponent } from './main/clients/clients.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
-import { PresentationComponent } from './main/solutions/presentation/presentation.component';
-import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
+import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
 
 
 const routes: Routes = [
@@ -31,12 +30,8 @@ const routes: Routes = [
     component: SupportComponent
   },
   {
-    path: "presentation",
-    component: PresentationComponent
-  },
-  {
-    path: "sat-fiscal",
-    component: SatFiscalComponent
+    path: "solutions",
+    component: PresentationSolutionsComponent
   }
 ];
 
