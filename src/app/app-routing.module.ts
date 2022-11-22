@@ -11,7 +11,7 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
 
 const routes: Routes = [
   {
-    path: "home",
+    path: "",
     component: HomeComponent
   },
   {

@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { TopPageContentTitleServiceTsService } from 'src/app/top-page-content-title.service';
 
 @Component({
-  selector: 'app-presentation',
-  templateUrl: './presentation.component.html',
-  styleUrls: ['./presentation.component.scss']
+  selector: 'app-balcony-sell',
+  templateUrl: './balcony-sell.component.html',
+  styleUrls: ['./balcony-sell.component.scss']
 })
-export class PresentationComponent {
+export class BalconySellComponent {
   title?:string;
 
   constructor(private Title:TopPageContentTitleServiceTsService){
-    this.title = Title.getTitle("Apresentação das Soluções")
+    this.title = Title.getTitle("Venda balcão")
   }
 }

@@ -16,13 +16,14 @@ import { NavigationButtonsComponent } from './main/home/navigation-buttons/navig
 import { BeAPartnershipComponent } from './main/home/be-a-partnership/be-a-partnership.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
-import { SolutionsComponent } from './main/solutions/solutions.component';
+import { SolutionsComponent } from './shared/header/solutions/solutions.component';
 import { PresentationComponent } from './main/solutions/presentation/presentation.component';
-import { TopPageContentComponent } from './shared/top-page-content/top-page-content.component';
 import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
+import { SolutionsTitleComponent } from './shared/solutions-title/solutions-title.component';
+import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 
 @NgModule({
@@ -46,8 +47,9 @@ import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.compone
 
     SolutionsComponent,
     PresentationComponent,
-    TopPageContentComponent,
     SatFiscalComponent,
+    SolutionsTitleComponent,
+    BalconySellComponent,
     CardsBottomComponent,
 
   ],
