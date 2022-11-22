@@ -1,0 +1,62 @@
+.solutions-top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    margin-top: 5%;
+
+    .solution-title {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+
+        >h1 {
+            margin-left: 5%;
+
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+
+    .solution-right-benefits {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 12px;
+
+        .benefits {
+            width: 35%;
+            height: 100%;
+
+            border-radius: 5px;
+            border: 1px solid rgb(194, 194, 194);
+
+            box-shadow: 6px 6px 3px 0px rgb(204, 204, 204);
+
+            >p {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+
+                text-align: justify;
+            }
+
+        }
+
+        .benefits-right {
+            background-color: #2AA0EF;
+
+            >p {
+                color: white;
+            }
+        }
+    }
+}
