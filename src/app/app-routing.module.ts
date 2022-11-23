@@ -11,6 +11,7 @@ import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell
 import { FaqComponent } from './main/faq/faq.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
 import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
+import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
 
 
 const routes: Routes = [
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path: "sat-fiscal",
     component: SatFiscalComponent
+  },
+  {
+    path: "sat-equipment",
+    component: SatEquipmentComponent
   },
   {
     path: "restaurant",
