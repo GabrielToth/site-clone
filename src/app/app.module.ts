@@ -29,6 +29,7 @@ import { SolutionsTopContentComponent } from './shared/solutions/solutions-top-c
 import { FaqComponent } from './main/faq/faq.component';
 import { VideosPrincipalsComponent } from './shared/videos-principals/videos-principals.component';
 import { CardsCategoryNavigationComponent } from './shared/cards-category-navigation/cards-category-navigation.component';
+import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { CardsCategoryNavigationComponent } from './shared/cards-category-naviga
     FaqComponent,
     VideosPrincipalsComponent,
     CardsCategoryNavigationComponent,
+    NfcEComponent,
 
   ],
   imports: [
