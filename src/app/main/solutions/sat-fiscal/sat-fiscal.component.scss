@@ -1,18 +1,17 @@
-
 .content {
-text-align: center;
-margin-top: 3rem;
-margin-bottom: 2rem;
-display: flex;
-flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner {
-padding: 2rem 3rem ;
-display: flex;
+    padding: 2rem 3rem;
+    display: flex;
 
-background-color: #F1F1F1;
-gap: 0 120px;
+    background-color: #F1F1F1;
+    gap: 0 120px;
 }
 
 
@@ -20,38 +19,38 @@ gap: 0 120px;
     display: flex;
 }
 
-.banner .left  img {
-width: 30rem;
+.banner .left img {
+    width: 30rem;
 }
 
-.banner div{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: space-between;
-text-align: left;
+.banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
 }
 
-.banner div p{
-font-size: 2rem;
+.banner div p {
+    font-size: 2rem;
 }
 
 .banner div button {
-width: auto;
-height: auto;
-padding: auto;
-background-color: #F1F1F1;
-border: none;
+    width: auto;
+    height: auto;
+    padding: auto;
+    background-color: #F1F1F1;
+    border: none;
 }
 
-.banner div button a{
+.banner div button a {
 
-padding: 1.5rem 5rem;
-border: none;
-border-radius: 5px;
-font-size: 1.5rem;
-color: #F1F1F1;
-background-color: #ffa500;
+    padding: 1.5rem 5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #F1F1F1;
+    background-color: #ffa500;
 }
 
 .banner ul.list-top {
@@ -64,30 +63,25 @@ background-color: #ffa500;
     list-style-type: disc;
 }
 
-.banner .list-bottom ul{
-    list-style-position: inside;
-    list-style-type: disc; 
-}
-
-.banner ul li{
+.banner .banner ul li {
     margin: 1rem 0;
     font-size: 16px;
 }
 
-.banner .list-bottom ul li{
+.banner .list-bottom ul li {
     margin: 1rem 0;
     font-size: 15px;
 }
 
-.banner ul li strong{
+.banner ul li strong {
     color: #af0000;
     font-size: 25px;
 }
 
-.left .buttons button a{
+.left .buttons button a {
     font-size: 15px;
     background-color: #FF6E00;
-    padding: 0.5rem  5rem;
+    padding: 0.5rem 5rem;
 }
 
 .box-videos {
@@ -97,20 +91,44 @@ background-color: #ffa500;
     justify-content: center;
     width: 100%;
     gap: 20px;
+
+    .video {
+        width: 300px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 5px;
+
+        text-align: center;
+
+        >p {
+            height: 30%;
+            width: 100%;
+        }
+
+        >iframe {
+            width: 100%;
+            height: 70%;
+        }
+    }
 }
 
-.box-videos .video{
-    max-width: 300px;
-    margin-top: 1rem;
+.sell-itens {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    gap: 5px;
-}
 
-.box-videos .videos iframe, .iframe-in-box{
-    width: 300px;
-    border-radius: 5px;
+    >h2 {
+        margin: 0 0 12px 7%;
+    }
+
+    .sell-list {
+        margin-left: 10%;
+
+        >li {
+            line-height: 2rem;
+        }
+    }
 }

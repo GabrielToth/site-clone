@@ -1,0 +1,79 @@
+.faster-sells {
+    display: flex;
+    justify-content: center;
+
+    background-color: #F1F1F1;
+
+    .left-images,
+    .right-content {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .left-images {
+        justify-content: center;
+
+        .image {
+            height: 50%;
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                width: 90%;
+            }
+        }
+    }
+}
+
+.button-bottom {
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F1F1F1;
+    
+    .contact-button {
+        background-color: #FF6E00;
+        border-radius: 5px;
+        border: 0;
+
+        padding: 20px;
+
+        >a {
+            font-size: 16px;
+            color: white;
+        }
+    }
+}
+
+.pre-sell {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 3%;
+    
+    .pre-sell-list {
+        margin-left: 24px;
+
+        line-height: 2rem;
+
+        .integrated-list{
+            margin-left: 24px;
+        }
+    }
+}

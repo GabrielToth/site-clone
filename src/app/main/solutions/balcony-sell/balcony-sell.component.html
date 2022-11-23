@@ -1,10 +1,57 @@
 <main>
     <app-solutions-title>Pré Venda – Venda Balcão</app-solutions-title>
-    <div class="faster-sells">
-        <div class="left-images">
-            <div class="image-top-left">
-                <img src="assets/images/png/Pre-venda1.png" alt="Uma mulher branca com cabelo loiro usando um relógio com os braços cruzados, saindo de dentro da tela do notebook aberto, rodeada de ícones de vendas como etiquetas, preços, código de barras, transportadores, empacotadoras e afins mostrando que a Sirius tem poder sobre qualquer tipo de negócio">
+    <section class="top-content">
+        <div class="faster-sells">
+            <div class="left-images">
+                <div class="image">
+                    <img src="assets/images/png/Pre-venda1.png"
+                        alt="Uma mulher branca com cabelo loiro usando um relógio com os braços cruzados, saindo de dentro da tela do notebook aberto, rodeada de ícones de vendas como etiquetas, preços, código de barras, transportadores, empacotadoras e afins mostrando que a Sirius tem poder sobre qualquer tipo de negócio">
+                </div>
+                <div class="image">
+                    <img src="assets/images/jpg/Desenho-com-texto-pg-solucoes.jpg"
+                        alt="Uma mulher cartoon, loira, vestindo avental vermelho e roupas brancas, de cabelo preso, no centro da imagem, com diversas soluções em sua volta. Acima uma nuvem e computadores ligados a ela escrito: 'Gestão de Loja Via Internet', seguindo no sentido horário uma impressora de nota fiscal e um servidor escrito: 'Integrado com S@T Fiscal e Nota Fiscal Paulista'">
+                </div>
+            </div>
+            <div class="right-content">
+                <app-solutions-top-content></app-solutions-top-content>
             </div>
         </div>
-    </div>
+        <div class="button-bottom">
+            <button class="contact-button">
+                <a [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
+            </button>
+        </div>
+    </section>
+
+    <app-videos-presentation></app-videos-presentation>
+
+    <section class="pre-sell">
+        <ul class="pre-sell-list">
+            <h2>Pré-Venda</h2>
+            <li>Dispomos de versão NORMAL e versão TOUCH SCREEN.</li>
+            <li>Pré-venda com emissão de romaneio (pedido).</li>
+            <li>Opção de lista de preço ou tabela de descontos.</li>
+            <li>Rotinas de abertura e fechamento de caixa.</li>
+            <li>Rotinas de sangrias e reforço de caixa.</li>
+            <li>Venda expressa.</li>
+            <li>Encontre seus produtos por código interno,</li>
+            <li>Ean13 (barras) ou descrição do produto.</li>
+            <li>Integração com módulo Sirius SAT. </li>
+            <li>Consulta de preços.</li>
+            <li>Formas de pagamentos.</li>
+            <li>Prazos de pagamentos.</li>
+            <li>Vendedor.</li>
+            <li>Forma de entrega.</li>
+            <li>Totalmente integrado com:</li>
+            <ul class="integrated-list">
+                <li>Estoque.</li>
+                <li>Financeiro.</li>
+                <li>Movimentação financeira do cliente.</li>
+                <li>Controle de comissões.</li>
+                <li>Sem contrato de fidelidade para planos mensais.</li>
+            </ul>
+        </ul>
+    </section>
+
+    <app-services-category></app-services-category>
 </main>
