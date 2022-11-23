@@ -22,13 +22,16 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './main/contact/forms/forms.component';
-import { SolutionsTitleComponent } from './shared/solutions/solutions-title/solutions-title.component';
+import { SolutionsTitleComponent } from './shared/solutions/top-content/solutions-title/solutions-title.component';
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
-import { SolutionsTopContentComponent } from './shared/solutions/solutions-top-content/solutions-top-content.component';
+import { SolutionsTopContentComponent } from './shared/solutions/top-content/solutions-top-content/solutions-top-content.component';
 import { FaqComponent } from './main/faq/faq.component';
 import { VideosPrincipalsComponent } from './shared/videos-principals/videos-principals.component';
 import { CardsCategoryNavigationComponent } from './shared/cards-category-navigation/cards-category-navigation.component';
+import { VideosSatComponent } from './shared/videos-sat/videos-sat.component';
+import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
+import { TopContentComponent } from './shared/solutions/top-content/top-content.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +61,9 @@ import { CardsCategoryNavigationComponent } from './shared/cards-category-naviga
     FaqComponent,
     VideosPrincipalsComponent,
     CardsCategoryNavigationComponent,
+    VideosSatComponent,
+    RestaurantComponent,
+    TopContentComponent,
 
   ],
   imports: [

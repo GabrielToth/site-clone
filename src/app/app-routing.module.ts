@@ -9,6 +9,7 @@ import { PresentationComponent } from './main/solutions/presentation/presentatio
 import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { FaqComponent } from './main/faq/faq.component';
+import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
 
 
 const routes: Routes = [
@@ -43,6 +44,10 @@ const routes: Routes = [
   {
     path: "sat-fiscal",
     component: SatFiscalComponent
+  },
+  {
+    path: "restaurant",
+    component: RestaurantComponent
   },
   {
     path: "balcony",
