@@ -1,25 +1,36 @@
-.right-title-content {
-    ::ng-deep h1 {
-        font-size: 2rem;
-        margin: 1rem 0;
+.top-content-container {
+    ::ng-deep {
+        >h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
+        >.list-extra {
+            margin: 0 0 1rem 3rem;
+
+            list-style: none;
+            line-height: 2rem;
+            
+        }
     }
-}
 
-ul {
-    line-height: 1.5rem;
-    list-style: none;
 
-    .list-top {
-        list-style-position: outside;
-        list-style-type: none;
-        list-style: none;
-    }
-
-    .list-bottom ul {
-        list-style-position: inside;
-        list-style-type: disc;
+    ul {
+        line-height: 1.5rem;
         list-style: none;
 
-        margin-left: 24px;
+        .list-top {
+            list-style-position: outside;
+            list-style-type: none;
+            list-style: none;
+        }
+
+        .list-bottom ul {
+            list-style-position: inside;
+            list-style-type: disc;
+            list-style: none;
+
+            margin-left: 24px;
+        }
     }
 }
