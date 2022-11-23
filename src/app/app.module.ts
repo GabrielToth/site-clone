@@ -32,6 +32,8 @@ import { CardsCategoryNavigationComponent } from './shared/cards-category-naviga
 import { VideosSatComponent } from './shared/videos-sat/videos-sat.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
 import { TopContentComponent } from './shared/solutions/top-content/top-content.component';
+import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
+import { ButtonsToKnowMoreComponent } from './shared/buttons-to-know-more/buttons-to-know-more.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +66,8 @@ import { TopContentComponent } from './shared/solutions/top-content/top-content.
     VideosSatComponent,
     RestaurantComponent,
     TopContentComponent,
+    SatEquipmentComponent,
+    ButtonsToKnowMoreComponent,
 
   ],
   imports: [
