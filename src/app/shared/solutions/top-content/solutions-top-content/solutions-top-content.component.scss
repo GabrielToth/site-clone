@@ -1,6 +1,8 @@
-.top-title {
-    font-size: 2rem;
-    margin: 1rem 0;
+.right-title-content {
+    ::ng-deep h1 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
 }
 
 ul {
@@ -12,7 +14,8 @@ ul {
         list-style-type: none;
         list-style: none;
     }
-    .list-bottom ul{
+
+    .list-bottom ul {
         list-style-position: inside;
         list-style-type: disc;
         list-style: none;

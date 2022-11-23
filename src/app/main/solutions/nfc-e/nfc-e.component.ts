@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { TopPageContentTitleServiceTsService } from 'src/app/top-page-content-title.service';
 
 @Component({
   selector: 'app-nfc-e',
   templateUrl: './nfc-e.component.html',
   styleUrls: ['./nfc-e.component.scss']
 })
-export class NfcEComponent implements OnInit {
+export class NfcEComponent{
 
-  constructor() { }
+  title?:string;
 
-  ngOnInit(): void {
+  constructor(private Title:TopPageContentTitleServiceTsService){
+    this.title = Title.getTitle("NFC-e – Pré Venda – Delivery – Comandas")
   }
 
 }
