@@ -4,8 +4,9 @@
     align-items: center;
 
     height: 100%;
+    min-height: 100px;
 
-    margin-top: 5%;
+    margin-top: 2%;
 
     .solution-title {
         width: 50%;
@@ -16,8 +17,7 @@
         align-items: center;
 
         >h1 {
-            font-size: 48px;
-            font-weight: 700;
+            font-size: 36px;
         }
     }
 
@@ -30,7 +30,6 @@
         align-items: center;
 
         gap: 12px;
-
         .benefits {
             width: 35%;
             height: 100%;

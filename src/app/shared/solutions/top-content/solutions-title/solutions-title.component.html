@@ -1,6 +1,6 @@
 <div class="solutions-top-container">
     <div class="solution-title">
-        <h1><ng-content></ng-content></h1>
+        <ng-content select=".title-top"></ng-content>
     </div>
     <div class="solution-right-benefits">
         <a [routerLink]="['/contact']" class="benefits">
@@ -9,6 +9,5 @@
         <a [routerLink]="['/contact']" class="benefits benefits-right">
             <p>Solicite contato ou agende uma demonstração</p>
         </a>
-
     </div>
 </div>

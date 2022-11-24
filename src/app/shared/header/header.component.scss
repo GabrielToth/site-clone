@@ -4,19 +4,20 @@
 
 .menu-container {
     width: 100%;
+    z-index: 1;
     .menu-inner {
         width: 100%;
 
         position: fixed;
         top: 0;
-
+        z-index: 1;
         .menu-top-line {
             background-color: #1B5083;
 
             display: flex;
             align-items: center;
             justify-content: center;
-
+            z-index: 1;
 
             .menu-logo {
                 width: 20%;
@@ -65,9 +66,10 @@
             grid-template-columns: 1fr 1fr;
 
             background-color: white;
+            z-index: 1;
 
             .menu-navigation-logo {
-                width: 50%;
+                width: 40%;
 
                 display: flex;
                 justify-content: center;
@@ -79,7 +81,7 @@
             }
 
             .menu-navigation-items {
-                width: 50%;
+                width: 60%;
 
                 display: flex;
                 justify-content: space-around;

@@ -5,7 +5,13 @@ import { AboutEnterpriseComponent } from './main/about-enterprise/about-enterpri
 import { ClientsComponent } from './main/clients/clients.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { SupportComponent } from './main/support/support.component';
-import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
+import { PresentationComponent } from './main/solutions/presentation/presentation.component';
+import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
+import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
+import { FaqComponent } from './main/faq/faq.component';
+import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
+import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
+import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
 
 
 const routes: Routes = [
@@ -30,8 +36,32 @@ const routes: Routes = [
     component: SupportComponent
   },
   {
-    path: "solutions",
-    component: PresentationSolutionsComponent
+    path: "faq",
+    component: FaqComponent
+  },
+  {
+    path: "presentation",
+    component: PresentationComponent
+  },
+  {
+    path: "sat-fiscal",
+    component: SatFiscalComponent
+  },
+  {
+    path: "sat-equipment",
+    component: SatEquipmentComponent
+  },
+  {
+    path: "restaurant",
+    component: RestaurantComponent
+  },
+  {
+    path: "balcony",
+    component: BalconySellComponent
+  },
+  {
+    path: "nfc-e",
+    component: NfcEComponent
   }
 ];
 

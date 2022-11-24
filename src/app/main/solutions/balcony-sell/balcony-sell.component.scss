@@ -1,0 +1,20 @@
+
+
+.pre-sell {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 3%;
+    
+    .pre-sell-list {
+        margin-left: 24px;
+
+        line-height: 2rem;
+
+        .integrated-list{
+            margin-left: 24px;
+        }
+    }
+}
