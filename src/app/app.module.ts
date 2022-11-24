@@ -34,6 +34,10 @@ import { RestaurantComponent } from './main/solutions/restaurant/restaurant.comp
 import { TopContentComponent } from './shared/solutions/top-content/top-content.component';
 import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
 import { ButtonsToKnowMoreComponent } from './shared/buttons-to-know-more/buttons-to-know-more.component';
+import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
+import { TopPageContentComponent } from './shared/top-page-content/top-page-content.component';
+import { NfeComponent } from './main/solutions/nfe/nfe.component';
+import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +55,7 @@ import { ButtonsToKnowMoreComponent } from './shared/buttons-to-know-more/button
     BeAPartnershipComponent,
     ContactComponent,
     SupportComponent,
+
     FormsComponent,
 
     SolutionsComponent,
@@ -66,8 +71,12 @@ import { ButtonsToKnowMoreComponent } from './shared/buttons-to-know-more/button
     VideosSatComponent,
     RestaurantComponent,
     TopContentComponent,
-    SatEquipmentComponent,
     ButtonsToKnowMoreComponent,
+    SatEquipmentComponent,
+    NfcEComponent,
+    TopPageContentComponent,
+    NfeComponent,
+    ServiceInvoicesComponent
 
   ],
   imports: [
