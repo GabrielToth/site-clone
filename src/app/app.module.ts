@@ -38,6 +38,7 @@ import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 import { TopPageContentComponent } from './shared/top-page-content/top-page-content.component';
 import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
+import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { ServiceInvoicesComponent } from './main/solutions/service-invoices/serv
     NfcEComponent,
     TopPageContentComponent,
     NfeComponent,
-    ServiceInvoicesComponent
+    ServiceInvoicesComponent,
+    WholesaleComponent
 
   ],
   imports: [
