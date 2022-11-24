@@ -1,0 +1,144 @@
+.banner {
+    padding: 2rem 3rem;
+    display: flex;
+
+    background-color: #F1F1F1;
+    gap: 0 120px;
+}
+
+
+.banner .left {
+    display: flex;
+}
+
+.banner .left img {
+    width: 30rem;
+}
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.banner div p {
+    font-size: 2rem;
+}
+
+.banner div button {
+    width: auto;
+    height: auto;
+    padding: auto;
+    background-color: #F1F1F1;
+    border: none;
+}
+
+.banner div button a {
+
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #F1F1F1;
+    background-color: #ffa500;
+}
+
+.list-bottom {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.list-bottom{
+    margin: 1rem;
+}
+
+.list-bottom ul li {
+    margin: 1rem 0;
+    font-size: 15px;
+}
+
+.banner ul.list-top {
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.banner ul.list-top li{
+    margin: 1rem 0;
+}
+
+.banner .list-bottom {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.banner .banner ul li {
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.banner .list-bottom ul li {
+    margin: 1rem 0;
+    font-size: 15px;
+}
+
+.banner ul li strong {
+    color: #af0000;
+    font-size: 25px;
+}
+
+.left .buttons button a {
+    font-size: 13px;
+    background-color: #FF6E00;
+    padding: 0.5rem 5rem;
+}
+
+.box-videos {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.box-videos .video{
+    max-width: 300px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.box-videos .videos iframe, .iframe-in-box{
+    width: 300px;
+    border-radius: 5px;
+}
+
+#videos .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px ;
+}
+
+#videos .buttons button{
+    margin: 5rem;
+    background-color: #ffa600;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+}
+
+#videos .buttons button a{
+    padding: 1rem 1.5rem;
+    background-color: #ffa60000;
+}

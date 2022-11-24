@@ -36,6 +36,8 @@ import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipm
 import { ButtonsToKnowMoreComponent } from './shared/buttons-to-know-more/buttons-to-know-more.component';
 import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 import { TopPageContentComponent } from './shared/top-page-content/top-page-content.component';
+import { NfeComponent } from './main/solutions/nfe/nfe.component';
+import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,9 @@ import { TopPageContentComponent } from './shared/top-page-content/top-page-cont
     ButtonsToKnowMoreComponent,
     SatEquipmentComponent,
     NfcEComponent,
-    TopPageContentComponent
+    TopPageContentComponent,
+    NfeComponent,
+    ServiceInvoicesComponent
 
   ],
   imports: [
