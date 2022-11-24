@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ServiceInvoicesComponent } from './service-invoices.component';
+
+describe('ServiceInvoicesComponent', () => {
+  let component: ServiceInvoicesComponent;
+  let fixture: ComponentFixture<ServiceInvoicesComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ ServiceInvoicesComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(ServiceInvoicesComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

@@ -10,7 +10,10 @@ import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.compo
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { FaqComponent } from './main/faq/faq.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
+import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
+import { NfeComponent } from './main/solutions/nfe/nfe.component';
+import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 
 
 const routes: Routes = [
@@ -57,6 +60,18 @@ const routes: Routes = [
   {
     path: "balcony",
     component: BalconySellComponent
+  },
+  {
+    path: "nfc-e",
+    component: NfcEComponent
+  },
+  {
+    path: "nfe",
+    component: NfeComponent
+  },
+  {
+    path: "service-invoices",
+    component: ServiceInvoicesComponent
   }
 ];
 
