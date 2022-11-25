@@ -14,7 +14,7 @@ import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
 import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
-import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
+import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
 
 
 const routes: Routes = [
@@ -59,6 +59,10 @@ const routes: Routes = [
     component: RestaurantComponent
   },
   {
+    path: "wholesale",
+    component: WholesaleComponent
+  },
+  {
     path: "balcony",
     component: BalconySellComponent
   },
@@ -73,10 +77,6 @@ const routes: Routes = [
   {
     path: "service-invoices",
     component: ServiceInvoicesComponent
-  },
-  {
-    path: "tax-and-fiscal",
-    component: TaxAndFiscalComponent
   }
 ];
 
