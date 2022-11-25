@@ -142,3 +142,55 @@ ul li {
     padding: 1rem 1.5rem;
     background-color: #ffa60000;
 }
+
+
+.promo-erp {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin: 5%;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+
+        text-transform: uppercase;
+        text-align: center;
+
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+
+        text-transform: uppercase;
+
+        margin-bottom: 16px;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 600;
+
+        margin-bottom: 14px;
+    }
+
+    p {
+        text-align: justify;
+
+        margin-bottom: 12px;
+
+        line-height: 1.5rem;
+    }
+
+    ul {
+        margin: 0 0 16px 24px;
+
+        li {
+            line-height: 1.5rem;
+        }
+    }
+}
