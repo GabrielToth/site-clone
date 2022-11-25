@@ -16,6 +16,7 @@ import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
 import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
+import { BudgetComponent } from './main/solutions/budget/budget.component'
 
 
 const routes: Routes = [
@@ -82,6 +83,10 @@ const routes: Routes = [
   {
     path: "tax-and-fiscal",
     component: TaxAndFiscalComponent
+  },
+  {
+    path: "budget",
+    component: BudgetComponent
   }
 ];
 

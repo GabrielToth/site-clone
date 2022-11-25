@@ -40,6 +40,8 @@ import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
 import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
+import { BudgetComponent } from './main/solutions/budget/budget.component';
+import { EtKnowledgeComponent } from './main/solutions/et-knowledge/et-knowledge.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +82,9 @@ import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-f
     NfeComponent,
     ServiceInvoicesComponent,
     TaxAndFiscalComponent,
-    WholesaleComponent
+    WholesaleComponent,
+    BudgetComponent,
+    EtKnowledgeComponent
 
   ],
   imports: [
