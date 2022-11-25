@@ -49,6 +49,7 @@ import { TaxSpedComponent } from './main/solutions/tax-sped/tax-sped.component';
 import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.component';
 import { ChartComponent } from './main/solutions/chart/chart.component';
 import { ReducedTopContentComponent } from './shared/solutions/top-content/reduced-top-content/reduced-top-content.component';
+import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 
 @NgModule({
   declarations: [
@@ -98,7 +99,8 @@ import { ReducedTopContentComponent } from './shared/solutions/top-content/reduc
     TaxSpedComponent,
     ErpSystemComponent,
     ChartComponent,
-    ReducedTopContentComponent
+    ReducedTopContentComponent,
+    ShoppingComponent
 
   ],
   imports: [

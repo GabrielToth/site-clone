@@ -24,6 +24,7 @@ import { TaxSpedComponent } from './main/solutions/tax-sped/tax-sped.component';
 import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.component';
 import { ChartComponent } from './main/solutions/chart/chart.component';
 import { VideosPresentationComponent } from './shared/videos-presentation/videos-presentation.component';
+import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 
 
 const routes: Routes = [
@@ -122,6 +123,10 @@ const routes: Routes = [
   {
     path: "business-management",
     component: BusinessManagementComponent
+  },
+  {
+    path: "shopping",
+    component: ShoppingComponent
   }
 ];
 
