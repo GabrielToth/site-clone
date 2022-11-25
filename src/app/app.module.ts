@@ -42,6 +42,7 @@ import { WholesaleComponent } from './main/solutions/wholesale/wholesale.compone
 import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
 import { BudgetComponent } from './main/solutions/budget/budget.component';
 import { EtKnowledgeComponent } from './main/solutions/et-knowledge/et-knowledge.component';
+import { ElectronicTransportComponent } from './main/solutions/electronic-transport/electronic-transport.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { EtKnowledgeComponent } from './main/solutions/et-knowledge/et-knowledge
     TaxAndFiscalComponent,
     WholesaleComponent,
     BudgetComponent,
-    EtKnowledgeComponent
+    EtKnowledgeComponent,
+    ElectronicTransportComponent
 
   ],
   imports: [
