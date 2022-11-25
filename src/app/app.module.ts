@@ -39,6 +39,7 @@ import { TopPageContentComponent } from './shared/top-page-content/top-page-cont
 import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
+import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
 
 @NgModule({
   declarations: [
@@ -78,6 +79,7 @@ import { WholesaleComponent } from './main/solutions/wholesale/wholesale.compone
     TopPageContentComponent,
     NfeComponent,
     ServiceInvoicesComponent,
+    TaxAndFiscalComponent,
     WholesaleComponent
 
   ],

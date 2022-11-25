@@ -15,6 +15,7 @@ import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipm
 import { NfeComponent } from './main/solutions/nfe/nfe.component';
 import { ServiceInvoicesComponent } from './main/solutions/service-invoices/service-invoices.component';
 import { WholesaleComponent } from './main/solutions/wholesale/wholesale.component';
+import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
 
 
 const routes: Routes = [
@@ -77,6 +78,10 @@ const routes: Routes = [
   {
     path: "service-invoices",
     component: ServiceInvoicesComponent
+  },
+  {
+    path: "tax-and-fiscal",
+    component: TaxAndFiscalComponent
   }
 ];
 
