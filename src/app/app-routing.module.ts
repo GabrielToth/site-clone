@@ -18,6 +18,12 @@ import { WholesaleComponent } from './main/solutions/wholesale/wholesale.compone
 import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-fiscal.component';
 import { BudgetComponent } from './main/solutions/budget/budget.component'
 import { ElectronicTransportComponent } from './main/solutions/electronic-transport/electronic-transport.component';
+import { BusinessManagementComponent } from './main/solutions/business-management/business-management.component';
+import { ErpSoftwareComponent } from './main/solutions/erp-software/erp-software.component';
+import { TaxSpedComponent } from './main/solutions/tax-sped/tax-sped.component';
+import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.component';
+import { ChartComponent } from './main/solutions/chart/chart.component';
+import { VideosPresentationComponent } from './shared/videos-presentation/videos-presentation.component';
 
 
 const routes: Routes = [
@@ -92,6 +98,30 @@ const routes: Routes = [
   {
     path: "budget",
     component: BudgetComponent
+  },
+  {
+    path: "videos-presentation",
+    component: VideosPresentationComponent
+  },
+  {
+    path: "chart",
+    component: ChartComponent
+  },
+  {
+    path: "erp-system",
+    component: ErpSystemComponent
+  },
+  {
+    path: "tax-sped",
+    component: TaxSpedComponent
+  },
+  {
+    path: "erp-software",
+    component: ErpSoftwareComponent
+  },
+  {
+    path: "business-management",
+    component: BusinessManagementComponent
   }
 ];
 

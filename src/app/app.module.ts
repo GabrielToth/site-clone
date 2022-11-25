@@ -43,6 +43,11 @@ import { TaxAndFiscalComponent } from './main/solutions/tax-and-fiscal/tax-and-f
 import { BudgetComponent } from './main/solutions/budget/budget.component';
 import { EtKnowledgeComponent } from './main/solutions/et-knowledge/et-knowledge.component';
 import { ElectronicTransportComponent } from './main/solutions/electronic-transport/electronic-transport.component';
+import { BusinessManagementComponent } from './main/solutions/business-management/business-management.component';
+import { ErpSoftwareComponent } from './main/solutions/erp-software/erp-software.component';
+import { TaxSpedComponent } from './main/solutions/tax-sped/tax-sped.component';
+import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.component';
+import { ChartComponent } from './main/solutions/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -86,7 +91,12 @@ import { ElectronicTransportComponent } from './main/solutions/electronic-transp
     WholesaleComponent,
     BudgetComponent,
     EtKnowledgeComponent,
-    ElectronicTransportComponent
+    ElectronicTransportComponent,
+    BusinessManagementComponent,
+    ErpSoftwareComponent,
+    TaxSpedComponent,
+    ErpSystemComponent,
+    ChartComponent
 
   ],
   imports: [
