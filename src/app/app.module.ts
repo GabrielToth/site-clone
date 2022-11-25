@@ -48,6 +48,7 @@ import { ErpSoftwareComponent } from './main/solutions/erp-software/erp-software
 import { TaxSpedComponent } from './main/solutions/tax-sped/tax-sped.component';
 import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.component';
 import { ChartComponent } from './main/solutions/chart/chart.component';
+import { ReducedTopContentComponent } from './shared/solutions/top-content/reduced-top-content/reduced-top-content.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { ChartComponent } from './main/solutions/chart/chart.component';
     ErpSoftwareComponent,
     TaxSpedComponent,
     ErpSystemComponent,
-    ChartComponent
+    ChartComponent,
+    ReducedTopContentComponent
 
   ],
   imports: [

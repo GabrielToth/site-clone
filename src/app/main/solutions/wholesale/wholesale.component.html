@@ -3,26 +3,12 @@
         <h1 class="title-top">Vendas - Pedidos – Liberação – Expedição</h1>
     </app-solutions-title>
 
-    <section class="top-content">
-        <div class="top-content-container">
-            <div class="left-images">
-                <div class="image">
-                    <img src="assets/images/png/Nota-Fiscal.png" alt="">
-                </div>
-            </div>
-            <div class="right-content">
-                <h2 class="right-title">
-                    Controlar os orçamentos e pedidos de vendas de sua empresa ficou mais fácil.
-                </h2>
-                <div class="button-bottom">
-                    <button class="contact-button">
-                        <a [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    <app-reduced-top-content>
+        <img src="assets/images/png/Nota-Fiscal.png" alt="" class="image">
+        <h2 class="right-title">
+            Controlar os orçamentos e pedidos de vendas de sua empresa ficou mais fácil.
+        </h2>
+    </app-reduced-top-content>
 
     <app-videos-presentation></app-videos-presentation>
     <app-videos-sat></app-videos-sat>

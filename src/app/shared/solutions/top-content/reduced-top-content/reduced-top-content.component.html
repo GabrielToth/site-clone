@@ -1,0 +1,18 @@
+<section class="top-content">
+    <div class="top-content-container">
+        <div class="left-images">
+            <div class="image">
+                <ng-content select=".image"></ng-content>
+            </div>
+        </div>
+        <div class="right-content">
+            <ng-content select=".right-title"></ng-content>
+            <div class="button-bottom">
+                <button class="contact-button">
+                    <a [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
