@@ -51,6 +51,7 @@ import { ChartComponent } from './main/solutions/chart/chart.component';
 import { ReducedTopContentComponent } from './shared/solutions/top-content/reduced-top-content/reduced-top-content.component';
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
+import { FinancialComponent } from './main/solutions/financial/financial.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { OrderOfServiceComponent } from './main/solutions/order-of-service/order
     ChartComponent,
     ReducedTopContentComponent,
     ShoppingComponent,
-    OrderOfServiceComponent
+    OrderOfServiceComponent,
+    FinancialComponent
 
   ],
   imports: [
