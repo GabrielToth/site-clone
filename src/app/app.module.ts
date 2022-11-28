@@ -51,6 +51,7 @@ import { ChartComponent } from './main/solutions/chart/chart.component';
 import { ReducedTopContentComponent } from './shared/solutions/top-content/reduced-top-content/reduced-top-content.component';
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
+import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { FinancialComponent } from './main/solutions/financial/financial.compone
     ChartComponent,
     ReducedTopContentComponent,
     ShoppingComponent,
-    FinancialComponent
+    FinancialComponent,
+    StandartProductionComponent
 
   ],
   imports: [

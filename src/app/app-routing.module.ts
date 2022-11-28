@@ -26,6 +26,7 @@ import { ChartComponent } from './main/solutions/chart/chart.component';
 import { VideosPresentationComponent } from './shared/videos-presentation/videos-presentation.component';
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
+import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
 
 
 const routes: Routes = [
@@ -132,6 +133,10 @@ const routes: Routes = [
   {
     path: "financial",
     component: FinancialComponent
+  },
+  {
+    path: "standart-production",
+    component: StandartProductionComponent
   }
 ];
 
