@@ -50,6 +50,7 @@ import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.compo
 import { ChartComponent } from './main/solutions/chart/chart.component';
 import { ReducedTopContentComponent } from './shared/solutions/top-content/reduced-top-content/reduced-top-content.component';
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
+import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { ShoppingComponent } from './main/solutions/shopping/shopping.component'
     ErpSystemComponent,
     ChartComponent,
     ReducedTopContentComponent,
-    ShoppingComponent
+    ShoppingComponent,
+    OrderOfServiceComponent
 
   ],
   imports: [

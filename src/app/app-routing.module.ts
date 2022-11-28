@@ -25,6 +25,7 @@ import { ErpSystemComponent } from './main/solutions/erp-system/erp-system.compo
 import { ChartComponent } from './main/solutions/chart/chart.component';
 import { VideosPresentationComponent } from './shared/videos-presentation/videos-presentation.component';
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
+import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 
 
 const routes: Routes = [
@@ -127,6 +128,10 @@ const routes: Routes = [
   {
     path: "shopping",
     component: ShoppingComponent
+  },
+  {
+    path: "order-of-service",
+    component: OrderOfServiceComponent
   }
 ];
 
