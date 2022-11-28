@@ -20,7 +20,7 @@
                         <i class="fa-solid fa-envelope"></i>
                         <a href="mailto:softclever@softclever.com.br">softclever@softclever.com.br</a>
                     </li>
-                    
+
                 </ul>
             </nav>
             <nav class="menu-navigation">
@@ -33,24 +33,31 @@
                         <a [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A Empresa</a>
+                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
+                            Empresa</a>
                     </li>
-                    <li class="menu-navigation-item" id="solution" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeaveSolution()">
+                    <li class="menu-navigation-item" id="solution" (mouseenter)="onMouseEnter()"
+                        (mouseleave)="onMouseLeaveSolution()">
                         <a [routerLink]="['/presentation']">Soluções</a>
-                        <app-solutions [ngClass]="{'display-solutions': display}" (mouseleave)="onMouseLeave()"></app-solutions>
+                        <app-solutions [ngClass]="{'display-solutions': display}" (mouseleave)="onMouseLeave()">
+                        </app-solutions>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">Clientes</a>
+                        <a [routerLink]="['/clients']" routerLinkActive="active"
+                            ariaCurrentWhenActive="page">Clientes</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Contato</a>
+                        <a [routerLink]="['/contact']" routerLinkActive="active"
+                            ariaCurrentWhenActive="page">Contato</a>
                     </li>
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/support']">Suporte</a>
                     </li>
+                    <!--
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/faq']">FAQ</a>
                     </li>
+                -->
                 </ul>
             </nav>
         </div>
