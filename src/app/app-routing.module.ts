@@ -27,6 +27,7 @@ import { VideosPresentationComponent } from './shared/videos-presentation/videos
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
+import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
 
 
 const routes: Routes = [
@@ -137,6 +138,10 @@ const routes: Routes = [
   {
     path: "financial",
     component: FinancialComponent
+  },
+  {
+    path: "standart-production",
+    component: StandartProductionComponent
   }
 ];
 
