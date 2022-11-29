@@ -8,7 +8,6 @@ import { SupportComponent } from './main/support/support.component';
 import { PresentationComponent } from './main/solutions/presentation/presentation.component';
 import { SatFiscalComponent } from './main/solutions/sat-fiscal/sat-fiscal.component';
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
-import { FaqComponent } from './main/faq/faq.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
 import { NfcEComponent } from './main/solutions/nfc-e/nfc-e.component';
 import { SatEquipmentComponent } from './main/solutions/sat-equipment/sat-equipment.component';
@@ -27,6 +26,7 @@ import { VideosPresentationComponent } from './shared/videos-presentation/videos
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
+import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
 
 
 const routes: Routes = [
@@ -49,10 +49,6 @@ const routes: Routes = [
   {
     path: "support",
     component: SupportComponent
-  },
-  {
-    path: "faq",
-    component: FaqComponent
   },
   {
     path: "presentation",
@@ -137,6 +133,10 @@ const routes: Routes = [
   {
     path: "financial",
     component: FinancialComponent
+  },
+  {
+    path: "standart-production",
+    component: StandartProductionComponent
   }
 ];
 

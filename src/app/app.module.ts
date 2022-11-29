@@ -26,8 +26,6 @@ import { SolutionsTitleComponent } from './shared/solutions/top-content/solution
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 import { SolutionsTopContentComponent } from './shared/solutions/top-content/solutions-top-content/solutions-top-content.component';
-import { FaqComponent } from './main/faq/faq.component';
-import { VideosPrincipalsComponent } from './shared/videos-principals/videos-principals.component';
 import { CardsCategoryNavigationComponent } from './shared/cards-category-navigation/cards-category-navigation.component';
 import { VideosSatComponent } from './shared/videos-sat/videos-sat.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
@@ -52,6 +50,7 @@ import { ReducedTopContentComponent } from './shared/solutions/top-content/reduc
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
+import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
 
 @NgModule({
   declarations: [
@@ -79,8 +78,6 @@ import { FinancialComponent } from './main/solutions/financial/financial.compone
     BalconySellComponent,
     CardsBottomComponent,
     SolutionsTopContentComponent,
-    FaqComponent,
-    VideosPrincipalsComponent,
     CardsCategoryNavigationComponent,
     VideosSatComponent,
     RestaurantComponent,
@@ -103,9 +100,9 @@ import { FinancialComponent } from './main/solutions/financial/financial.compone
     ChartComponent,
     ReducedTopContentComponent,
     ShoppingComponent,
+    FinancialComponent,
     OrderOfServiceComponent,
-    FinancialComponent
-
+    StandartProductionComponent
   ],
   imports: [
     BrowserModule,
