@@ -26,8 +26,6 @@ import { SolutionsTitleComponent } from './shared/solutions/top-content/solution
 import { BalconySellComponent } from './main/solutions/balcony-sell/balcony-sell.component';
 import { CardsBottomComponent } from './shared/cards-bottom/cards-bottom.component';
 import { SolutionsTopContentComponent } from './shared/solutions/top-content/solutions-top-content/solutions-top-content.component';
-import { FaqComponent } from './main/faq/faq.component';
-import { VideosPrincipalsComponent } from './shared/videos-principals/videos-principals.component';
 import { CardsCategoryNavigationComponent } from './shared/cards-category-navigation/cards-category-navigation.component';
 import { VideosSatComponent } from './shared/videos-sat/videos-sat.component';
 import { RestaurantComponent } from './main/solutions/restaurant/restaurant.component';
@@ -80,8 +78,6 @@ import { StandartProductionComponent } from './main/solutions/standart-productio
     BalconySellComponent,
     CardsBottomComponent,
     SolutionsTopContentComponent,
-    FaqComponent,
-    VideosPrincipalsComponent,
     CardsCategoryNavigationComponent,
     VideosSatComponent,
     RestaurantComponent,
