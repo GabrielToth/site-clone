@@ -48,6 +48,7 @@
 .list-bottom {
     list-style-position: inside;
     list-style-type: disc;
+    margin: 1rem;
 }
 
 ul li {
@@ -55,8 +56,9 @@ ul li {
     font-size: 16px;
 }
 
-.list-bottom{
-    margin: 1rem;
+.banner .list-bottom {
+    list-style-position: inside;
+    list-style-type: disc;
 }
 
 .list-bottom ul li {
@@ -73,12 +75,7 @@ ul li {
     margin: 1rem 0;
 }
 
-.banner .list-bottom {
-    list-style-position: inside;
-    list-style-type: disc;
-}
-
-.banner .banner ul li {
+.banner ul li {
     margin: 1rem 0;
     font-size: 16px;
 }

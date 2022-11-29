@@ -105,7 +105,8 @@ import { StandartProductionComponent } from './main/solutions/standart-productio
     ReducedTopContentComponent,
     ShoppingComponent,
     FinancialComponent,
-    StandartProductionComponent
+    StandartProductionComponent,
+    OrderOfServiceComponent
 
   ],
   imports: [
