@@ -6,6 +6,7 @@
     gap: 0 120px;
 }
 
+
 .banner .left {
     display: flex;
 }
@@ -52,6 +53,9 @@
 ul li {
     margin: 1rem 0;
     font-size: 16px;
+}
+
+.list-bottom{
     margin: 1rem;
 }
 
@@ -69,9 +73,19 @@ ul li {
     margin: 1rem 0;
 }
 
+.banner .list-bottom {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
 .banner ul li {
     margin: 1rem 0;
     font-size: 16px;
+}
+
+.banner .list-bottom ul li {
+    margin: 1rem 0;
+    font-size: 15px;
 }
 
 .banner ul li strong {
@@ -95,12 +109,11 @@ ul li {
 }
 
 .box-videos .video{
-    max-width: 500px;
+    max-width: 300px;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
     text-align: center;
     align-items: center;
     gap: 5px;
