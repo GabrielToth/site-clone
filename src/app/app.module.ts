@@ -102,7 +102,7 @@ import { standardProductionComponent } from './main/solutions/standard-productio
     ShoppingComponent,
     FinancialComponent,
     OrderOfServiceComponent,
-    standardProductionComponent
+    standardProductionComponent,
   ],
   imports: [
     BrowserModule,
