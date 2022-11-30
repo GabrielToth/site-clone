@@ -50,7 +50,7 @@ import { ReducedTopContentComponent } from './shared/solutions/top-content/reduc
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
-import { StandartProductionComponent } from './main/solutions/standart-production/standart-production.component';
+import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
 
 @NgModule({
   declarations: [
@@ -102,9 +102,8 @@ import { StandartProductionComponent } from './main/solutions/standart-productio
     ShoppingComponent,
     OrderOfServiceComponent,
     FinancialComponent,
-    StandartProductionComponent
-
-
+    OrderOfServiceComponent,
+    standardProductionComponent
   ],
   imports: [
     BrowserModule,
