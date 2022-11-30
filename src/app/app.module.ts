@@ -101,6 +101,7 @@ import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.com
     ChartComponent,
     ReducedTopContentComponent,
     ShoppingComponent,
+    FinancialComponent,
     OrderOfServiceComponent,
     FinancialComponent,
     OrderOfServiceComponent,
