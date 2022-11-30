@@ -51,6 +51,7 @@ import { ShoppingComponent } from './main/solutions/shopping/shopping.component'
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
 import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
+import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +104,8 @@ import { standardProductionComponent } from './main/solutions/standard-productio
     OrderOfServiceComponent,
     FinancialComponent,
     OrderOfServiceComponent,
-    standardProductionComponent
+    standardProductionComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

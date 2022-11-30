@@ -27,6 +27,7 @@ import { ShoppingComponent } from './main/solutions/shopping/shopping.component'
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
 import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
+import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 
 
 const routes: Routes = [
@@ -137,6 +138,10 @@ const routes: Routes = [
   {
     path: "standard-production",
     component: standardProductionComponent
+  },
+  {
+    path: "privacy-policy",
+    component: PrivacyPolicyComponent
   }
 ];
 
