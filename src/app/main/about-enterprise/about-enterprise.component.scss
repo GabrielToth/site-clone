@@ -2,7 +2,6 @@
     background-color: #59ACE7;
 
     display: flex;
-    justify-content: space-around;
     align-items: center;
 
     .top-text-container {
@@ -24,32 +23,48 @@
 
             font-size: 18px;
             font-weight: 200;
+
+            text-align: justify;
         }
     }
 
     .top-image-container {
         width: 35%;
-        padding: 5% 5% 5% 0;
 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 
         >img {
-            width: 100%;
+            width: 80%;
         }
     }
 
-    @media screen and (max-width:500px){
-      .top-image-container {
-        position: absolute;
-        visibility: hidden;
-      }
+    @media screen and (max-width:600px) {
+        .top-text-container {
+            width: 100%;
+
+            h1 {
+                text-align: center;
+            }
+        }
+
+        .top-image-container {
+            position: absolute;
+            visibility: hidden;
+        }
     }
 }
 
 .content-container {
+    width: 90%;
+    margin: 5%;
+
     display: flex;
     flex-direction: column;
 
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 
     .about-soft-container {
         display: flex;
@@ -58,31 +73,21 @@
         justify-content: center;
         align-items: center;
 
-        width: 100%;
+        >h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 24px;
 
-        margin: 5% 0;
-
-        .about-principal-phrase {
-            width: 90%;
-
-            >h2 {
-                font-size: 24px;
-                font-weight: 600;
-                margin-bottom: 24px;
-
-                text-align: center;
-            }
+            text-align: center;
         }
 
         .about-description {
-            width: 90%;
-
             display: flex;
             justify-content: center;
 
             gap: 16px;
 
-            .description-container {
+            p {
                 width: 50%;
 
                 text-align: justify;
@@ -90,96 +95,82 @@
             }
         }
 
-        @media screen and (max-width:500px){
-          .about-description {
-            flex-wrap: wrap;
+        @media screen and (max-width:500px) {
+            .about-description {
+                flex-wrap: wrap;
 
-            .description-container {
-              width: 100%;
+                p {
+                    width: 100%;
+                }
             }
-          }
         }
     }
 
-    .category-blocks-container {
-        width: 100%;
+
+}
+
+.category-blocks-container {
+    width: 90%;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .blocks-container {
+        max-width: 760px;
 
         display: flex;
+        flex-wrap: wrap;
+
         justify-content: center;
         align-items: center;
 
-        .blocks-container {
-            width: 100%;
-
-            padding: 3% 5%;
+        .block {
+            width: 200px;
+            height: 145px;
 
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
+
+            justify-content: space-around;
             align-items: center;
 
-            .block {
-                width: 200px;
-                height: 145px;
+            i {
+                padding: 5%;
+                font-size: 50px;
 
-                display: flex;
-                flex-direction: column;
-
-                justify-content: center;
-                align-items: center;
-
-                .block-icon {
-                    width: 100%;
-                    height: 45%;
-
-                    padding: 7% 0;
-
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    >i {
-                        padding: 5%;
-                        font-size: 50px;
-
-                        color: rgba(255, 255, 255, 0.5);
-                    }
-                }
-
-                .block-description {
-                    width: 100%;
-                    height: 55%;
-
-                    >p {
-                        color: rgba(0, 0, 0, 0.4);
-                        text-align: center;
-                    }
-                }
+                color: rgba(255, 255, 255, 0.5);
             }
 
-            .first {
-                background-color: #EF817B;
+            p {
+                color: rgba(0, 0, 0, 0.4);
+                text-align: center;
             }
+        }
 
-            .second {
-                background-color: #FFA34B;
-            }
+        .first {
+            background-color: #EF817B;
+        }
 
-            .third {
-                background-color: #FDCE68;
-            }
+        .second {
+            background-color: #FFA34B;
+        }
 
-            .fourth {
-                background-color: #8BD888;
-            }
+        .third {
+            background-color: #FDCE68;
+        }
 
-            .fifth {
-                background-color: #86CDCC;
-            }
+        .fourth {
+            background-color: #8BD888;
+        }
 
-            .sixth {
-                background-color: #7DB8F0;
-            }
+        .fifth {
+            background-color: #86CDCC;
+        }
+
+        .sixth {
+            background-color: #7DB8F0;
         }
     }
 }
@@ -209,32 +200,18 @@
 
         width: 80%;
 
-        .differential-title {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        >h2 {
+            font-size: 24px;
+            font-weight: 600;
 
-            >h2 {
-                font-size: 24px;
-                font-weight: 600;
-
-                color: #fff;
-            }
+            color: #fff;
         }
 
-        .differential-description {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        >p {
+            color: #fff;
 
-            height: 65%;
-
-            >p {
-                color: #fff;
-
-                text-align: center;
-                line-height: 1.5rem;
-            }
+            text-align: center;
+            line-height: 1.5rem;
         }
     }
 }
