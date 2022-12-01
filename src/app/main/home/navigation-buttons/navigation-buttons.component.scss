@@ -3,6 +3,7 @@
     border-bottom: 1px solid #ccc;
 
     display: flex;
+    
     justify-content: center;
     align-items: center;
 
@@ -51,5 +52,13 @@
 
     }
 
+    @media screen and (max-width: 600px){
+        .navigation-buttons {
+            flex-wrap: wrap;
 
+            .nav-button {
+                width: 100%;
+            }
+        }
+    }
 }

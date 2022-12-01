@@ -80,4 +80,28 @@
             }
         }
     }
+
+    @media screen and (max-width: 730px){
+        .be-a-partnership-content {
+            width: 90%;
+
+            flex-direction: column;
+            align-items: center;
+
+            padding: 0;
+            margin: 0;
+
+            .content-text {
+                width: 100%;
+
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .content-image {
+                width: 100%;
+            }
+        }
+    }
 }

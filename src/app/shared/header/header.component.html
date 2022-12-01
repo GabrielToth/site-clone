@@ -1,7 +1,7 @@
 <header class="menu">
-    <div class="block"></div>
+    <div class="block" [ngClass]="{'block-menu-opened': toggle}"></div>
     <div class="menu-container">
-        <div class="menu-inner">
+        <div class="menu-inner" [ngClass]="{'active': toggle}">
             <nav class="menu-top-line">
                 <div class="menu-logo">
                     <img src="assets/images/webp/softclever-logo.webp" type="image/webp" alt="">
@@ -23,7 +23,7 @@
 
                 </ul>
             </nav>
-            <nav class="menu-navigation">
+            <nav class="menu-navigation" >
                 <div class="menu-navigation-logo">
                     <img src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
                         alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
@@ -59,8 +59,10 @@
                     </li>
                 -->
                 </ul>
-                <div class="menu-hamburger">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="menu-hamburger" (click)="clickEvent()">
+                    <button>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
             </nav>
         </div>

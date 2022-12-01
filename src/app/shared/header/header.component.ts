@@ -11,7 +11,13 @@ export class HeaderComponent {
 
   solution = document.getElementById('solution');
 
-  onMouseLeaveSolution() {
+  toggle: boolean = false;
+
+  clickEvent() {
+    this.toggle = !this.toggle;
+  }
+
+  onMouseLeaveSolution(): void {
     setTimeout(this.verifyMouse(), 5000);
   }
 
