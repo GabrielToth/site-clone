@@ -12,78 +12,76 @@
 
     background-color: #F1F1F1;
     gap: 0 120px;
+
+    .left {
+      display: flex;
+
+      img {
+        width: 30rem;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      text-align: left;
+
+      p {
+        font-size: 2rem;
+      }
+
+      button {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background-color: #F1F1F1;
+        border: none;
+      }
+
+      a {
+
+        padding: 1.5rem 5rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        color: #F1F1F1;
+        background-color: #ffa500;
+      }
+    }
+
+    ul.list-top {
+      list-style-position: outside;
+      list-style-type: none;
+    }
+
+    .list-bottom {
+      list-style-position: inside;
+      list-style-type: disc;
+
+      ul li {
+        margin: 1rem 0;
+        font-size: 15px;
+      }
+    }
+
+    ul li {
+      margin: 1rem 0;
+      font-size: 16px;
+    }
+
+    ul li strong {
+      color: #af0000;
+      font-size: 25px;
+    }
+
+    .buttons button a {
+      font-size: 15px;
+      background-color: #FF6E00;
+      padding: 0.5rem 5rem;
+    }
 }
-
-
-.banner .left {
-    display: flex;
-}
-
-.banner .left img {
-    width: 30rem;
-}
-
-.banner div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: left;
-}
-
-.banner div p {
-    font-size: 2rem;
-}
-
-.banner div button {
-    width: auto;
-    height: auto;
-    padding: auto;
-    background-color: #F1F1F1;
-    border: none;
-}
-
-.banner div button a {
-
-    padding: 1.5rem 5rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    color: #F1F1F1;
-    background-color: #ffa500;
-}
-
-.banner ul.list-top {
-    list-style-position: outside;
-    list-style-type: none;
-}
-
-.banner .list-bottom {
-    list-style-position: inside;
-    list-style-type: disc;
-}
-
-.banner .banner ul li {
-    margin: 1rem 0;
-    font-size: 16px;
-}
-
-.banner .list-bottom ul li {
-    margin: 1rem 0;
-    font-size: 15px;
-}
-
-.banner ul li strong {
-    color: #af0000;
-    font-size: 25px;
-}
-
-.left .buttons button a {
-    font-size: 15px;
-    background-color: #FF6E00;
-    padding: 0.5rem 5rem;
-}
-
 
 .sell-itens {
     display: flex;

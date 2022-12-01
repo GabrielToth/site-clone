@@ -36,6 +36,13 @@
             width: 100%;
         }
     }
+
+    @media screen and (max-width:500px){
+      .top-image-container {
+        position: absolute;
+        visibility: hidden;
+      }
+    }
 }
 
 .content-container {
@@ -81,6 +88,16 @@
                 text-align: justify;
                 line-height: 1.5rem;
             }
+        }
+
+        @media screen and (max-width:500px){
+          .about-description {
+            flex-wrap: wrap;
+
+            .description-container {
+              width: 100%;
+            }
+          }
         }
     }
 
