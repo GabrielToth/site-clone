@@ -1,9 +1,5 @@
 .block {
     height: 100px;
-
-    @media screen and (max-width: 930px) {
-        height: 50px;
-    }
 }
 
 .menu-container {
@@ -13,25 +9,20 @@
 
     .menu-inner {
         width: 100%;
-
         position: fixed;
         top: 0;
         z-index: 1;
 
         .menu-top-line {
             height: 50px;
-
             display: flex;
             align-items: center;
             justify-content: center;
-
-            background-color: #1B5083;
-
+            background-color: #1b5083;
             z-index: 1;
 
             .menu-logo {
                 width: 20%;
-
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -39,9 +30,7 @@
 
             .menu-contact-items {
                 width: 80%;
-
                 list-style: none;
-
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -50,19 +39,21 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     gap: 8px;
-
                     margin: 0 auto;
 
-                    >i,
+                    >i {
+                        color: #72a0bf;
+                        cursor: pointer;
+                    }
+
                     a {
-                        color: #72A0BF;
+                        color: #72a0bf;
                         cursor: pointer;
                     }
 
                     .cellphone {
-                        border-right: 1px solid #72A0BF;
+                        border-right: 1px solid #72a0bf;
                         padding-right: 10px;
                     }
                 }
@@ -71,20 +62,16 @@
 
         .menu-navigation {
             height: 50px;
-
             display: flex;
             justify-content: space-around;
             align-items: center;
-
             grid-template-columns: 1fr 1fr;
-
             background-color: white;
             z-index: 1;
 
             .menu-navigation-logo {
                 width: 40%;
                 height: 50px;
-
                 display: flex;
                 justify-content: center;
                 align-items: stretch;
@@ -96,28 +83,66 @@
 
             .menu-navigation-items {
                 width: 60%;
-
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-
                 list-style: none;
+
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 6px 0;
+                    height: 20px;
+                    cursor: pointer;
+                }
             }
 
             .menu-hamburger {
                 display: none;
-
                 cursor: pointer;
 
                 button {
                     background-color: transparent;
                     border-color: transparent;
-
                     cursor: pointer;
                 }
             }
+        }
+    }
+}
 
-            @media screen and (max-width: 730px) {
+app-solutions {
+    display: none;
+}
+
+.display-solutions {
+    display: flex;
+}
+
+@media screen and (max-width: 930px) {
+    .block {
+        height: 50px;
+    }
+
+    .menu-container {
+        .menu-inner {
+            .menu-top-line {
+                display: none;
+            }
+
+            .menu-navigation {
+                justify-content: space-between;
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .menu-container {
+        .menu-inner {
+            .menu-navigation {
                 .menu-navigation-items {
                     display: none;
                 }
@@ -135,41 +160,23 @@
             }
         }
 
-        @media screen and (max-width: 930px) {
-            .menu-top-line {
-                display: none;
-            }
-
-            .menu-navigation {
-                justify-content: space-between;
-                padding: 0 20px;
-            }
-        }
-    }
-
-    @media screen and (max-width: 730px) {
         .active {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-
             .menu-navigation {
                 display: flex;
                 flex-direction: column;
-
                 align-items: center;
-
                 padding: 0;
                 margin: 0;
-
                 width: 100%;
                 height: 250px;
 
                 .menu-navigation-logo {
                     width: 250px;
                     height: 35px;
-
                     display: flex;
                     justify-content: center;
 
@@ -181,42 +188,17 @@
                 .menu-navigation-items {
                     display: flex;
                     flex-direction: column;
-
                     justify-content: center;
                     align-items: center;
-
                     width: 100%;
 
                     .menu-navigation-item {
                         width: 100%;
                         height: 100%;
-
                         border-bottom: 1px solid #ccc;
-
-                        a {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-
-                            padding: 6px 0;
-                            height: 20px;
-
-                            cursor: pointer;
-                        }
                     }
                 }
             }
         }
     }
-
-
-}
-
-
-app-solutions {
-    display: none;
-}
-
-.display-solutions {
-    display: flex;
 }
