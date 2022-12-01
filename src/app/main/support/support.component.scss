@@ -1,146 +1,159 @@
-.page-comp {
-    margin: 0 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 130px;
-  }
-  
-  .page-comp .right{
-    display: flex;
-    font-size: 1.2rem;
-    font-weight: 100;
-    gap: 20px;
-  }
-  
-  .page-comp .right button{
-    background-color: #ffffff00;
-    border: none;
-  }
-  
-  .page-comp .right button a{
-    padding: 1.5rem 1rem ;
-    background-color: #2AA0EF;
-    color: #f1f1f1;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .banner {
-    padding: 2rem 3rem ;
-    display: flex;
-  
-    background-color: #F1F1F1;
-    gap: 0 120px;
-  }
-  
-  .banner img {
+
+.banner {
+  padding: 2rem 3rem;
+  display: flex;
+
+  background-color: #F1F1F1;
+  gap: 0 120px;
+
+  img {
     width: 50%;
   }
-  
-  .banner div{
+
+  div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     text-align: left;
+
+    p {
+      font-size: 2rem;
+    }
+
+    button {
+      width: 12rem;
+      height: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f1f1f100;
+      border: none;
+
+
+      a {
+        width: 100%;
+        height: 100%;
+        line-height: 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        color: #F1F1F1;
+        background-color: #ffa500;
+      }
+    }
+
+    @media screen and (max-width:1007px){
+      p {
+        font-size: 1.2rem;
+      }
+      button {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
   }
-  
-  .banner div p{
-    font-size: 2rem;
+}
+
+@media screen and (max-width:700px){
+  .banner{
+    img{
+      width: 20%;
+    }
   }
-  
-  .banner div button {
-    width: auto;
-    height: auto;
-    padding: auto;
-    background-color: #F1F1F1;
-    border: none;
-  }
-  
-  .banner div button a{
-  
-    padding: 1.5rem 5rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    color: #F1F1F1;
-    background-color: #ffa500;
-  }
-  
-  .downloads {
-    margin: 2rem auto;
-    display: flex;
+}
+
+@media screen and (max-width:500px){
+  .banner {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    text-align: center;
+
+    img{
+      width: 50%;
+    }
+
+    div {
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+
+      button{
+        margin: auto;
+      }
+    }
   }
-  
-  .downloads .download{
+}
+
+.downloads {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .download {
     margin: 2rem auto;
     text-align: center;
     width: 25rem;
     height: 5rem;
     flex-wrap: wrap;
     font-size: 18px;
+
+    button {
+      margin: 2rem 0;
+      border: none;
+      background-color: #f1f1f100;
+    }
+
+    a {
+      padding: 1rem 8rem;
+      background-color: #2AA0EF;
+      border-radius: 5px;
+      color: #F1F1F1;
+      font-size: 18px;
+    }
   }
-  
-  .download button{
-    margin: 2rem 0;
-    border: none;
-    background-color: #f1f1f100;
-  }
-  
-  .download a{
-    padding: 1rem 8rem;
-    background-color: #2AA0EF;
-    border-radius: 5px;
-    color: #F1F1F1;
-    font-size: 18px;
-  }
-  
-  .our-solutions {
-    background-color: #F1F1F1;
-  }
-  
-  .our-solutions .content{
+}
+
+.our-solutions {
+  display: flex;
+  background-color: #F1F1F1;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
     margin: 2rem;
+
+    .cards {
+      margin: 2rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .card {
+        display: flex;
+        background-color: #ffffff;
+
+        div {
+          width: 250px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 1rem;
+
+          button {
+            background-color: #ffffff00;
+            border: none;
+
+            a {
+              padding: 1rem;
+              background-color: #2AA0EF;
+            }
+          }
+        }
+      }
+    }
   }
-  
-  .our-solutions {
-    display: flex;
-  }
-  
-  .our-solutions .content{
-    display: flex;
-  }
-  
-  .our-solutions .content .cards {
-    margin: 2rem 0;
-    display:flex;
-    gap: 20px;
-  }
-  
-  .our-solutions .content .cards .card{
-    display: flex;
-    background-color: #ffffff;
-  }
-  
-  .our-solutions .content .cards .card div{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 1rem;
-  }
-  
-  .our-solutions .content .cards .card div button{
-    background-color: #ffffff00;
-    border: none;
-  }
-  
-  .our-solutions .content .cards .card div button a{
-    padding: 1rem;
-    background-color: #2AA0EF;
-  }
-  
+}
