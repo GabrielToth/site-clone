@@ -1,5 +1,9 @@
 .block {
-    height: 113px;
+    height: 100px;
+
+    @media screen and (max-width: 930px) {
+        height: 50px;
+    }
 }
 
 .menu-container {
@@ -12,11 +16,14 @@
         top: 0;
         z-index: 1;
         .menu-top-line {
-            background-color: #1B5083;
+            height: 50px;
 
             display: flex;
             align-items: center;
             justify-content: center;
+            
+            background-color: #1B5083;
+
             z-index: 1;
 
             .menu-logo {
@@ -59,6 +66,8 @@
         }
 
         .menu-navigation {
+            height: 50px;
+
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -70,10 +79,11 @@
 
             .menu-navigation-logo {
                 width: 40%;
+                height: 50px;
 
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: stretch;
 
                 >img {
                     width: 100%;
@@ -88,6 +98,35 @@
                 align-items: center;
 
                 list-style: none;
+            }
+
+            .menu-hamburger {
+                display: none;
+
+                cursor: pointer;
+            }
+
+            @media screen and (max-width: 730px) {
+                .menu-navigation-items {
+                    display: none;
+                }
+
+                .menu-hamburger {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+            }
+        }
+
+        @media screen and (max-width: 930px){
+            .menu-top-line {
+                display: none;
+            }
+
+            .menu-navigation {
+                justify-content: space-between;
+                padding: 0 20px;
             }
         }
     }
