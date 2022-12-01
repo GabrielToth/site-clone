@@ -1,6 +1,6 @@
 .forms-container {
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: center;
 
     padding: 3%;
@@ -80,7 +80,7 @@
             color: #000;
         }
     }
-    
+
 }
 
 p, i {

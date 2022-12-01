@@ -35,6 +35,13 @@
             width: 100%;
         }
     }
+
+    @media screen and (max-width:500px){
+      .top-image-container {
+        visibility: hidden;
+        position: absolute;
+      }
+    }
 }
 
 .enterprise-partnership {
