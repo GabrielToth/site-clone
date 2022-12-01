@@ -6,10 +6,6 @@
     }
 }
 
-.block-menu-opened {
-    height: 250px;
-}
-
 .menu-container {
     width: 100%;
     height: fit-content;
@@ -62,6 +58,7 @@
                     >i,
                     a {
                         color: #72A0BF;
+                        cursor: pointer;
                     }
 
                     .cellphone {
@@ -150,13 +147,13 @@
         }
     }
 
+    @media screen and (max-width: 730px) {
+        .active {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-    .active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
-        @media screen and (max-width: 730px) {
             .menu-navigation {
                 display: flex;
                 flex-direction: column;
@@ -172,10 +169,10 @@
                 .menu-navigation-logo {
                     width: 250px;
                     height: 35px;
-    
+
                     display: flex;
                     justify-content: center;
-    
+
                     >img {
                         width: 100%;
                     }
@@ -203,6 +200,8 @@
 
                             padding: 6px 0;
                             height: 20px;
+
+                            cursor: pointer;
                         }
                     }
                 }

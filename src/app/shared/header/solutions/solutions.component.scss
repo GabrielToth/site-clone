@@ -1,11 +1,14 @@
 .solutions-container {
     width: 50%;
+    min-width: 300px;
 
     padding: 12px;
 
     position: fixed;
-    top: 113px;
+    top: 100px;
     left: 50%;
+    
+    transform: translateX(-50%);
 
     background-color: white;
 
@@ -82,4 +85,13 @@
         }
 
     }
+    
+    @media  screen and (max-width: 930px){
+        top: 50px
+    }
+
+    @media  screen and (max-width: 730px){
+        top: 125px
+    }
+
 }

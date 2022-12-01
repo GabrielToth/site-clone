@@ -9,31 +9,13 @@ export class HeaderComponent {
 
   display: boolean = false;
 
-  solution = document.getElementById('solution');
-
   toggle: boolean = false;
 
   clickEvent() {
     this.toggle = !this.toggle;
   }
 
-  onMouseLeaveSolution(): void {
-    setTimeout(this.verifyMouse(), 5000);
-  }
-
-  verifyMouse() {
-      if (this.display === true) {
-        return 'a'
-      } else {
-        return 'b'
-      }
-  };
-
-  onMouseEnter() {
-    this.display = true;
-  }
-
-  onMouseLeave() {
-    this.display = false;
+  clickEventSolutions() {
+    this.display = !this.display;
   }
 }

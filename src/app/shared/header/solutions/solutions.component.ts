@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './solutions.component.html',
   styleUrls: ['./solutions.component.scss']
 })
-export class SolutionsComponent {}
+export class SolutionsComponent {
+  toggle: boolean = false;
+
+  clickEvent() {
+    this.toggle = !this.toggle;
+  }
+}
