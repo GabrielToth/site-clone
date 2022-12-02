@@ -1,32 +1,51 @@
 .page-comp {
-    margin: 0 3rem;
+    margin:  3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 130px;
-  }
+    height: auto;
 
-  .page-comp .left ng-content h1{
-    font-size: 4rem;
-    color: #2AA0EF;
-  }
-  
-  .page-comp .right{
-    display: flex;
-    font-size: 1rem;
-    font-weight: 100;
-    gap: 20px;
-  }
-  
-  .page-comp .right button{
-    background-color: #ffffff00;
-    border: none;
-  }
-  
-  .page-comp .right button a{
-    padding: 1.5rem 1rem ;
-    background-color: #2AA0EF;
-    color: #f1f1f1;
-    border-radius: 5px;
-    font-size: 16px;
+    .left ng-content h1{
+      font-size: 4rem;
+      color: #2AA0EF;
+    }
+
+    .right{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1rem;
+      font-weight: 100;
+      gap: 20px;
+
+      button{
+        background-color: #ffffff00;
+        border: none;
+
+        a{
+          padding: 1.5rem 1rem ;
+          background-color: #2AA0EF;
+          color: #f1f1f1;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+      }
+
+      @media screen and (max-width:500px) {
+        button {
+          width: 15rem;
+          height: 3rem;
+          padding: 0;
+          background-color: #2AA0EF;
+
+          a {
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #2AA0EF;
+
+          }
+        }
+      }
+    }
   }
