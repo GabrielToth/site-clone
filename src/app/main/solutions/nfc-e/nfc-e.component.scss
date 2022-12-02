@@ -1,77 +1,101 @@
+.content {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .banner {
-    padding: 2rem 3rem;
+  padding: 2rem 3rem;
+  display: flex;
+
+  background-color: #F1F1F1;
+  gap: 0 120px;
+
+  .left {
     display: flex;
 
-    background-color: #F1F1F1;
-    gap: 0 120px;
-}
+    img {
+      width: 30rem;
+    }
+  }
 
-
-.banner .left {
-    display: flex;
-}
-
-.banner .left img {
-    width: 30rem;
-}
-
-.banner div {
+  div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     text-align: left;
-}
 
-.banner div p {
-    font-size: 2rem;
-}
+    p {
+      font-size: 2rem;
+    }
 
-.banner div button {
-    width: auto;
-    height: auto;
-    padding: auto;
-    background-color: #F1F1F1;
-    border: none;
-}
+    button {
+      width: auto;
+      height: auto;
+      padding: auto;
+      background-color: #F1F1F1;
+      border: none;
+    }
 
-.banner div button a {
+    a {
 
-    padding: 1.5rem 5rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    color: #F1F1F1;
-    background-color: #ffa500;
-}
+      padding: 1.5rem 5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.5rem;
+      color: #F1F1F1;
+      background-color: #ffa500;
+    }
+  }
 
-.banner ul.list-top {
+  ul.list-top {
     list-style-position: outside;
     list-style-type: none;
-}
+  }
 
-.banner .list-bottom {
+  .list-bottom {
     list-style-position: inside;
     list-style-type: disc;
-}
 
-.banner ul li {
+    ul li {
+      margin: 1rem 0;
+      font-size: 15px;
+    }
+  }
+
+  ul li {
     margin: 1rem 0;
     font-size: 16px;
-}
+  }
 
-.banner .list-bottom ul li {
-    margin: 1rem 0;
-    font-size: 15px;
-}
-
-.banner ul li strong {
+  ul li strong {
     color: #af0000;
     font-size: 25px;
-}
+  }
 
-.left .buttons button a {
+  .buttons button a {
     font-size: 15px;
     background-color: #FF6E00;
     padding: 0.5rem 5rem;
+  }
+}
+
+.sell-itens {
+  display: flex;
+  flex-direction: column;
+
+  >h2 {
+      margin: 0 0 12px 7%;
+  }
+
+  .sell-list {
+      margin-left: 10%;
+
+      >li {
+          line-height: 2rem;
+      }
+  }
 }
