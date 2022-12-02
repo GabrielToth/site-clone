@@ -61,21 +61,31 @@
   }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:770px){
   .solutions-top-container {
     flex-direction: column;
 
     .solution-title {
       width: 100%;
+
+      text-align: center;
     }
 
     .solution-right-benefits {
-      width: 100%;
+      width: 80%;
       flex-wrap: wrap;
       flex-direction: column;
 
       .benefits {
         width: 100%;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        a {
+          text-align: center;
+        }
       }
     }
   }
