@@ -1,20 +1,43 @@
 .buttons {
-    display: flex;
-    justify-content: center;
-    flex-basis: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: auto;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+
+  >button {
+    margin: 2rem 0;
+    width: 15rem;
+    height: 3rem;
+    background-color: #f0f8ff00;
+    border: none;
+
+    >a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FF6E00;
+      width: 100%;
+      height: 100%;
+    }
+
+    >a#b2 {
+      background-color: #4DC247;
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .buttons{
+    flex-direction: column;
+    margin: 4rem 4rem 8rem 4rem;
 
     >button {
-        margin: 4rem;
-        background-color: #f0f8ff00;
-        border: none;
-
-        >a {
-            background-color: #FF6E00;
-            padding: 1.5rem 5rem;
-        }
-
-        >a#b2 {
-            background-color: #4DC247;
-        }
+      margin: 0;
+      width: 15rem;
+      height: 3rem;
     }
+  }
 }
