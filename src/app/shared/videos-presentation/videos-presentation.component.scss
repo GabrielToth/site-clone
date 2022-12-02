@@ -53,7 +53,7 @@
         overflow: hidden;
 
         img {
-          width: 18rem;
+          width: 20rem;
           height: 12.5rem;
 
           cursor: pointer;
@@ -83,5 +83,17 @@
 
   @media screen and (max-width:500px){
     flex-direction: column;
+
+    .video-container {
+      .video {
+        .youtube-thumbnail,
+        .vimeo-thumbnail {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 15rem;
+          }
+      }
+    }
   }
-}
+}}

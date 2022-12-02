@@ -1,60 +1,82 @@
 .solutions-top-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  min-height: 100px;
+
+  margin-top: 2%;
+
+  .solution-title {
+    width: 50%;
+    height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
+    >h1 {
+      font-size: 36px;
+    }
+  }
+
+  .solution-right-benefits {
+    width: 50%;
     height: 100%;
-    min-height: 100px;
 
-    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .solution-title {
-        width: 50%;
-        height: 100%;
+    gap: 12px;
 
+    .benefits {
+      width: 35%;
+      height: 100%;
+
+      border-radius: 5px;
+      border: 1px solid rgb(194, 194, 194);
+
+      box-shadow: 6px 6px 3px 0px rgb(204, 204, 204);
+
+      >p {
+        padding: 10px;
         display: flex;
-        justify-content: center;
         align-items: center;
 
-        >h1 {
-            font-size: 36px;
-        }
+        text-align: justify;
+      }
+
+    }
+
+    .benefits-right {
+      background-color: #2AA0EF;
+
+      >p {
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .solutions-top-container {
+    flex-direction: column;
+
+    .solution-title {
+      width: 100%;
     }
 
     .solution-right-benefits {
-        width: 50%;
-        height: 100%;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        gap: 12px;
-        .benefits {
-            width: 35%;
-            height: 100%;
-
-            border-radius: 5px;
-            border: 1px solid rgb(194, 194, 194);
-
-            box-shadow: 6px 6px 3px 0px rgb(204, 204, 204);
-
-            >p {
-                padding: 10px;
-                display: flex;
-                align-items: center;
-
-                text-align: justify;
-            }
-
-        }
-
-        .benefits-right {
-            background-color: #2AA0EF;
-
-            >p {
-                color: white;
-            }
-        }
+      .benefits {
+        width: 100%;
+      }
     }
+  }
 }
