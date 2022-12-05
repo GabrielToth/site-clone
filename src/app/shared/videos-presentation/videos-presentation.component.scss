@@ -26,7 +26,7 @@
       justify-content: space-around;
       align-items: center;
   
-      height: 25%;
+      height: 30%;
   
       >h2 {
         font-size: 18px;
@@ -39,9 +39,9 @@
     }
 
     .video {
-      width: 100%;
+      width: 98%;
 
-      height: 65%;
+      height: 100%;
 
       .youtube-thumbnail,
       .vimeo-thumbnail {
@@ -82,18 +82,29 @@
     }
   }
 
-  @media screen and (max-width:730px){
+  @media screen and (max-width:750px){
     flex-wrap: nowrap;
     flex-direction: column;
 
     .video-container {
+      width: 100%;
+
       .video {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         .youtube-thumbnail,
         .vimeo-thumbnail {
           display: flex;
           justify-content: center;
+
+          width: 320px;
+          height: 180px;
           img {
-            width: 15rem;
+            width: 100%;
           }
       }
     }
