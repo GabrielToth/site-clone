@@ -52,6 +52,7 @@
                         cursor: pointer;
                     }
 
+
                     .cellphone {
                         border-right: 1px solid #72a0bf;
                         padding-right: 10px;
@@ -95,6 +96,10 @@
                     padding: 6px 0;
                     height: 20px;
                     cursor: pointer;
+                }
+
+                p:hover{
+                  cursor: pointer;
                 }
             }
 
