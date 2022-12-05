@@ -1,15 +1,16 @@
 .video-presentation-container {
+  width: 100%;
+
+  padding: 2% 0;
+
   display: flex;
-  flex-wrap: wrap;
 
   justify-content: space-between;
-
-  padding: 2%;
 
   background-color: #CEEAFC;
 
   .video-container {
-    width: 50%;
+    width: 49%;
 
     min-width: 350px;
 
@@ -25,8 +26,6 @@
   
       justify-content: space-around;
       align-items: center;
-  
-      height: 30%;
   
       >h2 {
         font-size: 18px;
@@ -54,8 +53,8 @@
         overflow: hidden;
 
         img {
-          width: 20rem;
-          height: 12.5rem;
+          width: 320px;
+          height: 180px;
 
           cursor: pointer;
 
