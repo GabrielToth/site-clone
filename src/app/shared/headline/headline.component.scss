@@ -44,6 +44,12 @@
 
         .top-image-container {
             width: 50%;
+
+            ::ng-deep {
+                .headline-image {
+                    width: 100%;
+                }
+            }
         }
 
     }

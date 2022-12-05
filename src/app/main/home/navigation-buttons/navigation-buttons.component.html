@@ -1,13 +1,13 @@
 <section class="navigation-buttons-container">
     <nav class="navigation-buttons">
         <button class="nav-button button-green">
-            <a href="">Conheça nossas Soluções</a>
+            <a [routerLink]="['/solutions']" routerLinkActive="active" ariaCurrentWhenActive="page">Conheça nossas Soluções</a>
         </button>
         <button class="nav-button button-orange">
-            <a href="">Vídeos Demonstrativos</a>
+            <a [routerLink]="['/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">Vídeos Demonstrativos</a>
         </button>
         <button class="nav-button button-blue">
-            <a href="">Agende uma Demonstração</a>
+            <a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Agende uma Demonstração</a>
         </button>
         <button class="nav-button button-green">
             <a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">Fale Conosco Agora</a>
