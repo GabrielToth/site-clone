@@ -97,8 +97,10 @@
         .image {
           width: 100%;
 
-          img.image{
-            width: 20px;
+          ::ng-deep {
+            img.image{
+              width: 100%;
+            }
           }
         }
       }
