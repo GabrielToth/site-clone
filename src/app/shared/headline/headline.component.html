@@ -1,0 +1,13 @@
+<div #bgcolor>
+    <ng-content selector=".background-color"></ng-content>
+</div>
+
+<section class="top-container" [ngStyle]="{'background-color': colorr}">
+    <div class="top-text-container">
+        <ng-content selector=".headline-title"></ng-content>
+        <ng-content select=".headline-description"></ng-content>
+    </div>
+    <div class="top-image-container">
+        <ng-content select=".headline-image"></ng-content>
+    </div>
+</section>

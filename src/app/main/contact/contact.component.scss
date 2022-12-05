@@ -81,6 +81,37 @@
         }
     }
 
+    @media  screen and (max-width: 680px){
+        .forms-right {
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 820px) {
+        .forms-left-contacts {
+            width: 75%;
+            max-width: 100%;
+
+            .contact-cellphones {
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                .cellphone-description {
+                    text-align: center;
+                }
+            }
+
+            .contact-email {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.google-maps-container {
+    height: 400px;
 }
 
 p, i {
