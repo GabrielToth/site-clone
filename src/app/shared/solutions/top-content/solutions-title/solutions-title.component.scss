@@ -59,11 +59,11 @@
       }
     }
   }
-}
 
-@media screen and (max-width:770px){
-  .solutions-top-container {
+  @media screen and (max-width:770px) {
     flex-direction: column;
+
+    margin-bottom: 1rem;
 
     .solution-title {
       width: 100%;

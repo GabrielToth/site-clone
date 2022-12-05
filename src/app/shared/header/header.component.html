@@ -37,9 +37,8 @@
                             Empresa</a>
                     </li>
                     <li class="menu-navigation-item" id="solution">
-                        <p (click)="clickEventSolutions()">Soluções</p>
-                        <app-solutions [ngClass]="{'display-solutions': display}">
-                        </app-solutions>
+                        <a (click)="clickEventSolutions()">Soluções</a>
+                        <app-solutions [ngClass]="{'display-solutions': display}"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/clients']" routerLinkActive="active"

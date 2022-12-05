@@ -53,6 +53,7 @@ import { FinancialComponent } from './main/solutions/financial/financial.compone
 import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
 import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 import { HeadlineComponent } from './shared/headline/headline.component';
+import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
 
 @NgModule({
   declarations: [
@@ -108,7 +109,8 @@ import { HeadlineComponent } from './shared/headline/headline.component';
     OrderOfServiceComponent,
     standardProductionComponent,
     PrivacyPolicyComponent,
-    HeadlineComponent
+    HeadlineComponent,
+    PromoErpComponent
   ],
   imports: [
     BrowserModule,
