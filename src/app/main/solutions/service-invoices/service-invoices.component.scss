@@ -41,25 +41,6 @@
     }
   }
 
-  .list-bottom {
-    margin: 1rem;
-    list-style-position: inside;
-    list-style-type: disc;
-
-    ul li {
-      margin: 1rem 0;
-      font-size: 15px;
-    }
-  }
-
-  ul.list-top {
-    list-style-position: outside;
-    list-style-type: none;
-
-    li {
-      margin: 1rem 0;
-    }
-  }
 
   ul li strong {
     color: #af0000;
@@ -67,65 +48,51 @@
   }
 
   @media screen and (max-width:500px) {
-    .banner {
-      flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
 
     .left {
       img {
-      width: 10rem;
+        width: 10rem;
       }
     }
   }
 }
 
-@media screen and (max-width:500px) {
-  .banner {
-    flex-wrap: wrap;
-  }
-}
 
-.box-videos {
-  margin-top: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.services-faq {
   width: 100%;
-  gap: 20px;
 
-  .video {
-    max-width: 300px;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    gap: 5px;
+  padding: 2% 0;
 
-    iframe,
-    .iframe-in-box {
-      width: 300px;
-      border-radius: 5px;
-    }
-  }
-}
-
-#videos .buttons {
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
-  gap: 5px;
+  align-items: center;
 
-  button {
-    margin: 5rem auto;
-    background-color: #ffa600;
-    border: none;
-    width: 15rem;
-    height: 3rem;
+  .text {
+    width: 90%;
 
-    a {
-      padding: 1rem 1.5rem;
-      background-color: #ffa60000;
+    h2 {
+      margin-bottom: 1rem;
+
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.5rem;
+
+      text-align: justify;
+    }
+
+    ul {
+      margin-left: 18px;
+
+      li {
+        line-height: 1.5rem;
+
+        text-align: justify;
+      }
     }
   }
 }

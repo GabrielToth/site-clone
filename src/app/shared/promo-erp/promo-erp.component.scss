@@ -1,0 +1,44 @@
+.promo-erp {
+    width: 100%;
+
+    padding: 2% 0;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        width: 90%;
+
+        margin-bottom: 1rem;
+
+        text-align: center;
+    }
+
+    .text {
+        width: 90%;
+
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+
+        p {
+            line-height: 1.5rem;
+
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 18px;
+
+            li {
+                line-height: 1.5rem;
+
+                text-align: justify;
+            }
+        }
+    }
+}
