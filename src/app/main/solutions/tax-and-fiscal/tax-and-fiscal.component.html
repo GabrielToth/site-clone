@@ -1,46 +1,32 @@
 <main>
-    <section>
-        <app-top-page-content>
-            <h1>{{ title }}</h1>
-        </app-top-page-content>
-    </section>
-    <section class="banner">
-        <div class="left">
-            <img src="assets/images/webp/Imposto-Fiscal.webp" alt="Uma mulher loira com roupa social fazendo anotações em um caderno grande, e um notebook ao lado">
-        </div>
+    <app-solutions-title>
+        <h1 class="title-top">"NFC-e – Pré Venda – Delivery – Comandas"</h1>
+    </app-solutions-title>
 
-        <div class="right">
-            <h2>
-                Entregue seu Sped Fiscal</h2>
-            <h2>{{ title }}</h2>
-            <div>
-                <ul class="list-top">
+    <app-reduced-top-content>
+        <img src="assets/images/webp/Imposto-Fiscal.webp"
+            alt="Uma mulher loira com roupa social fazendo anotações em um caderno grande, e um notebook ao lado"
+            class="image">
+        <h2 class="right-title">Entregue seu Sped Fiscal</h2>
+        <ul class="right-list">
+            <li>O Sirius possui um dos mais avançados métodos de cálculos de impostos, seja de entrada ou saída de
+                produtos. Também é possível entregar o Sped Fiscal a partir do Sirius.</li>
+            <li>Captura do arquivo XML</li>
+            <li>Atribuição automática das CFOP'S de entrada</li>
+            <li>Atribuição automática das CST'S do ICMS, IPI, PIS E COFINS</li>
+            <li>Geração do arquivo Sped para envio a SEFAZ</li>
+            <li>Geração do arquivo Sped para envio a sua contabilidade</li>
+            <li>Preparado para entrega do bloco K (produção)</li>
+            <li>Geração de livro fiscal para conferência com livro da contabilidade</li>
+            <li>Conversão das unidades de medida (compra x venda)</li>
+            <li>Rateio de impostos e muito mais</li>
+            <li>Sem contrato de fidelidade para planos mensais.</li>
+        </ul>
+    </app-reduced-top-content>
 
-                    <li>O Sirius possui um dos mais avançados métodos de cálculos de impostos, seja de entrada ou saída de produtos. Também é possível entregar o Sped Fiscal a partir do Sirius.</li>
-                    <li>Captura do arquivo XML</li>
-                    <li>Atribuição automática das CFOP'S de entrada</li>
-                    <li>Atribuição automática das CST'S do ICMS, IPI, PIS E COFINS</li>
-                    <li>Geração do arquivo Sped para envio a SEFAZ</li>
-                    <li>Geração do arquivo Sped para envio a sua contabilidade</li>
-                    <li>Preparado para entrega do bloco K (produção)</li>
-                    <li>Geração de livro fiscal para conferência com livro da contabilidade</li>
-                    <li>Conversão das unidades de medida (compra x venda)</li>
-                    <li>Rateio de impostos e muito mais</li>
-                    <li>Sem contrato de fidelidade para planos mensais.</li>
-                </ul>
-            </div>
-            <button><a href="#">Solicite Contato ou Agende uma Demonstração</a></button>
-        </div>
-    </section>
-
-    <section id="videos">
         <app-videos-presentation></app-videos-presentation>
 
-        <div class="buttons">
-            <button><a href="#">Apresentação das Soluções</a></button>
-            <button><a href="#">Vídeos Demonstrativos</a></button>
-        </div>
-    </section>
+        <app-buttons-to-know-more></app-buttons-to-know-more>
 
     <section>
         <app-services-category></app-services-category>

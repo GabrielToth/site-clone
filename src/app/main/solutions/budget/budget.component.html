@@ -1,35 +1,23 @@
 <main>
-    <section>
-        <app-top-page-content>
-            <h1>{{ title }}</h1>
-        </app-top-page-content>
-    </section>
-    <section class="banner">
-        <div class="left">
-            <img src="../../../../assets/images/webp/orcamento.webp" alt="imagem de uma mão feminina digitando em uma calculadora">
-        </div>
+    <app-solutions-title>
+        <h1 class="title-top">Nota Fiscal de Serviço - NFSE</h1>
+    </app-solutions-title>
 
-        <div class="right">
-            <h2>
-                Controle detalhado dos orçamentos de sua empresa.</h2>
-            <h2>{{ title }}</h2>
-            <div>
-                <ul class="list-top">
-
-                    <li>Digitação e Controle de Orçamento</li>
-                    <li>Envio Total ou Parcial do Orçamento para Pedido de Venda</li>
-                    <li>Controle de Saldo de Orçamento</li>
-                    <li>Curva ABC de Orçamentos</li>
-                    <li>Impressão de Orçamento</li>
-                    <li>Relatório comparativo Orçado x Faturado x Saldo</li>
-                    <li>Status Pendente e Realizado</li>
-                    <li>Follow Up</li>
-                    <li>Sem contrato de fidelidade para planos mensais.</li>
-                </ul>
-            </div>
-            <button><a href="#">Solicite Contato ou Agende uma Demonstração</a></button>
-        </div>
-    </section>
+    <app-reduced-top-content>
+        <img src="assets/images/webp/orcamento.webp" alt="imagem de uma mão feminina digitando em uma calculadora" class="image">
+        <h2 class="right-title">Controle detalhado dos orçamentos de sua empresa.</h2>
+        <ul class="right-list">
+            <li>Digitação e Controle de Orçamento</li>
+            <li>Envio Total ou Parcial do Orçamento para Pedido de Venda</li>
+            <li>Controle de Saldo de Orçamento</li>
+            <li>Curva ABC de Orçamentos</li>
+            <li>Impressão de Orçamento</li>
+            <li>Relatório comparativo Orçado x Faturado x Saldo</li>
+            <li>Status Pendente e Realizado</li>
+            <li>Follow Up</li>
+            <li>Sem contrato de fidelidade para planos mensais.</li>
+        </ul>
+    </app-reduced-top-content>
 
     <section id="videos">
         <app-videos-presentation></app-videos-presentation>
@@ -55,10 +43,7 @@
             </div>
         </div>
 
-        <div class="buttons">
-            <button><a href="#">Apresentação das Soluções</a></button>
-            <button><a href="#">Vídeos Demonstrativos</a></button>
-        </div>
+        <app-buttons-to-know-more></app-buttons-to-know-more>
 
     </section>
 
