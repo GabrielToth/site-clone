@@ -142,34 +142,41 @@
 
         background-color: #ffffff;
 
+        .card-right-content {
+          width: 100%;
 
-        .card-text {
           display: flex;
 
-          flex-direction: column;
-          justify-content: center;
-
-          line-height: 2rem;
-        }
-
-        .card-button {
-          display: flex;
-
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
 
-          button {
-            background-color: #ffffff00;
-            border: none;
-
-            margin: 0 3rem;
-
-            a {
-              padding: 1rem;
-              background-color: #2AA0EF;
+          .card-text {
+            display: flex;
+  
+            flex-direction: column;
+            justify-content: center;
+  
+            line-height: 2rem;
+          }
+  
+          .card-button {
+            display: flex;
+  
+            justify-content: center;
+            align-items: center;
+  
+            button {
+              background-color: #ffffff00;
+              border: none;
+  
+              a {
+                padding: 1rem;
+                background-color: #2AA0EF;
+              }
             }
           }
         }
+
       }
     }
   }
