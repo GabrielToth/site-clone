@@ -37,7 +37,7 @@
                             Empresa</a>
                     </li>
                     <li class="menu-navigation-item" id="solution">
-                        <a (click)="clickEventSolutions()">Soluções</a>
+                        <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
                         <app-solutions [ngClass]="{'display-solutions': display}"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
