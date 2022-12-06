@@ -1,40 +1,22 @@
 <main>
-    <app-top-page-content>
-        <h1>{{ title }}</h1>
-        <p>Pagar - Receber - Boletos - Bancos</p>
-    </app-top-page-content>
+    <app-solutions-title>
+        <h1 class="title-top">Pagar - Receber - Boletos - Bancos</h1>
+    </app-solutions-title>
 
-    <section class="banner">
-        <div class="left">
-            <img src="assets/images/webp/confeccao.webp" alt="imagem de uma mulher branca com cabelo castanho amarrado para tras utilizando uma maquina de costura">
-        </div>
+    <app-reduced-top-content>
+        <img src="assets/images/webp/confeccao.webp" alt="imagem de uma mulher branca com cabelo castanho amarrado para trás utilizando uma maquina de costura">
+        <h2 class="right-title">Controle de sua produção com explosão de matérias primas, saldos de estoque e lotes.</h2>
 
-        <div class="right">
-            <div>
-                <ul class="list-top">
+    </app-reduced-top-content>
 
-                   <p>
-                    Controle de sua produção com explosão de matérias primas, saldos de estoque e lotes.</p>
-                </ul>
-            </div>
-            <button><a href="#">Solicite Contato ou Agende uma Demonstração</a></button>
-        </div>
-    </section>
-
-    <section id="videos">
         <app-videos-presentation></app-videos-presentation>
 
-        <div class="buttons">
-            <button><a href="#">Apresentação das Soluções</a></button>
-            <button><a href="#">Vídeos Demonstrativos</a></button>
-        </div>
-    </section>
+<app-buttons-to-know-more></app-buttons-to-know-more>
 
-    <section>
-        <p>
-            Gerencie seu contas a receber e sua cobrança</p>
-        <ul class="list-bottom">
-            <li>Geração de ordem de produção a partir do pedido de venda</li>
+<section class="promo-erp">
+    <h2>Gerencie suas contas para recebimento e suas cobranças</h2>
+    <ul>
+        <li>Geração de ordem de produção a partir do pedido de venda</li>
             <li>Geração de ordem de produção para estoque</li>
             <li>Controle por grade simples ou grade composta</li>
             <li>Controle de fases de produção</li>
@@ -51,8 +33,9 @@
             <li>Ficha técnica do produto</li>
             <li>Permite exportação para Excel</li>
             <li>Sem contrato de fidelidade para planos mensais.</li>
-        </ul>
-    </section>
+    </ul>
+
+</section>
 
     <section class="content section-videos">
         <h2>Varejo em geral. Versões Desktop e Celular.</h2>
@@ -65,8 +48,8 @@
         </div>
     </section>
 
-    <section>
+
         <app-services-category></app-services-category>
         <app-cards-category-navigation></app-cards-category-navigation>
-    </section>
+
 </main>
