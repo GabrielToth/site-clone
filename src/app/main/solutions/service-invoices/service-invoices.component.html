@@ -1,162 +1,184 @@
 <main>
-    <section>
-        <app-top-page-content>
-            <h1>{{ title }}</h1>
-        </app-top-page-content>
-    </section>
-    <section class="banner">
-        <div class="left">
-            <img src="../../../../assets/images/webp/vendas-2.webp" alt="imagem de um monitor de computador com uma nota fiscal sainde de dentro da tela">
-        </div>
+    <app-solutions-title>
+        <h1 class="title-top">Nota Fiscal de Serviço - NFSE</h1>
+    </app-solutions-title>
 
-        <div class="right">
-            <h2>Envio fácil e rápido de notas fiscais eletrônicas de serviços.</h2>
-            <h2>{{ title }}</h2>
-            <div>
-                <ul class="list-top">
+    <app-reduced-top-content>
+        <img src="assets/images/webp/vendas-2.webp"
+            alt="imagem de um monitor de computador com uma nota fiscal saindo de dentro da tela" class="image">
+        <h2 class="right-title">Envio fácil e rápido de notas fiscais eletrônicas de serviços.</h2>
+        <ul class="right-list">
 
-                    <li>Totalmente integrado com a prefeitura</li>
-                    <li>Gerada a partir da venda do serviço</li>
-                    <li>Geração automática dos títulos para o contas a receber</li>
-                    <li>Envio de PDF automático para o cliente via email</li>
-                </ul>
-            </div>
-            <button><a href="#">Solicite Contato ou Agende uma Demonstração</a></button>
-        </div>
-    </section>
-
-    <section id="videos">
-        <app-videos-presentation></app-videos-presentation>
-
-        <div class="buttons">
-            <button><a href="#">Apresentação das Soluções</a></button>
-            <button><a href="#">Vídeos Demonstrativos</a></button>
-        </div>
-    </section>
+            <li>Totalmente integrado com a prefeitura</li>
+            <li>Gerada a partir da venda do serviço</li>
+            <li>Geração automática dos títulos para o contas a receber</li>
+            <li>Envio de PDF automático para o cliente via email</li>
+        </ul>
+    </app-reduced-top-content>
+    
+    <app-videos-presentation></app-videos-presentation>
+    <app-buttons-to-know-more></app-buttons-to-know-more>
 
     <section class="services-faq">
         <div class="text">
-            <p>Fonte:
-              <a style="color:blue" href="http://www.nfe.fazenda.gov.br/portal/perguntasFrequentes.aspx?tipoConteudo=7zEQFBPObw0=">
-                Secretaria da Fazenda -
-              </a>
-            </p>
-            <p>Data: 29/04/2016</p>
-            <p>Para dados mais atualizados, favor visitar o link acima.</p>
-            <p>Como funciona o modelo operacional da NF-e?</p>
-            <p>A empresa emissora de NF-e gera um arquivo eletrônico contendo as informações fiscais da operação comercial,
+            <h2>Como funciona o modelo operacional da NF-e?</h2>
+            <p>A empresa emissora de NF-e gera um arquivo eletrônico contendo as informações fiscais da operação
+                comercial,
                 o qual deverá ser assinado digitalmente, de maneira a garantir a integridade dos dados e a autoria do
-                emissor. Este arquivo eletrônico, que é a NF-e, será transmitido pela Internet para a Secretaria de Fazenda
-                Estadual de jurisdição do contribuinte emitente, a qual, após verificar a integridade formal, devolverá um
+                emissor. Este arquivo eletrônico, que é a NF-e, será transmitido pela Internet para a Secretaria de
+                Fazenda
+                Estadual de jurisdição do contribuinte emitente, a qual, após verificar a integridade formal, devolverá
+                um
                 protocolo de recebimento denominado "Autorização de Uso", sem o qual não poderá haver o trânsito da
                 mercadoria, ressalvados os casos previstos na legislação para a hipótese de haver problemas técnicos na
                 comunicação do contribuinte com a Receita.</p>
-            <p>Após Autorização de Uso a Secretaria de Fazenda Estadual disponibilizará consulta, através Internet, para o
-                destinatário e outros legítimos interessados, que detenham a chave de acesso do documento eletrônico.</p>
+            <p>Após Autorização de Uso a Secretaria de Fazenda Estadual disponibilizará consulta, através Internet, para
+                o
+                destinatário e outros legítimos interessados, que detenham a chave de acesso do documento eletrônico.
+            </p>
             <p>Este mesmo arquivo da NF-e será ainda transmitido para:</p>
             <ul>
                 <li>a Receita Federal, que será repositório nacional de todas as NF-e emitidas;</li>
-                <li>no caso de uma operação interestadual, a Secretaria de Fazenda Estadual de destino da operação; e,</li>
-                <li>quando aplicável, os Órgãos e Entidades da Administração Pública Federal Direta e Indireta que tenham
-                    atribuição legal de regulação, normatização, controle e fiscalização, tais como a SUFRAMA, por exemplo.
+                <li>no caso de uma operação interestadual, a Secretaria de Fazenda Estadual de destino da operação; e,
+                </li>
+                <li>quando aplicável, os Órgãos e Entidades da Administração Pública Federal Direta e Indireta que
+                    tenham
+                    atribuição legal de regulação, normatização, controle e fiscalização, tais como a SUFRAMA, por
+                    exemplo.
                 </li>
             </ul>
-            <p>Para acompanhar o trânsito da mercadoria será impressa uma representação gráfica simplificada da Nota Fiscal
-                Eletrônica, intitulada DANFE (Documento Auxiliar da Nota Fiscal Eletrônica), geralmente em papel comum, em
+            <p>Para acompanhar o trânsito da mercadoria será impressa uma representação gráfica simplificada da Nota
+                Fiscal
+                Eletrônica, intitulada DANFE (Documento Auxiliar da Nota Fiscal Eletrônica), geralmente em papel comum,
+                em
                 única via. </p>
-            <p>Nas questões abaixo, foram relacionadas as principais dúvidas das etapas do processo de emissão de uma NF-e.
+            <p>Nas questões abaixo, foram relacionadas as principais dúvidas das etapas do processo de emissão de uma
+                NF-e.
             </p>
             <h2>Emissão e autorização da NF-e (18 questões)</h2>
-            <p>É possível imprimir no DANFE, através do programa emissor autônomo da NF-e, a data de vencimento e o valor da
+            <p>É possível imprimir no DANFE, através do programa emissor autônomo da NF-e, a data de vencimento e o
+                valor da
                 venda a prazo?</p>
-            <p>Sim, desde que tais informações façam parte dos dados da fatura da NF-e. Como atualmente o Emissor de NF-e
+            <p>Sim, desde que tais informações façam parte dos dados da fatura da NF-e. Como atualmente o Emissor de
+                NF-e
                 não imprime os dados das duplicatas no DANFE, caso a empresa necessite apor tais dados neste documento
                 auxiliar, poderá utilizar os campos de dados adicionais, ou também utilizar de sistema próprio para a
                 impressão, quando poderá colocar os dados das duplicatas no mesmo quadra utilizado para a impressão da
                 fatura.</p>
-            <p>É possível emitir uma NF-e retroativa para o caso, por exemplo, de apropriação de crédito do ativo permanente
-                de um dado mês, cujo cálculo só pode ser efetuado no início do mês seguinte, após apuração dos valores?</p>
+            <p>É possível emitir uma NF-e retroativa para o caso, por exemplo, de apropriação de crédito do ativo
+                permanente
+                de um dado mês, cujo cálculo só pode ser efetuado no início do mês seguinte, após apuração dos valores?
+            </p>
             <p>Atualmente o limite técnico para autorização de NF-e com data retroativa é de 30 (trinta) dias ou outro
                 limite definido pela Unidade da Federação, a contar da data de emissão. Não havendo outros impedimentos
-                fiscais, a empresa poderá emitir a NF-e em questão no início do mês seguinte tão logo seja possível apurar
+                fiscais, a empresa poderá emitir a NF-e em questão no início do mês seguinte tão logo seja possível
+                apurar
                 os valores a serem documentados.</p>
             <p>A NF-e pode ser preenchida com mais de um CFOP?</p>
-            <p>Sim, pois para cada item de mercadoria da NF-e há um CFOP próprio, o que permite a emissão de uma NF-e com
+            <p>Sim, pois para cada item de mercadoria da NF-e há um CFOP próprio, o que permite a emissão de uma NF-e
+                com
                 mais de um CFOP. Para maiores esclarecimentos, ver o Manual de Integração - Contribuinte. </p>
             <p>A NF-e deverá seguir a numeração seqüencial das notas fiscais A1 ou 1-A?</p>
             <p>Não, a numeração utilizada na NF-e independe da numeração utilizada nos talonários fiscais ou formulários
                 contínuos da nota fiscal modelo 1 ou 1-A. Ao iniciar o uso da NF-e, o contribuinte deverá iniciar a
-                numeração pelo nº 1, pois se trata de novo modelo de documento fiscal (modelo 55), emitindo as demais notas
+                numeração pelo nº 1, pois se trata de novo modelo de documento fiscal (modelo 55), emitindo as demais
+                notas
                 na sequência. Ele poderá também adotar séries distintas, se assim desejar, para documentar operações de
                 entrada e de saída de mercadorias por exemplo, desde que a mudança de série seja documentada mediante
                 lavratura de termo no livro Registro de Utilização de Documentos Fiscais e Termos de Ocorrência - RUDFTO
                 (modelo 6).</p>
-            <p>Como será feita a validação de dados cadastrais (razão social, CEP, município, endereço, etc.) no momento do
+            <p>Como será feita a validação de dados cadastrais (razão social, CEP, município, endereço, etc.) no momento
+                do
                 envio do arquivo XML?</p>
             <p>Estes dados não são validados. Assim como não são feitas validações de cunho fiscal, a grande maioria do
-                conteúdo da NF-e não é validada. Existem poucas exceções, as quais estão previstas na documentação técnica
+                conteúdo da NF-e não é validada. Existem poucas exceções, as quais estão previstas na documentação
+                técnica
                 da NF-e (vide Manual de Integração).</p>
-            <p>No caso de NF-e emitida para importação de mercadorias, onde deve constar os dados referentes ao imposto de
+            <p>No caso de NF-e emitida para importação de mercadorias, onde deve constar os dados referentes ao imposto
+                de
                 importação, ao PIS e à Cofins?</p>
-            <p>Na NF-e, essas informações devem constar no XML da NF-e (há TAGs para esses dados). No DANFE, podem constar
+            <p>Na NF-e, essas informações devem constar no XML da NF-e (há TAGs para esses dados). No DANFE, podem
+                constar
                 nas informações adicionais.</p>
             <p>Qual o modelo a ser utilizado e a série no caso da emissão de NF-e?</p>
-            <p>O modelo da NF-e é o 55. A série abarca a numeração 001 a 999, sendo que as séries de número 890 a 899 de uso
-                exclusivo para emissão de NF-e avulsa (quando permitida pela SEFAZ); e as séries de número 900 a 999 de uso
-                exclusivo de NF-e emitidas em contingência e autorizadas no Sistema de Contingência do Ambiente Nacional -
+            <p>O modelo da NF-e é o 55. A série abarca a numeração 001 a 999, sendo que as séries de número 890 a 899 de
+                uso
+                exclusivo para emissão de NF-e avulsa (quando permitida pela SEFAZ); e as séries de número 900 a 999 de
+                uso
+                exclusivo de NF-e emitidas em contingência e autorizadas no Sistema de Contingência do Ambiente Nacional
+                -
                 SCAN.</p>
-            <p>Os campos totalizadores de produtos e impostos em um DANFE emitido em várias páginas devem ser impressos na
+            <p>Os campos totalizadores de produtos e impostos em um DANFE emitido em várias páginas devem ser impressos
+                na
                 primeira ou na última página?</p>
             <p>Devem ser impressos na primeira página, conforme previsto no Manual de Integração - Contribuinte.</p>
-            <p>Como proceder ao se emitir uma Nota Fiscal Eletrônica que possui itens não relacionados ao mix de mercadorias
+            <p>Como proceder ao se emitir uma Nota Fiscal Eletrônica que possui itens não relacionados ao mix de
+                mercadorias
                 comercializadas pelo contribuinte (ex.: apropriação de crédito do ativo permanente)?</p>
             <p>Nesses casos, deve ser criado um item próprio na NF-e representando a operação, podendo ser cadastrado um
-                produto para isto (ex.: cadastrar um item para apropriação do crédito do ativo permanente, etc.). Deve-se
-                utilizar o quadro "Dados dos Produtos/Serviços" para detalhar as operações que não caracterizem circulação
-                de mercadorias ou prestações de serviços e que exijam emissão de documentos fiscais (como transferência de
+                produto para isto (ex.: cadastrar um item para apropriação do crédito do ativo permanente, etc.).
+                Deve-se
+                utilizar o quadro "Dados dos Produtos/Serviços" para detalhar as operações que não caracterizem
+                circulação
+                de mercadorias ou prestações de serviços e que exijam emissão de documentos fiscais (como transferência
+                de
                 créditos ou apropriação de incentivos fiscais, por exemplo).</p>
             <p>Algumas unidades da Federação disponibilizam a possibilidade de uso de Nota Fiscal Eletrônica avulsa;
                 consulte a respectiva Sefaz para verificar se existe este serviço.</p>
             <p>A NF-e pode ser emitida/digitada diretamente no site da Secretaria da Fazenda?</p>
-            <p>O modelo operacional da nota fiscal eletrônica pressupõe a existência de arquivo eletrônico com assinatura
-                digital gerado pelo contribuinte a partir de seu sistema emissor de NF-e ,que pode ser próprio, adquirido de
-                terceiros (privado ou público). Inclusive, existe um programa emissor de NF-e gratuito, disponibilizado para
+            <p>O modelo operacional da nota fiscal eletrônica pressupõe a existência de arquivo eletrônico com
+                assinatura
+                digital gerado pelo contribuinte a partir de seu sistema emissor de NF-e ,que pode ser próprio,
+                adquirido de
+                terceiros (privado ou público). Inclusive, existe um programa emissor de NF-e gratuito, disponibilizado
+                para
                 download no site do Portal Nacional de NF-e.</p>
             <p>Se alguma NF-e for rejeitada, todo o lote será rejeitado também?</p>
             <p>Não. As NF-e podem ser transmitidas em lote, mas a validação é sempre individual, nota a nota. </p>
             <p>É possível o envio por lote de NF-e ou a emissão deve ser feita nota a nota?</p>
-            <p>A emissão e a assinatura digital deve ser feita nota a nota, no entanto, o processo de transmissão da NF-e
+            <p>A emissão e a assinatura digital deve ser feita nota a nota, no entanto, o processo de transmissão da
+                NF-e
                 pode ser realizado em lotes. Os lotes podem conter uma única NF-e ou até 50 NF-e, desde que seu tamanho
                 total não exceda a 500 Kbytes.</p>
             <p>A NF-e pode ser emitida antes do carregamento da mercadoria? E o DANFE?</p>
-            <p>No caso de uma operação documentada por NF-e, a mercadoria somente poderá circular quando houver autorização
+            <p>No caso de uma operação documentada por NF-e, a mercadoria somente poderá circular quando houver
+                autorização
                 de uso da NF-e e o DANFE correspondente a estiver acompanhando.</p>
-            <p>Desta forma, a NF-e deverá ser emitida e autorizada pela SEFAZ antes da circulação da mercadoria, cabendo à
+            <p>Desta forma, a NF-e deverá ser emitida e autorizada pela SEFAZ antes da circulação da mercadoria, cabendo
+                à
                 empresa avaliar o melhor momento para emissão e autorização da NF-e.</p>
             <p>Em relação a impressão do DANFE, desde que seja após a autorização de uso da NF-e correspondente, é
                 indiferente para a SEFAZ o momento de sua impressão dentro da rotina operacional interna, que poderá ser
-                posterior ou não ao carregamento da mercadoria. O DANFE correspondente à NF-e que acoberta a operação deve
-                sempre acompanhar a mercadoria e contenha o número de seu respectivo Protocolo de Autorização de Uso.</p>
+                posterior ou não ao carregamento da mercadoria. O DANFE correspondente à NF-e que acoberta a operação
+                deve
+                sempre acompanhar a mercadoria e contenha o número de seu respectivo Protocolo de Autorização de Uso.
+            </p>
             <p>Em que estabelecimento deve ser emitida a NF-e?</p>
-            <p>A legislação do ICMS considera cada estabelecimento do contribuinte um estabelecimento autônomo para efeito
+            <p>A legislação do ICMS considera cada estabelecimento do contribuinte um estabelecimento autônomo para
+                efeito
                 de cumprimento de obrigação acessória.</p>
             <p>Assim, cada estabelecimento do contribuinte deverá estar inscrito no cadastro de contribuintes do ICMS e
                 emitir os documentos fiscais previstos na legislação.</p>
             <p>A emissão da NF-e depende de prévio credenciamento do contribuinte junto à SEFAZ de circunscrição do
                 estabelecimento interessado.</p>
-            <p>O processo de geração e transmissão da NF-e é um processo eletrônico e pode ser realizado em qualquer local,
-                desde que a NF-e seja emitida por um emissor e assinada digitalmente com o certificado digital contendo o nº
+            <p>O processo de geração e transmissão da NF-e é um processo eletrônico e pode ser realizado em qualquer
+                local,
+                desde que a NF-e seja emitida por um emissor e assinada digitalmente com o certificado digital contendo
+                o nº
                 do CNPJ de qualquer dos estabelecimentos do contribuinte.</p>
             <p>Qual o limite de produtos (itens) em uma única NF-e?</p>
-            <p>Uma NF-e aceita até 990 itens de produto. Há também um limite de tamanho do arquivo que deve ser transmitido
+            <p>Uma NF-e aceita até 990 itens de produto. Há também um limite de tamanho do arquivo que deve ser
+                transmitido
                 à SEFAZ para se obter a autorização de uso: os arquivos XML não poderão exceder a 500 Kbytes. </p>
             <p>Com relação ao DANFE, este poderá ser emitido em mais de uma folha, ou seja, um DANFE poderá ter tantas
-                folhas quantas forem necessárias para discriminação das mercadorias. O contribuinte poderá utilizar também
+                folhas quantas forem necessárias para discriminação das mercadorias. O contribuinte poderá utilizar
+                também
                 até 50% da área disponível no verso do DANFE, conforme especificado no capítulo específico do Manual de
                 Integração - Contribuinte. </p>
             <h2>Importante:</h2>
             <ul>
-                <li>Cada NF-e possui apenas um DANFE correspondente, que pode ter uma ou mais folhas. Da mesma forma, cada
+                <li>Cada NF-e possui apenas um DANFE correspondente, que pode ter uma ou mais folhas. Da mesma forma,
+                    cada
                     DANFE
                     corresponde a uma única NF-e;</li>
                 <li>A chave de acesso deve constar em todas as folhas do DANFE.</li>
@@ -166,72 +188,97 @@
             </ul>
             <p>Como deve ser a numeração / séries da NF-e em relação à Nota Fiscal em papel?</p>
             <p>A numeração utilizada pela NF-e será distinta e independente da numeração utilizada pela nota fiscal em
-                papel. Ressalte-se que a NF-e é uma nova espécie de documento fiscal: o modelo da NF-e é "55" e os modelos
+                papel. Ressalte-se que a NF-e é uma nova espécie de documento fiscal: o modelo da NF-e é "55" e os
+                modelos
                 das Notas Fiscais em papel correspondentes são "1, 1A ou 4". </p>
             <p>Independentemente do tipo de operação, a numeração da NF-e será sequencial de 1 a 999.999.999, por
                 estabelecimento e por série, devendo ser reiniciada quando atingido este limite. </p>
-            <p>O contribuinte poderá adotar séries distintas para a emissão da NF-e, mediante lavratura de termo no livro
+            <p>O contribuinte poderá adotar séries distintas para a emissão da NF-e, mediante lavratura de termo no
+                livro
                 Registro de Utilização de Documentos Fiscais e Termos de Ocorrência - RUDFTO (modelo 6).</p>
             <p>Quanto tempo demora a autorização de NF-e pela Secretaria da Fazenda?</p>
-            <p>O tempo médio de autorização de cada NF-e tem se mantido inferior a 1 (um) segundo. Cabe ressaltar que, como
-                a NF-e é transmitida em lotes, podendo ser, inclusive, transmitidos vários lotes em simultâneo, o sistema
-                autorizador está estruturado para processar diversas NF-e de forma paralela, de modo que a empresa poderá
+            <p>O tempo médio de autorização de cada NF-e tem se mantido inferior a 1 (um) segundo. Cabe ressaltar que,
+                como
+                a NF-e é transmitida em lotes, podendo ser, inclusive, transmitidos vários lotes em simultâneo, o
+                sistema
+                autorizador está estruturado para processar diversas NF-e de forma paralela, de modo que a empresa
+                poderá
                 obter a autorização de várias NF-e dentro do mesmo segundo.</p>
             <p>Quais são as validações realizadas pela Secretaria da Fazenda na autorização de uma NF-e?</p>
-            <p>Na recepção de cada NF-e pela Secretaria da Fazenda, para fins de autorização de uso, são feitas as seguintes
+            <p>Na recepção de cada NF-e pela Secretaria da Fazenda, para fins de autorização de uso, são feitas as
+                seguintes
                 validações:</p>
             <ul>
                 <li>Assinatura digital - para garantir a autoria da NF-e e sua integridade;</li>
-                <li>Arquivo digital da NF-e - para garantir a observância ao leiaute do arquivo estabelecido no "Manual de
+                <li>Arquivo digital da NF-e - para garantir a observância ao leiaute do arquivo estabelecido no "Manual
+                    de
                     Integração - Contribuinte";</li>
                 <li>Numeração da NF-e - para garantir que a mesma NF-e não seja recebida mais de uma vez;</li>
                 <li>Emitente autorizado - se a empresa emitente da NF-e está credenciada e autorizada a emitir NF-e na
                     Secretaria
                     da Fazenda;</li>
-                <li>A regularidade fiscal do emitente - se o emissor está regularmente inscrito na Secretaria da Fazenda da
+                <li>A regularidade fiscal do emitente - se o emissor está regularmente inscrito na Secretaria da Fazenda
+                    da
                     unidade federada em que estiver localizado.</li>
-                <li>Observância das regras de conteúdo descritas no Manual de Integração - Contribuintee na Notas Técnicas
+                <li>Observância das regras de conteúdo descritas no Manual de Integração - Contribuintee na Notas
+                    Técnicas
                     do
                     Sistema NF-e, disponíveis no Portal Nacional.</li>
             </ul>
             <p>Dessa forma, o fato de uma NF-e estar com seu uso autorizado pela Secretaria da Fazenda (Sefaz) significa
-                simplesmente que a Sefaz recebeu uma declaração da realização de uma determinada operação comercial a partir
+                simplesmente que a Sefaz recebeu uma declaração da realização de uma determinada operação comercial a
+                partir
                 de determinada data e que verificou previamente determinados aspectos formais (autoria, formato e
-                autorização do emitente) daquela declaração, não se responsabilizando, em nenhuma hipótese, pelo aspecto do
+                autorização do emitente) daquela declaração, não se responsabilizando, em nenhuma hipótese, pelo aspecto
+                do
                 mérito dela, que é de inteira responsabilidade do emitente do documento fiscal. </p>
             <p>Caso na validação sejam detectados erros ou problemas no reconhecimento da autoria ou da integridade do
                 arquivo digital, no formato de campos, na numeração ou com o credenciamento do emitente, a NF-e será
                 rejeitada, não sendo gravada no banco de dados da Sefaz. Nesse caso, a numeração da NF-e rejeitada ainda
                 poderá ser utilizada. </p>
-            <p>Importante: ao rejeitar uma NF-e, a Sefaz sempre indicará o motivo da rejeição na forma de códigos de erros e
-                a respectiva mensagem de erro. Esses códigos podem ser consultados no Manual de Integração - Contribuinte,
+            <p>Importante: ao rejeitar uma NF-e, a Sefaz sempre indicará o motivo da rejeição na forma de códigos de
+                erros e
+                a respectiva mensagem de erro. Esses códigos podem ser consultados no Manual de Integração -
+                Contribuinte,
                 disponível no Portal Nacional da NF-e. </p>
-            <p>A Sefaz poderá, ainda, denegar uma NF-e em caso de irregularidade fiscal do emitente. Nesse caso, aquela NF-e
+            <p>A Sefaz poderá, ainda, denegar uma NF-e em caso de irregularidade fiscal do emitente. Nesse caso, aquela
+                NF-e
                 será gravada na Sefaz com status "Denegado o uso", e o contribuinte não poderá utilizá-la. Em outras
                 palavras, o número da NF-e denegada não poderá mais ser utilizado, cancelado ou inutilizado. Algumas
                 unidades da Federação denegam a Autorização de uso da NF-e em casos de irregularidade fiscal do
                 destinatário.</p>
             <h2>Correção, cancelamento e inutilização de NF-e (6 questões)</h2>
             <p>As notas que foram canceladas precisam ser inutilizadas?</p>
-            <p>Não, nenhuma NF-e cancelada pode ter seu número inutilizado. Cada número/série de NF-e poderá encontrar-se
-                apenas em uma das seguintes situações: ter sido utilizado por uma NF-e, autorizada, cancelada, ou denegada,
-                ou então ter sido inutilizado (ou ainda não ter sido utilizado pela empresa em nenhuma destas situações).
-                Assim, após o número estar ocupado com uma NF-e, seja autorizada, cancelada ou denegada, não poderá mais ser
+            <p>Não, nenhuma NF-e cancelada pode ter seu número inutilizado. Cada número/série de NF-e poderá
+                encontrar-se
+                apenas em uma das seguintes situações: ter sido utilizado por uma NF-e, autorizada, cancelada, ou
+                denegada,
+                ou então ter sido inutilizado (ou ainda não ter sido utilizado pela empresa em nenhuma destas
+                situações).
+                Assim, após o número estar ocupado com uma NF-e, seja autorizada, cancelada ou denegada, não poderá mais
+                ser
                 inutilizado.</p>
             <p>O que é a inutilização de número de NF-e?</p>
             <p>Durante a emissão de NF-e é possível que ocorra, eventualmente, por problemas técnicos ou de sistemas do
-                contribuinte, uma quebra da sequência da numeração. Exemplo: a NF-e nº 100 e a nº 110 foram emitidas, mas a
+                contribuinte, uma quebra da sequência da numeração. Exemplo: a NF-e nº 100 e a nº 110 foram emitidas,
+                mas a
                 faixa 101 a 109, por motivo de ordem técnica, não foi utilizada antes da emissão da nº 110.</p>
-            <p>A inutilização de número de NF-e tem a finalidade de permitir que o emissor comunique à SEFAZ, até o décimo
-                dia do mês subsequente, os números de NF-e que não serão utilizados em razão de ter ocorrido uma quebra de
-                sequência da numeração da NF-e. A inutilização de número só é possível caso a numeração ainda não tenha sido
+            <p>A inutilização de número de NF-e tem a finalidade de permitir que o emissor comunique à SEFAZ, até o
+                décimo
+                dia do mês subsequente, os números de NF-e que não serão utilizados em razão de ter ocorrido uma quebra
+                de
+                sequência da numeração da NF-e. A inutilização de número só é possível caso a numeração ainda não tenha
+                sido
                 utilizada em nenhuma NF-e (autorizada, cancelada ou denegada).</p>
-            <p>A inutilização do número tem caráter de denúncia espontânea do contribuinte de irregularidades de quebra de
+            <p>A inutilização do número tem caráter de denúncia espontânea do contribuinte de irregularidades de quebra
+                de
                 sequência de numeração, podendo o fisco não reconhecer o pedido nos casos de dolo, fraude ou simulação
                 apurados.</p>
-            <p>As NF-e canceladas, denegadas e os números inutilizados devem ser escriturados, sem valores monetários, de
+            <p>As NF-e canceladas, denegadas e os números inutilizados devem ser escriturados, sem valores monetários,
+                de
                 acordo com a legislação tributária vigente.</p>
-            <p>Como serão solucionados os casos de erros cometidos na emissão de NF-e (há previsão de NF-e complementar)? E
+            <p>Como serão solucionados os casos de erros cometidos na emissão de NF-e (há previsão de NF-e
+                complementar)? E
                 erros mais simples como nome do cliente, erro no endereço, erro no CFOP - como alterar o dado que ficou
                 registrado na base da SEFAZ?</p>
             <p>Com relação à Carta de Correção, vide a questão 22.</p>
@@ -242,14 +289,17 @@
             <p>Importante destacar, entretanto, que se os erros forem detectados pelo emitente antes da circulação da
                 mercadoria, a NF-e poderá ser cancelada e ser então emitida uma Nota Eletrônica com as correções
                 necessárias.</p>
-            <p>Há ainda a possibilidade de emissão de NF-e complementar nas situações previstas na legislação. As hipóteses
+            <p>Há ainda a possibilidade de emissão de NF-e complementar nas situações previstas na legislação. As
+                hipóteses
                 de emissão de NF complementar são:</p>
-            <p>I - no reajustamento de preço em razão de contrato escrito ou de qualquer outra circunstância que implique
+            <p>I - no reajustamento de preço em razão de contrato escrito ou de qualquer outra circunstância que
+                implique
                 aumento no valor original da operação ou prestação;</p>
             <p>II - na exportação, se o valor resultante do contrato de câmbio acarretar acréscimo ao valor da operação
                 constante na Nota Fiscal;</p>
             <p>III - na regularização em virtude de diferença no preço, em operação ou prestação, ou na quantidade de
-                mercadoria, quando efetuada no período de apuração do imposto em que tiver sido emitido o documento fiscal
+                mercadoria, quando efetuada no período de apuração do imposto em que tiver sido emitido o documento
+                fiscal
                 original;</p>
             <p>IV - para lançamento do imposto, não efetuado em época própria, em virtude de erro de cálculo ou de
                 classificação fiscal, ou outro, quando a regularização ocorrer no período de apuração do imposto em que
@@ -257,39 +307,52 @@
             <p>V - na data do encerramento das atividades do estabelecimento, relativamente à mercadoria existente como
                 estoque final;</p>
             <p>VI - em caso de diferença apurada no estoque de selos especiais de controle fornecidos ao usuário pelas
-                repartições do fisco federal ou estadual para aplicação em seus produtos, desde que a emissão seja efetuada
+                repartições do fisco federal ou estadual para aplicação em seus produtos, desde que a emissão seja
+                efetuada
                 antes de qualquer procedimento do fisco. </p>
             <p>Qual o procedimento a ser adotado para a carta de correção, no caso de utilizar NF-e?</p>
-            <p>Para os estabelecimentos emitentes de NF-e foi criado o serviço da Carta de Correção Eletrônica (CC-e) e já
+            <p>Para os estabelecimentos emitentes de NF-e foi criado o serviço da Carta de Correção Eletrônica (CC-e) e
+                já
                 está implantado em algumas Secretarias de Fazenda e nas duas SEFAZ Virtuais da NF-e (SVAN e SVRS), o
-                contribuinte deve se informar em seu estado sobre esta disponibilização. As especificações técnicas da Carta
-                de Correção Eletrônica (CC-e) estão definidas na Nota Técnica 2011.003 disponível neste Portal. Nos estados
+                contribuinte deve se informar em seu estado sobre esta disponibilização. As especificações técnicas da
+                Carta
+                de Correção Eletrônica (CC-e) estão definidas na Nota Técnica 2011.003 disponível neste Portal. Nos
+                estados
                 em que a CC-e ainda não foi implantada, a empresa emitente de NF-e poderá emitir Carta de Correção, em
                 papel, conforme definido através do Ajuste Sinief 01/07.</p>
-            <p>O emitente poderá sanar erros em campos específicos da NF-e por meio de Carta de Correção Eletrônica - CC-e,
-                devidamente autorizada mediante transmissão à Secretaria da Fazenda ou de Carta de Correção, em papel, desde
+            <p>O emitente poderá sanar erros em campos específicos da NF-e por meio de Carta de Correção Eletrônica -
+                CC-e,
+                devidamente autorizada mediante transmissão à Secretaria da Fazenda ou de Carta de Correção, em papel,
+                desde
                 que o erro não esteja relacionado com:</p>
-            <p>1 - as variáveis que determinam o valor do imposto tais como: base de cálculo, alíquota, diferença de preço,
+            <p>1 - as variáveis que determinam o valor do imposto tais como: base de cálculo, alíquota, diferença de
+                preço,
                 quantidade, valor da operação (para estes casos deverá ser utilizada NF-e Complementar);</p>
             <p>2 - a correção de dados cadastrais que implique mudança do remetente ou do destinatário;</p>
             <p>3 - a data de emissão da NF-e ou a data de saída da mercadoria.</p>
             <p>Quais são as condições e prazos para o cancelamento de uma NF-e?</p>
             <p>Somente poderá ser cancelada uma NF-e cujo uso tenha sido previamente autorizado pelo Fisco (protocolo
-                "Autorização de Uso") e desde que não tenha ainda ocorrido o fato gerador, ou seja, ainda não tenha ocorrido
-                a saída da mercadoria do estabelecimento. Atualmente o prazo máximo para cancelamento de uma NF-e é de 168
-                horas (7 dias), contado a partir da autorização de uso. Conforme Ato COTEPE 35/10, este prazo será reduzido
+                "Autorização de Uso") e desde que não tenha ainda ocorrido o fato gerador, ou seja, ainda não tenha
+                ocorrido
+                a saída da mercadoria do estabelecimento. Atualmente o prazo máximo para cancelamento de uma NF-e é de
+                168
+                horas (7 dias), contado a partir da autorização de uso. Conforme Ato COTEPE 35/10, este prazo será
+                reduzido
                 para 24 horas a partir de 1º/01/2012.</p>
             <p>O Pedido de Cancelamento de NF-e deverá ser assinado pelo emitente com assinatura digital certificada por
-                entidade credenciada pela Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil, contendo o nº do CNPJ
+                entidade credenciada pela Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil, contendo o nº do
+                CNPJ
                 de qualquer dos estabelecimentos do contribuinte, a fim de garantir a autoria do documento digital. A
                 transmissão poderá ser realizada por meio de software desenvolvido ou adquirido pelo contribuinte ou
                 disponibilizado pela administração tributária. Da mesma forma que a emissão de uma NF-e de circulação de
                 mercadorias, o pedido de cancelamento também deverá ser autorizado pela Sefaz. O leiaute do arquivo de
                 solicitação de cancelamento poderá ser consultado no Manual de Integração do Contribuinte.</p>
-            <p>O status de uma NF-e (autorizada, cancelada, etc.) sempre poderá ser consultado no site da Sefaz autorizadora
+            <p>O status de uma NF-e (autorizada, cancelada, etc.) sempre poderá ser consultado no site da Sefaz
+                autorizadora
                 (Sefaz da unidade federada do emitente ou Sefaz-Virtual) ou no Portal Nacional da NF-e
                 (www.nfe.fazenda.gov.br).</p>
-            <p>As NF-e canceladas, denegadas e os números inutilizados devem ser escriturados, sem valores monetários, de
+            <p>As NF-e canceladas, denegadas e os números inutilizados devem ser escriturados, sem valores monetários,
+                de
                 acordo com a legislação tributária vigente.</p>
             <p>É possível alterar uma Nota Fiscal Eletrônica emitida?</p>
             <p>Após ter o seu uso autorizado pela SEFAZ, uma NF-e não poderá sofrer qualquer alteração, pois qualquer
@@ -299,14 +362,18 @@
                     emissão de
                     uma NF-e de circulação de mercadorias, o pedido de cancelamento de NF-e também deverá ser autorizado
                     pela
-                    SEFAZ. O leiaute do arquivo de solicitação de cancelamento poderá ser consultado no Manual de Integração
+                    SEFAZ. O leiaute do arquivo de solicitação de cancelamento poderá ser consultado no Manual de
+                    Integração
                     do
                     Contribuinte. Antes deve-se observar se o cancelamento atende a legislação tributária vigente.</li>
-                <li>emitir nota fiscal eletrônica complementar, ou uma nota fiscal eletrônica de ajuste, conforme o caso.
+                <li>emitir nota fiscal eletrônica complementar, ou uma nota fiscal eletrônica de ajuste, conforme o
+                    caso.
                     Antes
                     deve observar se está de acordo com a legislação tributária vigente.</li>
-                <li>sanar erros em campos específicos da NF-e, por meio de Carta de Correção Eletrônica - CC-e transmitida à
-                    Secretaria da Fazenda. Este serviço foi implantado em algumas Secretarias de Fazenda e nas duas SEFAZ
+                <li>sanar erros em campos específicos da NF-e, por meio de Carta de Correção Eletrônica - CC-e
+                    transmitida à
+                    Secretaria da Fazenda. Este serviço foi implantado em algumas Secretarias de Fazenda e nas duas
+                    SEFAZ
                     Virtuais da NF-e (SVAN e SVRS), o contribuinte deve se informar em seu estado sobre esta
                     disponibilização.
                     Nos estados em que a CC-e ainda não foi implantada a empresa emitente de NF-e poderá emitir Carta de
@@ -315,108 +382,147 @@
             <h2>Envio da NF-e e da mercadoria ao destinatário (7 questões)</h2>
             <p>Os destinatários têm obrigatoriedade de acessar algum site e imprimir a NF-e? Em quantas vias?</p>
             <p>A NF-e é um documento eletrônico, digital, não podendo ser impressa. A impressão de seu conteúdo, não tem
-                valor jurídico, tampouco contábil/fiscal. É obrigação do destinatário verificar a autenticidade da NF-e por
+                valor jurídico, tampouco contábil/fiscal. É obrigação do destinatário verificar a autenticidade da NF-e
+                por
                 consulta ao Portal Nacional ou ao site da Sefaz autorizadora.</p>
-            <p>Como enviar a Nota Fiscal Eletrônica para o destinatário (comprador) que não tenha acesso à internet? E no
+            <p>Como enviar a Nota Fiscal Eletrônica para o destinatário (comprador) que não tenha acesso à internet? E
+                no
                 caso de exportação de mercadorias?</p>
             <p>A legislação não estabeleceu uma forma específica de envio da NF-e para o destinatário. Cabe ao vendedor
-                (emissor da NF-e) encontrar a melhor forma de encaminhar ao seu cliente a NF-e. No caso do exportador, vale
+                (emissor da NF-e) encontrar a melhor forma de encaminhar ao seu cliente a NF-e. No caso do exportador,
+                vale
                 a mesma regra.</p>
             <p>Como proceder nos casos de recusa do recebimento da mercadoria em operação documentada por NF-e?</p>
-            <p>A recusa da mercadoria pode ocorrer de duas formas: ou o destinatário emite uma nota fiscal de devolução de
+            <p>A recusa da mercadoria pode ocorrer de duas formas: ou o destinatário emite uma nota fiscal de devolução
+                de
                 compras, ou o destinatário recusa a mercadoria no verso do próprio DANFE, destacando os motivos que o
                 levaram a isso. </p>
-            <p>Na segunda hipótese, o emitente da NF-e irá emitir uma NF-e de entrada para receber a mercadoria devolvida.
+            <p>Na segunda hipótese, o emitente da NF-e irá emitir uma NF-e de entrada para receber a mercadoria
+                devolvida.
             </p>
             <h2>Importante:</h2>
             <ul>
                 <li>Como houve a circulação da mercadoria, a NF-e original não poderá ser cancelada.</li>
-                <li>Caso a nota fiscal de devolução emitida pelo comprador também seja eletrônica, esta deverá, como todas
+                <li>Caso a nota fiscal de devolução emitida pelo comprador também seja eletrônica, esta deverá, como
+                    todas
                     as
-                    NF-e, ser previamente autorizada pelo Fisco e enviada para o destinatário da NF-e que deu origem a NF-e
+                    NF-e, ser previamente autorizada pelo Fisco e enviada para o destinatário da NF-e que deu origem a
+                    NF-e
                     de
                     devolução.</li>
             </ul>
             <p>Como fica a confirmação de entrega da mercadoria com a NF-e?</p>
-            <p>Não há nenhuma alteração com relação aos procedimentos comerciais existentes com a nota fiscal em papel. No
-                leiaute do DANFE, existe a previsão de um espaço (canhoto) destinado à confirmação da entrega da mercadoria.
+            <p>Não há nenhuma alteração com relação aos procedimentos comerciais existentes com a nota fiscal em papel.
+                No
+                leiaute do DANFE, existe a previsão de um espaço (canhoto) destinado à confirmação da entrega da
+                mercadoria.
                 Esse canhoto poderá ser destacado e entregue ao remetente.</p>
             <p>A NF-e será aceita em outros Estados e pela Receita Federal?</p>
             <p>Sim. A Receita Federal e os estados da Federação aprovaram o modelo de nota fiscal eletrônica pelo Ajuste
-                SINIEF 07/05 e suas alterações, sendo a NF-e um documento fiscal reconhecido em qualquer parte do território
+                SINIEF 07/05 e suas alterações, sendo a NF-e um documento fiscal reconhecido em qualquer parte do
+                território
                 nacional.</p>
             <p>O que acompanhará o trânsito da mercadoria documentada por NF-e?</p>
             <p>O trânsito da mercadoria será acompanhado pelo DANFE - Documento Auxiliar da Nota Fiscal Eletrônica. </p>
             <p>O DANFE deverá ser impresso em papel, exceto papel jornal, no tamanho mínimo A4 (210 x 297 mm) e máximo
                 ofício 2 (230 x 330 mm), podendo ser utilizadas folhas soltas, formulário contínuo ou formulário
-                pré-impresso e, em caso de contingência, formulário de segurança ou Formulário de Segurança para Impressão
+                pré-impresso e, em caso de contingência, formulário de segurança ou Formulário de Segurança para
+                Impressão
                 de Documento Auxiliar de Documento Fiscal Eletrônico (FS-DA). </p>
-            <p>Na hipótese de venda ocorrida fora do estabelecimento, o DANFE poderá ser impresso em qualquer tipo de papel,
+            <p>Na hipótese de venda ocorrida fora do estabelecimento, o DANFE poderá ser impresso em qualquer tipo de
+                papel,
                 exceto papel jornal, em tamanho inferior ao A4 (210 x 297 mm), caso em que será denominado "DANFE
                 Simplificado", devendo ser observado leiaute definido em Ato COTEPE. </p>
             <p>Para maiores informações, vide as questões abaixo relativas ao DANFE e consulte a cláusula nona do Ajuste
                 SINIEF 07/05.</p>
-            <p>Qual a forma estabelecida para a entrega da NF-e ao meu cliente? Esta entrega é obrigatória ou basta entregar
+            <p>Qual a forma estabelecida para a entrega da NF-e ao meu cliente? Esta entrega é obrigatória ou basta
+                entregar
                 o DANFE?</p>
-            <p>Não há regras estabelecidas da forma como o fornecedor irá entregar a NF-e a seu cliente, de modo que esta
-                entrega pode ocorrer da melhor maneira que aprouver às partes envolvidas. A transmissão, em comum acordo com
-                as partes poderá ocorrer, por exemplo: por e-mail, disponibilizada num site e acessível mediante uma senha
+            <p>Não há regras estabelecidas da forma como o fornecedor irá entregar a NF-e a seu cliente, de modo que
+                esta
+                entrega pode ocorrer da melhor maneira que aprouver às partes envolvidas. A transmissão, em comum acordo
+                com
+                as partes poderá ocorrer, por exemplo: por e-mail, disponibilizada num site e acessível mediante uma
+                senha
                 etc.</p>
-            <p>Com relação à obrigatoriedade da entrega, o § 7º da cláusula sétima do Ajuste SINIEF 07/05 determina que o
-                emitente da NF-e deverá, obrigatoriamente, encaminhar ou disponibilizar download do arquivo eletrônico da
+            <p>Com relação à obrigatoriedade da entrega, o § 7º da cláusula sétima do Ajuste SINIEF 07/05 determina que
+                o
+                emitente da NF-e deverá, obrigatoriamente, encaminhar ou disponibilizar download do arquivo eletrônico
+                da
                 NF-e e seu respectivo protocolo de autorização ao destinatário, observado leiaute e padrões técnicos
-                definidos em Ato COTEPE. A cláusula décima do mesmo Ajuste determina que o emitente e o destinatário deverão
+                definidos em Ato COTEPE. A cláusula décima do mesmo Ajuste determina que o emitente e o destinatário
+                deverão
                 manter em arquivo digital as NF-e pelo prazo estabelecido na legislação tributária para a guarda dos
-                documentos fiscais, sendo que, caso o destinatário não seja contribuinte credenciado para a emissão de NF-e,
+                documentos fiscais, sendo que, caso o destinatário não seja contribuinte credenciado para a emissão de
+                NF-e,
                 alternativamente ao disposto acima, deverá manter em arquivo o DANFE relativo à NF-e da operação.</p>
             <h2>Consulta de uma NF-e na Internet (5 questões)</h2>
             <p>Existe alguma forma de se consultar no sistema da Secretaria da Fazenda o status de várias notas fiscais
                 eletrônicas de uma única vez?</p>
-            <p>As Secretarias de Fazenda disponibilizam Web Services para consultar o status de uma nota eletrônica por vez.
-                Nos portais, a consulta às NF-e também deve ser realizada uma a uma, embora existam unidades da Federação
+            <p>As Secretarias de Fazenda disponibilizam Web Services para consultar o status de uma nota eletrônica por
+                vez.
+                Nos portais, a consulta às NF-e também deve ser realizada uma a uma, embora existam unidades da
+                Federação
                 que disponibilizam a consulta das notas destinadas para ou emitidas por um determinado contribuinte.</p>
             <p>Por quanto tempo a NF-e poderá ser consultada?</p>
-            <p>A NF-e poderá ser consultada pelo prazo mínimo de 180 (cento e oitenta) dias. Após este prazo a consulta à
-                NF-e poderá ser substituída pela prestação de informações parciais que identifiquem a NF-e (número, data de
+            <p>A NF-e poderá ser consultada pelo prazo mínimo de 180 (cento e oitenta) dias. Após este prazo a consulta
+                à
+                NF-e poderá ser substituída pela prestação de informações parciais que identifiquem a NF-e (número, data
+                de
                 emissão, CNPJ do emitente e do destinatário, valor e sua situação), que ficarão disponíveis pelo prazo
                 decadencial.</p>
             <p>Como proceder quando a Nota Fiscal Eletrônica constar como "inexistente" no Ambiente Nacional da NF-e
                 (http://www.nfe.fazenda.gov.br)?</p>
-            <p>O interessado deverá consultar a NF-e, através de sua chave de acesso, no site da SEFAZ autorizadora (SEFAZ
-                da UF de origem ou Sefaz-Virtual). A NF-e pode ser consultada tanto no site da SEFAZ autorizadora quanto no
+            <p>O interessado deverá consultar a NF-e, através de sua chave de acesso, no site da SEFAZ autorizadora
+                (SEFAZ
+                da UF de origem ou Sefaz-Virtual). A NF-e pode ser consultada tanto no site da SEFAZ autorizadora quanto
+                no
                 Ambiente Nacional (Portal Nacional da NF-e). </p>
-            <p>Conforme o modelo operacional, após a autorização de uso, a NF-e sempre será transmitida pela SEFAZ para a
-                Receita Federal do Brasil (Ambiente Nacional). Podem ocorrer, entretanto, eventualmente, problemas técnicos
+            <p>Conforme o modelo operacional, após a autorização de uso, a NF-e sempre será transmitida pela SEFAZ para
+                a
+                Receita Federal do Brasil (Ambiente Nacional). Podem ocorrer, entretanto, eventualmente, problemas
+                técnicos
                 que adiem essa transmissão, de modo que a NF-e não conste imediatamente no Ambiente Nacional após sua
                 autorização. Nesse caso, a autorização de uso da NF-e deverá ser consultada no site da SEFAZ que a
                 autorizou. </p>
             <p>A eventual ausência momentânea da NF-e para consulta no Ambiente Nacional não é condição suficiente para
-                refutar a validade do documento, desde que ele conste como autorizado no site da SEFAZ autorizadora. </p>
+                refutar a validade do documento, desde que ele conste como autorizado no site da SEFAZ autorizadora.
+            </p>
             <p>No caso de contingência, em que o trânsito da mercadoria é acobertado por DANFE impresso em Formulário de
                 Segurança (FS) ou Formulário de Segurança para Impressão de Documento Auxiliar de Documento Fiscal
-                Eletrônico (FS-DA), se no prazo de 168 horas (sete dias), contados da emissão do DANFE, o destinatário não
-                puder obter informações relativas à concessão da Autorização de Uso da NF-e, deverá comunicar imediatamente
+                Eletrônico (FS-DA), se no prazo de 168 horas (sete dias), contados da emissão do DANFE, o destinatário
+                não
+                puder obter informações relativas à concessão da Autorização de Uso da NF-e, deverá comunicar
+                imediatamente
                 o fato à unidade fazendária do seu domicílio.</p>
             <p>Como funciona a consulta da NF-e na Internet?</p>
-            <p>As notas fiscais eletrônicas autorizadas podem ser consultadas no site da SEFAZ autorizadora (Sefaz de Origem
+            <p>As notas fiscais eletrônicas autorizadas podem ser consultadas no site da SEFAZ autorizadora (Sefaz de
+                Origem
                 ou Sefaz-Virtual), ou subsidiariamente, no Portal Nacional da NF-e (www.nfe.fazenda.gov.br).</p>
-            <p>Caso a NF-e não seja encontrada no Portal Nacional da NF-e, não é condição suficiente para refutar a validade
+            <p>Caso a NF-e não seja encontrada no Portal Nacional da NF-e, não é condição suficiente para refutar a
+                validade
                 do documento, desde que conste como autorizada no site da SEFAZ autorizadora. Essa situação pode ocorrer
                 devido a problemas de sincronismo entre as bases de dados do Ambiente Nacional e a sefaz de origem do
                 emitente. </p>
-            <p>Nos casos de contingência com impressão de DANFE em Formulário de Segurança (FS) ou Formulário de Segurança
-                para Impressão de Documento Auxiliar de Documento Fiscal Eletrônico (FS-DA), bem como, com prévio registro
-                da Declaração Prévia de Emissão de Contingência (DPEC), se no prazo de 168 horas (sete dias), contados da
-                emissão do DANFE, o destinatário não puder obter informações relativas à concessão da Autorização de Uso da
+            <p>Nos casos de contingência com impressão de DANFE em Formulário de Segurança (FS) ou Formulário de
+                Segurança
+                para Impressão de Documento Auxiliar de Documento Fiscal Eletrônico (FS-DA), bem como, com prévio
+                registro
+                da Declaração Prévia de Emissão de Contingência (DPEC), se no prazo de 168 horas (sete dias), contados
+                da
+                emissão do DANFE, o destinatário não puder obter informações relativas à concessão da Autorização de Uso
+                da
                 NF-e, deverá comunicar imediatamente o fato à unidade fazendária do seu domicílio.</p>
             <p>Atenção: Na consulta na internet, não é possível imprimir a imagem ou representação gráfica do DANFE. O
                 usuário conseguirá, no entanto visualizar as suas informações.</p>
             <p>A consulta da validade, existência e autorização de uma NF-e é obrigatória ou facultativa?</p>
-            <p>A consulta da validade, existência e autorização de uma NF-e é obrigatória por parte do destinatário da NF-e.
+            <p>A consulta da validade, existência e autorização de uma NF-e é obrigatória por parte do destinatário da
+                NF-e.
             </p>
             <p>Nos termos da cláusula décima, parágrafo primeiro, do Ajuste SINIEF 07/05, com redação dada pelo Ajuste
                 SINIEF 04/06:</p>
-            <p>"§ 1º O destinatário deverá verificar a validade e autenticidade da NF-e e a existência de Autorização de Uso
+            <p>"§ 1º O destinatário deverá verificar a validade e autenticidade da NF-e e a existência de Autorização de
+                Uso
                 da NF-e."</p>
             <p>Cabe destacar que o destinatário não necessita imprimir qualquer documento para comprovar que realizou a
                 consulta de validade da NF-e.</p>
@@ -432,90 +538,127 @@
                 empresas podem ser adaptados para uma recuperação automática de informações de arquivos de NF-e. </p>
             <p>Como os contabilistas terão acesso às NF-e de seus clientes?</p>
             <p>Com relação às NF-e emitidas/recebidas, os contabilistas poderão requisitá-las junto a seus clientes e
-                visualizá-las por meio do "VISUALIZADOR DE DOCUMENTO FISCAL ELETRÔNICO" desenvolvido pela Receita Federal e
+                visualizá-las por meio do "VISUALIZADOR DE DOCUMENTO FISCAL ELETRÔNICO" desenvolvido pela Receita
+                Federal e
                 disponível para download no Portal Nacional da NF-e
-                (http://www.nfe.fazenda.gov.br/portal/visualizador.aspx). Algumas Sefaz já disponibilizaram consulta através
+                (http://www.nfe.fazenda.gov.br/portal/visualizador.aspx). Algumas Sefaz já disponibilizaram consulta
+                através
                 da área de acesso restrito aos seus contribuintes e respectivos contabilistas.</p>
-            <p>Se minha empresa for autorizada a emitir NF-e, ela deverá, obrigatoriamente, estar preparada para receber e
+            <p>Se minha empresa for autorizada a emitir NF-e, ela deverá, obrigatoriamente, estar preparada para receber
+                e
                 escriturar NF-e na entrada de mercadorias?</p>
             <p>A empresa não é obrigada a receber e escriturar a NF-e automaticamente, mas deverá sempre verificar a
-                validade da assinatura digital e a autenticidade do arquivo digital da NF-e e a concessão da autorização de
+                validade da assinatura digital e a autenticidade do arquivo digital da NF-e e a concessão da autorização
+                de
                 uso da NF-e, mediante consulta eletrônica à Sefaz da circunscrição do contribuinte emitente ou ao Portal
-                Nacional da NF-e. Opcionalmente a empresa pode continuar realizando a escrituração das NF-e de entradas a
+                Nacional da NF-e. Opcionalmente a empresa pode continuar realizando a escrituração das NF-e de entradas
+                a
                 partir da digitação dos DANFE ou automaticamente a partir do arquivo XML recebido.</p>
             <p>As empresas que ainda não emitem NF-e poderão escriturar o DANFE sem a consulta da NF-e?</p>
             <p>O DANFE é mera representação gráfica da NF-e e não se confunde com a NF-e. Aos contribuintes que não são
-                credenciados como emissores de NF-e e não estão preparados para recepcionar a NF-e, é facultado proceder à
-                escrituração da NF-e com base nas informações contidas no DANFE e manter o DANFE em arquivo em substituição
+                credenciados como emissores de NF-e e não estão preparados para recepcionar a NF-e, é facultado proceder
+                à
+                escrituração da NF-e com base nas informações contidas no DANFE e manter o DANFE em arquivo em
+                substituição
                 à NF-e.</p>
-            <p>Contudo, a obrigação de verificar a validade da assinatura digital, a autenticidade da NF-e e a existência de
-                autorização de uso da NF-e aplica-se a todos os destinatários, sejam eles credenciados a emitir a NF-e ou
+            <p>Contudo, a obrigação de verificar a validade da assinatura digital, a autenticidade da NF-e e a
+                existência de
+                autorização de uso da NF-e aplica-se a todos os destinatários, sejam eles credenciados a emitir a NF-e
+                ou
                 não, tratando-se de uma segurança adicional ao destinatário.</p>
             <h2>Contingência para a Emissão de NF-e (6 questões)</h2>
-            <p>Emitida a NF-e em contingência, através DPEC ou da impressão de DANFE em FS-DA, qual o prazo que a empresa
+            <p>Emitida a NF-e em contingência, através DPEC ou da impressão de DANFE em FS-DA, qual o prazo que a
+                empresa
                 tem para enviar o arquivo XML da NF-e para a SEFAZ de sua circunscrição.</p>
             <p>Conforme definido no Ato COTEPE 33/08, a empresa deve transmitir o arquivo XML de NF-e emitida em
-                contingência, modalidade DPEC ou em FS-DA, até 168 horas após a data de emissão da NF-e. As secretarias de
+                contingência, modalidade DPEC ou em FS-DA, até 168 horas após a data de emissão da NF-e. As secretarias
+                de
                 fazenda deverão definir em suas respectivas legislações penalidade pecuniária para cada NF-e transmitida
                 para a Sefaz após este prazo. </p>
-            <p>Conforme definido no Ajuste SINIEF 07/05, na cláusula décima primeira, § 12, considera-se emitida a NF-e:</p>
+            <p>Conforme definido no Ajuste SINIEF 07/05, na cláusula décima primeira, § 12, considera-se emitida a NF-e:
+            </p>
             <ul>
-                <li>no caso de contingência DPEC, no momento da regular recepção da DPEC pela Receita Federal do Brasil;</li>
-                <li>no caso de contingência com DANFE impresso em FS ou FS-DA, no momento da impressão do respectivo DANFE em
+                <li>no caso de contingência DPEC, no momento da regular recepção da DPEC pela Receita Federal do Brasil;
+                </li>
+                <li>no caso de contingência com DANFE impresso em FS ou FS-DA, no momento da impressão do respectivo
+                    DANFE em
                     contingência.</li>
             </ul>
             <p>Se meu computador estragar ou o meu sistema de faturamento parar, como poderei emitir a NF-e?</p>
-            <p>Nas situações de ocorrência de problemas técnicos que impeçam a emissão de NF-e, o contribuinte deverá adotar
+            <p>Nas situações de ocorrência de problemas técnicos que impeçam a emissão de NF-e, o contribuinte deverá
+                adotar
                 um dos procedimentos de contingência descritos na pergunta: "Como proceder no caso de problemas com a
                 emissão da NF-e?" Sugere-se providenciar também a instalação do Programa Emissor de NF-e em algum outro
-                computador, preferencialmente em outro local, o qual poderá ser utilizado na ocorrência de problemas com o
-                sistema em uso, podendo, inclusive ser um notebook, ou computador com sistema de baterias (nobreak, etc.),
+                computador, preferencialmente em outro local, o qual poderá ser utilizado na ocorrência de problemas com
+                o
+                sistema em uso, podendo, inclusive ser um notebook, ou computador com sistema de baterias (nobreak,
+                etc.),
                 que poderá ser utilizado nos casos de falta de energia elétrica. </p>
             <p>No caso de falta de energia elétrica, é permitido o uso de talonário fiscal em papel?</p>
             <p>A empresa obrigada a emitir nota fiscal eletrônica não poderá, em hipótese alguma, emitir notas fiscais
-                modelos 1 e 1-A em substituição às NF-e. Em caso de falta de energia ou de outros problemas que impeçam a
+                modelos 1 e 1-A em substituição às NF-e. Em caso de falta de energia ou de outros problemas que impeçam
+                a
                 emissão da NF-e, deverá adotar um dos procedimentos descritos no Manual de Integração do Contribuinte,
                 disponível no portal nacional da NF-e (www.nfe.fazenda.gov.br).</p>
             <p>Uma NF-e transmitida para o SCAN pode ser cancelada? Como?</p>
-            <p>Apenas as NF-e que forem autorizadas em contingência pelo SCAN poderão ser canceladas no SCAN. O SCAN tratará
-                exclusivamente das séries 900 a 999, e esta regra aplica-se a todos os serviços (autorização, cancelamento,
+            <p>Apenas as NF-e que forem autorizadas em contingência pelo SCAN poderão ser canceladas no SCAN. O SCAN
+                tratará
+                exclusivamente das séries 900 a 999, e esta regra aplica-se a todos os serviços (autorização,
+                cancelamento,
                 inutilização da numeração e consulta situação da NF-e) efetuados no ambiente do SCAN. Da mesma forma, a
-                Sefaz de origem não autorizará, cancelará ou inutilizará numeração de NF-e nessas séries reservadas ao SCAN.
+                Sefaz de origem não autorizará, cancelará ou inutilizará numeração de NF-e nessas séries reservadas ao
+                SCAN.
                 A exceção a essa regra é o serviço de consulta à situação da NF-e, uma vez que a Sefaz de origem poderá
                 responder à consulta de situação das NF-e das séries reservadas ao SCAN.</p>
             <p>Como fica a numeração das notas fiscais emitidas em contingência?</p>
-            <p>É vedada a reutilização, em contingência, de número de NF-e transmitida com tipo de emissão "Normal", mesmo
-                que o contribuinte não tenha obtido êxito em obter resposta à solicitação de Autorização de Uso da NF-e. Da
+            <p>É vedada a reutilização, em contingência, de número de NF-e transmitida com tipo de emissão "Normal",
+                mesmo
+                que o contribuinte não tenha obtido êxito em obter resposta à solicitação de Autorização de Uso da NF-e.
+                Da
                 mesma forma, é vedado o uso, em contingência, de número de NF-e utilizado para emitir outra NF-e em
                 contingência.</p>
-            <p>No caso de autorização pelo SCAN, o contribuinte deverá modificar a série da NF-e para uma entre as séries
+            <p>No caso de autorização pelo SCAN, o contribuinte deverá modificar a série da NF-e para uma entre as
+                séries
                 900 a 999 (as quais estão reservadas para o SCAN), observando a sequência de numeração da série que será
                 utilizada. No caso de utilização das demais formas de contingência não se exige a troca de série para a
                 emissão das NF-e.</p>
             <p>Como proceder no caso de problemas com a emissão da NF-e?</p>
-            <p>Ocorrendo problemas técnicos com a emissão de NF-e, a empresa poderá seguir os procedimentos de contingência
-                previstos na legislação (vide Ajuste SINIEF 07 de 2005 e suas alterações) e na documentação técnica da NF-e
-                (vide Manual de Integração do Contribuinte - versão 4.0.1 - NT2009.006 - Anexo X - a partir da Pág. 177 /
+            <p>Ocorrendo problemas técnicos com a emissão de NF-e, a empresa poderá seguir os procedimentos de
+                contingência
+                previstos na legislação (vide Ajuste SINIEF 07 de 2005 e suas alterações) e na documentação técnica da
+                NF-e
+                (vide Manual de Integração do Contribuinte - versão 4.0.1 - NT2009.006 - Anexo X - a partir da Pág. 177
+                /
                 232). A documentação técnica da NF-e, assim como os principais dispositivos legais relacionados à NF-e,
                 podem ser encontrados no Portal Nacional da NF-e, em www.nfe.fazenda.gov.br.</p>
             <p>Não se admite a emissão de NF mod. 1/1-A como operação de contingência de NF-e.</p>
-            <p>É vedada a reutilização, em contingência, de número de NF-e transmitida com tipo de emissão "Normal", mesmo
-                que o contribuinte não tenha obtido êxito em obter resposta à solicitação de Autorização de Uso da NF-e.</p>
+            <p>É vedada a reutilização, em contingência, de número de NF-e transmitida com tipo de emissão "Normal",
+                mesmo
+                que o contribuinte não tenha obtido êxito em obter resposta à solicitação de Autorização de Uso da NF-e.
+            </p>
             <p>Resumidamente, os procedimentos de contingência atuais podem ser descritos da seguinte forma:</p>
             <p>1) Autorização da NF-e pelo Sistema de Contingência do Ambiente Nacional - SCAN:</p>
-            <p>Emissão da NF-e em contingência com transmissão para o Sistema de Contingência do Ambiente Nacional (SCAN) e
-                o DANFE pode ser impresso em papel comum. A transmissão para o SCAN depende de ativação prévia pela Sefaz
-                autorizadora, de forma que sua utilização estará relacionada na maior parte dos casos com problemas técnicos
-                na Sefaz autorizadora (e não no ambiente da empresa emitente). Nesse caso, a empresa deverá gerar NF-e com
+            <p>Emissão da NF-e em contingência com transmissão para o Sistema de Contingência do Ambiente Nacional
+                (SCAN) e
+                o DANFE pode ser impresso em papel comum. A transmissão para o SCAN depende de ativação prévia pela
+                Sefaz
+                autorizadora, de forma que sua utilização estará relacionada na maior parte dos casos com problemas
+                técnicos
+                na Sefaz autorizadora (e não no ambiente da empresa emitente). Nesse caso, a empresa deverá gerar NF-e
+                com
                 série a partir de 900 (séries de 900 a 999 estão reservadas ao SCAN), seguindo normalmente os demais
                 procedimentos.</p>
             <p>2) Transmissão de Declaração Prévia de Emissão em Contingência - DPEC:</p>
             <p>Emissão de NF-e em contingência com o registro prévio do resumo das NF-e emitidas e impressão do DANFE em
-                papel comum. O contribuinte informa ao fisco através do ambiente nacional da NF-e, por site ou transmissão
+                papel comum. O contribuinte informa ao fisco através do ambiente nacional da NF-e, por site ou
+                transmissão
                 por web service algumas informações resumidas da NF-e que irá emitir em contingência.</p>
-            <p>O DANFE deve ser impresso no mínimo em duas vias, contendo o segundo código de barras com dados adicionais da
-                nota no lugar normalmente reservado para a impressão do Protocolo de Autorização. Uma das vias servirá para
-                acompanhar o trânsito das mercadorias, devendo ser guardada pelo destinatário pelo prazo decadencial, e a
+            <p>O DANFE deve ser impresso no mínimo em duas vias, contendo o segundo código de barras com dados
+                adicionais da
+                nota no lugar normalmente reservado para a impressão do Protocolo de Autorização. Uma das vias servirá
+                para
+                acompanhar o trânsito das mercadorias, devendo ser guardada pelo destinatário pelo prazo decadencial, e
+                a
                 outra via deverá ser mantida em arquivo pelo emitente pelo mesmo prazo.</p>
             <p>As NF-e emitidas com DPEC, devem ser transmitidas para SEFAZ de origem, imediatamente após cessarem os
                 problemas técnicos que impediam a sua transmissão.</p>
@@ -525,34 +668,52 @@
                 contribuinte pode optar pela emissão da NF-e em contingência com a impressão do DANFE em Formulário de
                 Segurança - Documento Auxiliar (FS-DA), previsto no Convênio ICMS 96/09. Somente as empresas que tiverem
                 adquirido o FS-DA poderão optar por esta modalidade de operação em contingência. A transmissão das NF-e
-                emitidas em FS-DA para SEFAZ de origem será realizada imediatamente após cessarem os problemas técnicos que
+                emitidas em FS-DA para SEFAZ de origem será realizada imediatamente após cessarem os problemas técnicos
+                que
                 impediam a sua transmissão.</p>
-            <p>Nesta modalidade de operação em contingência o DANFE deverá ser impresso em FS-DA com no mínimo em duas vias,
+            <p>Nesta modalidade de operação em contingência o DANFE deverá ser impresso em FS-DA com no mínimo em duas
+                vias,
                 contendo o segundo código de barras com dados adicionais da nota no lugar normalmente reservado para a
                 impressão do Protocolo de Autorização. Uma das vias servirá para acompanhar o trânsito das mercadorias,
-                devendo ser guardada pelo destinatário pelo prazo decadencial, e a outra via deverá ser mantida em arquivo
+                devendo ser guardada pelo destinatário pelo prazo decadencial, e a outra via deverá ser mantida em
+                arquivo
                 pelo emitente pelo mesmo prazo.</p>
-            <p>Nas modalidades de operação em contingência 2 e 3, se a NF-e transmitida após cessado o motivo que determinou
+            <p>Nas modalidades de operação em contingência 2 e 3, se a NF-e transmitida após cessado o motivo que
+                determinou
                 a operação em contingência vier a ser rejeitada, o contribuinte deverá:</p>
             <p>I - gerar novamente o arquivo com a mesma numeração e série, sanando a irregularidade desde que não se
                 alterem as seguintes informações:</p>
-                <ul>
-                    <li>a) as variáveis que determinam o valor do imposto tais como: base de cálculo, alíquota, diferença de preço,
-                        quantidade, valor da operação ou da prestação;</li>
-                    <li>b) os dados cadastrais que impliquem mudança do remetente ou do destinatário;</li>
-                    <li>c) a data de emissão ou de saída;</li>
-                </ul>
+            <ul>
+                <li>a) as variáveis que determinam o valor do imposto tais como: base de cálculo, alíquota, diferença de
+                    preço,
+                    quantidade, valor da operação ou da prestação;</li>
+                <li>b) os dados cadastrais que impliquem mudança do remetente ou do destinatário;</li>
+                <li>c) a data de emissão ou de saída;</li>
+            </ul>
             <p>II - solicitar Autorização de Uso da NF-e;</p>
             <p>III - imprimir o DANFE correspondente à NF-e autorizada, no mesmo tipo de papel utilizado para imprimir o
                 DANFE original.</p>
-            <p>Em relação às NF-e que foram transmitidas antes da contingência e ficaram pendentes de retorno, o emitente,
-                após a cessação das falhas, deverá solicitar o cancelamento das NF-e que retornaram com autorização de uso e
-                cujas operações não se efetivaram ou foram acobertadas por NF-e emitidas em contingência, bem como solicitar
+            <p>Em relação às NF-e que foram transmitidas antes da contingência e ficaram pendentes de retorno, o
+                emitente,
+                após a cessação das falhas, deverá solicitar o cancelamento das NF-e que retornaram com autorização de
+                uso e
+                cujas operações não se efetivaram ou foram acobertadas por NF-e emitidas em contingência, bem como
+                solicitar
                 a inutilização da numeração das NF-e que não foram autorizadas nem denegadas.</p>
             <p>A empresa deverá observar os demais procedimentos a serem adotados, de acordo com o tipo de contingência,
                 previstos na legislação e na documentação técnica (Ajuste SINIEF 07/05, Manual de Integração de
-                Contribuinte). Destaca-se que é vedada a reutilização, em contingência, de número de NF-e transmitida com
+                Contribuinte). Destaca-se que é vedada a reutilização, em contingência, de número de NF-e transmitida
+                com
                 tipo de emissão "Normal", conforme § 14 da cláusula décima primeira do Ajuste SINIEF 07/05.</p>
+
+            <p>Fonte:
+                <a style="color:blue"
+                    href="http://www.nfe.fazenda.gov.br/portal/perguntasFrequentes.aspx?tipoConteudo=7zEQFBPObw0=">
+                    Secretaria da Fazenda -
+                </a>
+            </p>
+            <p>Data: 29/04/2016</p>
+            <p>Para dados mais atualizados, favor visitar o link acima.</p>
         </div>
     </section>
     <app-services-category></app-services-category>

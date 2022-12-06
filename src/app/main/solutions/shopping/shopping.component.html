@@ -1,72 +1,48 @@
 <main>
-    <section>
-        <app-top-page-content>
-            <h1>{{ title }}</h1>
-        </app-top-page-content>
-    </section>
-    <section class="banner">
-        <div class="left">
-            <img src="assets/images/webp/compras.webp" alt="imagem de uma mulher branca com cabelos castanhos utilizando um notebook">
-        </div>
+    <app-solutions-title>
+        <h1 class="title-top">Compras – Pedidos e Notas de Entrada</h1>
+    </app-solutions-title>
 
-        <div class="right">
-            <div>
-                <ul class="list-top">
+    <app-reduced-top-content>
+        <img src="assets/images/webp/compras.webp"
+            alt="imagem de uma mulher branca com cabelos castanhos utilizando um notebook" class="image">
+        <h2 class="right-title">Leitura do XML da NFE-e do fornecedor. Todos os produtos podem ser cadastrados e terem
+            seus saldos atualizados automaticamente. Ganhe tempo na entrada de mercadorias.</h2>
+    </app-reduced-top-content>
 
-                   <p>Leitura do XML da NFE-e do fornecedor. Todos os produtos podem ser cadastrados e terem seus saldos atualizados automaticamente. Ganhe tempo na entrada de mercadorias.</p>
-                </ul>
-            </div>
-            <button><a href="#">Solicite Contato ou Agende uma Demonstração</a></button>
-        </div>
-    </section>
 
-    <section id="videos">
-        <app-videos-presentation></app-videos-presentation>
+    <app-videos-presentation></app-videos-presentation>
+    <app-buttons-to-know-more></app-buttons-to-know-more>
 
-        <div class="buttons">
-            <button><a href="#">Apresentação das Soluções</a></button>
-            <button><a href="#">Vídeos Demonstrativos</a></button>
-        </div>
-    </section>
-
-    <section>
-        <p>Faça seus pedidos de compra de matérias primas ou produtos acabados</p>
-        <ul class="list-bottom">
-            <li>Módulo totalmente integrado com o estoque e financeiro</li>
-            <li>Digitação de pedidos de materiais</li>
-            <li>Digitação de pedidos de serviços</li>
-            <li>Recebimento de mercadorias diretamente pelo pedido</li>
-            <li>Recebimento de mercadoria através de digitação de nota fiscal de entrada</li>
-            <li>Recebimento de mercadoria através de captura (xml) de nota fiscal de entrada</li>
-            <li>Relatórios;</li>
-            <li>Impressão de diversos modelos de pedidos de compra</li>
-            <li>Permite exportação de pedidos de compra</li>
-            <li>Relatórios diversos</li>
-            <li>Exportação para Excel</li>
-            <li>Sem contrato de fidelidade para planos mensais.</li>
-        </ul>
-    </section>
+    <app-promo-erp></app-promo-erp>
 
     <section class="content section-videos">
         <h2>Varejo em geral. Versões Desktop e Celular.</h2>
 
-       <div class="box-videos"><!--Line 1-->
+        <div class="box-videos">
+            <!--Line 1-->
             <div class="video">
                 <p>Conheça o Sírius S@T Fiscal em apenas 01 minuto</p>
-                <iframe class="iframe-in-box" width="390" height="232" src="https://www.youtube.com/embed/ArJ-L_V403A" title="SÍRIUS S@T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="iframe-in-box" width="390" height="232" src="https://www.youtube.com/embed/ArJ-L_V403A"
+                    title="SÍRIUS S@T" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
 
             <div class="video">
                 <p>Conheça o Sírius Pré-venda em apenas 01 minuto</p>
-                <iframe class="iframe-in-box" width="390" height="232" src="https://www.youtube.com/embed/K37D-o6mZJA" title="Sírius Pré - Venda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="iframe-in-box" width="390" height="232" src="https://www.youtube.com/embed/K37D-o6mZJA"
+                    title="Sírius Pré - Venda" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
 
 
     </section>
 
-    <section>
-        <app-services-category></app-services-category>
-        <app-cards-category-navigation></app-cards-category-navigation>
-    </section>
+
+    <app-services-category></app-services-category>
+    <app-cards-category-navigation></app-cards-category-navigation>
+
 </main>
