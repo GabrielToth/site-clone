@@ -54,6 +54,7 @@ import { standardProductionComponent } from './main/solutions/standard-productio
 import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 import { HeadlineComponent } from './shared/headline/headline.component';
 import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
+import { VideosMidPageComponent } from './shared/videos-mid-page/videos-mid-page.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +111,8 @@ import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
     standardProductionComponent,
     PrivacyPolicyComponent,
     HeadlineComponent,
-    PromoErpComponent
+    PromoErpComponent,
+    VideosMidPageComponent
   ],
   imports: [
     BrowserModule,

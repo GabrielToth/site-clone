@@ -89,6 +89,10 @@
         }
       }
     }
+
+    .vimeo-video {
+      width: 98%;
+    }
   }
 
   @media screen and (max-width:750px) {
@@ -118,6 +122,10 @@
 
           }
         }
+      }
+
+      .vimeo-video {
+        width: 100%;
       }
     }
   }
