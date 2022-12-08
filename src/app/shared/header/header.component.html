@@ -1,4 +1,4 @@
-<header class="menu">
+<header class="menu" (resized)="changeImg()" >
     <div class="block"></div>
     <div class="menu-container">
         <div class="menu-inner" [ngClass]="{'active': toggle}">
@@ -25,7 +25,7 @@
             </nav>
             <nav class="menu-navigation" >
                 <div class="menu-navigation-logo">
-                    <img src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
+                    <img  id="mais28anos" width="100%" src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
                         alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
                 </div>
                 <ul class="menu-navigation-items">
@@ -58,7 +58,7 @@
                 -->
                 </ul>
                 <div class="menu-hamburger" (click)="clickEvent()">
-                    <button>
+                    <button aria-label="botão de menu">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                 </div>
