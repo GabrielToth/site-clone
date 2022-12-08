@@ -12,9 +12,7 @@ export class VideosPresentationComponent implements OnInit {
     this.showThumb = !this.showThumb;
   }
 
-  bbbb(aa): boolean {
-    this.{{aa}} = true;
-  }
+
 
   constructor() { }
 
