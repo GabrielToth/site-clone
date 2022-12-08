@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularResizeEventModule } from 'angular-resize-event';
 
 @Component({
   selector: 'app-header',
@@ -11,11 +12,24 @@ export class HeaderComponent {
 
   toggle: boolean = false;
 
+  displayWidth: number = 0
+
+
+
   clickEvent() {
     this.toggle = !this.toggle;
   }
 
   clickEventSolutions() {
     this.display = !this.display;
+  }
+
+  changeImg = () => {
+    let img = document.querySelector("img#mais28anos")
+    this.displayWidth = window.innerWidth
+
+    // if(this.displayWidth < 500){
+    //   img?.setAttribute('src', 'assets/images/jpg/logo-mais-de-28-anos120px.jpg')
+    // }
   }
 }

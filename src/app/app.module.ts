@@ -54,6 +54,7 @@ import { standardProductionComponent } from './main/solutions/standard-productio
 import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 import { HeadlineComponent } from './shared/headline/headline.component';
 import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
+import { AngularResizeEventModule } from 'angular-resize-event';
 
 @NgModule({
   declarations: [
@@ -115,7 +116,8 @@ import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AngularResizeEventModule
   ],
   providers: [],
   bootstrap: [AppComponent]
