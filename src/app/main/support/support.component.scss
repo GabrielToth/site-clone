@@ -1,30 +1,64 @@
-.downloads {
-  margin: 2rem auto;
+.downloads-container {
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+
   gap: 30px;
 
-  .download {
-    margin: 2rem auto;
+  .title {
+    margin-top: 36px;
     text-align: center;
-    width: 25rem;
-    height: 5rem;
-    flex-wrap: wrap;
-    font-size: 18px;
+  }
 
-    button {
-      margin: 2rem 0;
-      border: none;
-      background-color: #f1f1f100;
+  .downloads {
+    width: 600px;
+    margin-bottom: 36px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    .download {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      button {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+
+        border: none;
+        border-radius: 5px;
+        background-color: #2AA0EF;
+
+      }
+
+      a {
+        padding: 1rem;
+
+        color: #F1F1F1;
+        font-size: 18px;
+        text-align: center;
+      }
     }
 
-    a {
-      padding: 1rem 8rem;
-      background-color: #2AA0EF;
-      border-radius: 5px;
-      color: #F1F1F1;
-      font-size: 18px;
+    @media screen and (max-width: 650px) {
+      width: 350px;
+
     }
   }
 }
@@ -33,12 +67,19 @@
   width: 100%;
 
   display: flex;
+
   background-color: #F1F1F1;
 
   .content {
     display: flex;
     flex-wrap: wrap;
     margin: 2rem;
+
+    h2 {
+      width: 100%;
+
+      text-align: center;
+    }
 
     .cards {
       margin: 2rem 0;
@@ -64,27 +105,66 @@
 
           .card-text {
             display: flex;
-  
+
             flex-direction: column;
             justify-content: center;
-  
+
             line-height: 2rem;
           }
-  
+
           .card-button {
             display: flex;
-  
+
             justify-content: center;
             align-items: center;
-  
+
             button {
-              background-color: #ffffff00;
+              height: 80%;
+
+              background-color: #2AA0EF;
               border: none;
-  
+
+              border-radius: 5px;
+
               a {
                 padding: 1rem;
-                background-color: #2AA0EF;
               }
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 570px) {
+        width: 100%;
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        .card {
+          flex-direction: column;
+
+          justify-content: center;
+          align-items: center;
+
+          .card-right-content {
+            flex-direction: column;
+
+            .card-text {
+              align-items: center;
+
+              p {
+                font-weight: 700;
+              }
+            }
+
+            .card-button {
+              height: 60px;
+
+              justify-content: center;
+              align-items: center;
             }
           }
         }

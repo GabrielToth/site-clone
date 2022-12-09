@@ -1,5 +1,9 @@
 .block {
   height: 100px;
+
+  @media screen and (max-width: 930px) {
+    height: 50px;
+  }
 }
 
 .menu-container {
@@ -63,25 +67,22 @@
 
     .menu-navigation {
       height: 50px;
+
       display: flex;
+
       justify-content: space-around;
       align-items: center;
-      grid-template-columns: 1fr 1fr;
+
       background-color: white;
       z-index: 1;
 
       .menu-navigation-logo {
-        width: 40%;
+        width: 250px;
         height: 50px;
+
         display: flex;
         justify-content: center;
-        align-items: stretch;
-
-        // >img {
-        //   max-width: 810px;
-        //   max-height: 93px;
-        //   width: 100%;
-        // }
+        align-items: center;
       }
 
       .menu-navigation-items {
@@ -116,57 +117,6 @@
         }
       }
     }
-  }
-}
-
-app-solutions {
-  display: none;
-}
-
-.display-solutions {
-  display: flex;
-}
-
-@media screen and (max-width: 930px) {
-  .block {
-    height: 50px;
-  }
-
-  .menu-container {
-    .menu-inner {
-      .menu-top-line {
-        display: none;
-      }
-
-      .menu-navigation {
-        justify-content: space-between;
-        padding: 0 20px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 730px) {
-  .menu-container {
-    .menu-inner {
-      .menu-navigation {
-        flex-direction: column;
-        .menu-navigation-items {
-          display: none;
-        }
-
-        .menu-navigation-logo {
-          width: 250px;
-          height: 35px;
-        }
-
-        .menu-hamburger {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-        }
-      }
-    }
 
     .active {
       display: flex;
@@ -187,10 +137,6 @@ app-solutions {
           height: 35px;
           display: flex;
           justify-content: center;
-
-          // >img {
-          //   width: 100%;
-          // }
         }
 
         .menu-navigation-items {
@@ -208,5 +154,47 @@ app-solutions {
         }
       }
     }
+
+    @media screen and (max-width: 930px) {
+      .menu-top-line {
+        display: none;
+      }
+
+      .menu-navigation {
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+    }
+
+    @media screen and (max-width: 730px) {
+
+
+      .menu-navigation {
+        flex-direction: column;
+
+        .menu-navigation-items {
+          display: none;
+        }
+
+        .menu-navigation-logo {
+          width: 250px;
+          height: 35px;
+        }
+
+        .menu-hamburger {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+      }
+    }
   }
+}
+
+app-solutions {
+  display: none;
+}
+
+.display-solutions {
+  display: flex;
 }
