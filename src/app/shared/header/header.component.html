@@ -1,4 +1,4 @@
-<header class="menu" (resized)="changeImg()" >
+<header class="menu"  >
     <div class="block"></div>
     <div class="menu-container">
         <div class="menu-inner" [ngClass]="{'active': toggle}">
@@ -27,25 +27,25 @@
                 <div class="menu-navigation-logo">
                   <picture>
                     <source media="(max-width: 500px)" srcset="assets/images/jpg/500px.jpg">
-                    <img  id="mais28anos" width="100%" src="assets/images/jpg/logo-mais-de-28-anos.jpg" type="image/jpg"
+                    <img  id="mais28anos" width="100%" src="assets/images/jpg/logo-mais-de-28-anos300px.jpg" type="image/jpg"
                         alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
                   </picture>
 
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+                        <a  [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
+                        <a  [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
                             Empresa</a>
                     </li>
                     <li class="menu-navigation-item" id="solution">
                         <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
-                        <app-solutions [ngClass]="{'display-solutions': display}"></app-solutions>
+                        <app-solutions [ngClass]="{'display-solutions': display}" (onClickEvent)="display = false"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/clients']" routerLinkActive="active"
+                        <a  [routerLink]="['/clients']" routerLinkActive="active"
                             ariaCurrentWhenActive="page">Clientes</a>
                     </li>
                     <li class="menu-navigation-item">
@@ -53,7 +53,7 @@
                             ariaCurrentWhenActive="page">Contato</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/support']">Suporte</a>
+                        <a  [routerLink]="['/support']">Suporte</a>
                     </li>
                     <!--
                     <li class="menu-navigation-item">

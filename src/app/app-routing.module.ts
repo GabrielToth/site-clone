@@ -28,12 +28,17 @@ import { OrderOfServiceComponent } from './main/solutions/order-of-service/order
 import { FinancialComponent } from './main/solutions/financial/financial.component';
 import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
 import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
+import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
 
 
 const routes: Routes = [
   {
     path: "",
     component: HomeComponent
+  },
+  {
+    path: "presentation-solutions",
+    component: PresentationSolutionsComponent
   },
   {
     path: "about-enterprise",
