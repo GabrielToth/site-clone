@@ -26,8 +26,5 @@ export class HeaderComponent {
 
   clickEventSolutions() {
     this.display = !this.display;
-    // if (this.display) {
-    //   this.toggle = !this.toggle;
-    // }
   }
 }

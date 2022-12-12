@@ -1,7 +1,10 @@
-<header class="menu"  >
+<header class="menu">
     <div class="block"></div>
+
+    <div [ngClass]="{'background-menu-open': display}" (click)="close()"></div>
+
     <div class="menu-container">
-        <div class="menu-inner" [ngClass]="{'active': toggle}" >
+        <div class="menu-inner" [ngClass]="{'active': toggle}">
             <nav class="menu-top-line">
                 <div class="menu-logo">
                     <img src="assets/images/webp/softclever-logo.webp" type="image/webp" alt="">
@@ -23,26 +26,30 @@
 
                 </ul>
             </nav>
-            <nav class="menu-navigation" >
+            <nav class="menu-navigation">
                 <div class="menu-navigation-logo">
-                  <picture>
-                    <source media="(max-width: 500px)" srcset="assets/images/jpg/500px.jpg">
-                    <img  id="mais28anos" width="100%" src="assets/images/jpg/logo-mais-de-28-anos300px.jpg" type="image/jpg"
-                        alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
-                  </picture>
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="assets/images/jpg/500px.jpg">
+                        <img id="mais28anos" width="100%" src="assets/images/jpg/logo-mais-de-28-anos300px.jpg"
+                            type="image/jpg"
+                            alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
+                    </picture>
 
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+                        <a class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active"
+                            ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a (click)="close()" [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
+                        <a (click)="close()" [routerLink]="['/about-enterprise']" routerLinkActive="active"
+                            ariaCurrentWhenActive="page">A
                             Empresa</a>
                     </li>
                     <li class="menu-navigation-item" id="solution">
                         <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
-                        <app-solutions [ngClass]="{'display-solutions': display}" (onClickEvent)="display = false;toggle=false"></app-solutions>
+                        <app-solutions [ngClass]="{'display-solutions': display}"
+                            (onClickEvent)="display = false;toggle=false"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
                         <a (click)="close()" [routerLink]="['/clients']" routerLinkActive="active"
