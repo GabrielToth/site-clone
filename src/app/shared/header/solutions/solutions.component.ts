@@ -22,8 +22,7 @@ export class SolutionsComponent{
   }
 
   clickToClose(url:string) {
-    header.toggle = false
-    this.onClickEvent.emit(close)
+    this.onClickEvent.emit()
     this.router.navigate([url])
 
   }

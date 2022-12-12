@@ -1,7 +1,7 @@
 <header class="menu"  >
     <div class="block"></div>
     <div class="menu-container">
-        <div class="menu-inner" [ngClass]="{'active': toggle}">
+        <div class="menu-inner" [ngClass]="{'active': toggle}" >
             <nav class="menu-top-line">
                 <div class="menu-logo">
                     <img src="assets/images/webp/softclever-logo.webp" type="image/webp" alt="">
@@ -42,7 +42,7 @@
                     </li>
                     <li class="menu-navigation-item" id="solution">
                         <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
-                        <app-solutions [ngClass]="{'display-solutions': display}" (onClickEvent)="display = false"></app-solutions>
+                        <app-solutions [ngClass]="{'display-solutions': display}" (onClickEvent)="display = false;toggle=false"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
                         <a (click)="close()" [routerLink]="['/clients']" routerLinkActive="active"
