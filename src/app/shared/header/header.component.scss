@@ -6,6 +6,15 @@
   }
 }
 
+.background-menu-open {
+  position: fixed;
+
+  width: 100%;
+  height: 10000%;
+
+  background-color: #00000081;
+}
+
 .menu-container {
   width: 100%;
   height: fit-content;

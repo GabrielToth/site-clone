@@ -1,7 +1,5 @@
-import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { Subscription } from 'rxjs';
-import '../header.component'
 import { HeaderComponent } from '../header.component';
 
 const header = new HeaderComponent()
