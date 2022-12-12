@@ -18,23 +18,13 @@ export class HeaderComponent {
     this.toggle = !this.toggle;
   }
 
-  // close(){
-  //   this.display = false
-  //   console.log(this.display)
-  // }
+  close(){
+    this.display = false
+    this.toggle = false;
+    console.log(this.display)
+  }
 
   clickEventSolutions() {
     this.display = !this.display;
   }
-
-  // changeImg = () => {
-  //   let img = document.querySelector("img#mais28anos")
-  //   this.displayWidth = window.innerWidth
-
-  //   // if(this.displayWidth < 500){
-  //   //   img?.setAttribute('src', 'assets/images/jpg/logo-mais-de-28-anos120px.jpg')
-  //   // }
-  // }
-
-
 }

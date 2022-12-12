@@ -34,10 +34,10 @@
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a  [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+                        <a class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a  [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
+                        <a (click)="close()" [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">A
                             Empresa</a>
                     </li>
                     <li class="menu-navigation-item" id="solution">
@@ -45,15 +45,15 @@
                         <app-solutions [ngClass]="{'display-solutions': display}" (onClickEvent)="display = false"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
-                        <a  [routerLink]="['/clients']" routerLinkActive="active"
+                        <a (click)="close()" [routerLink]="['/clients']" routerLinkActive="active"
                             ariaCurrentWhenActive="page">Clientes</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a [routerLink]="['/contact']" routerLinkActive="active"
+                        <a (click)="close()" [routerLink]="['/contact']" routerLinkActive="active"
                             ariaCurrentWhenActive="page">Contato</a>
                     </li>
                     <li class="menu-navigation-item">
-                        <a  [routerLink]="['/support']">Suporte</a>
+                        <a (click)="close()" [routerLink]="['/support']">Suporte</a>
                     </li>
                     <!--
                     <li class="menu-navigation-item">
