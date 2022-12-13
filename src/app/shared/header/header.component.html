@@ -33,7 +33,7 @@
                 </div>
                 <ul class="menu-navigation-items">
                     <li class="menu-navigation-item">
-                        <a class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active"
+                        <a autoscroll="true" class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active"
                             ariaCurrentWhenActive="page">Home</a>
                     </li>
                     <li class="menu-navigation-item">
@@ -44,7 +44,7 @@
                     <li class="menu-navigation-item" id="solution">
                         <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
                         <app-solutions [ngClass]="{'display-solutions': display}"
-                            (onClickEvent)="display = false;toggle=false"></app-solutions>
+                            (onClickEvent)="display = false;toggle=false; topPage()"></app-solutions>
                     </li>
                     <li class="menu-navigation-item">
                         <a (click)="close()" [routerLink]="['/clients']" routerLinkActive="active"

@@ -7,27 +7,29 @@
             <nav class="footer-section-navigation">
                 <ul>
                     <li>
-                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>A Empresa</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/sat-fiscal']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/presentation-solutions']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Soluções</p>
+
                         </a>
+
                     </li>
                     <li>
-                        <a [routerLink]="['/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Vídeos</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Clientes</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Fale Conosco</p>
                         </a>
                     </li>
