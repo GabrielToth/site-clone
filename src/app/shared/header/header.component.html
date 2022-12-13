@@ -10,7 +10,7 @@
           <img
             src="assets/images/webp/softclever-logo.webp"
             type="image/webp"
-            alt=""
+            alt="Um triângulo azul com as letras S e C vazadas na cor branca"
           />
         </div>
         <ul class="menu-contact-items">
@@ -18,8 +18,8 @@
             <i class="fa-brands fa-whatsapp"></i>
             <a
               href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5511992810253"
-              >+55 (11) 99281-0253</a
-            >
+              >+55 (11) 99281-0253
+            </a>
           </li>
           <li class="menu-item">
             <i class="fa-solid fa-phone"></i>
@@ -29,8 +29,8 @@
           <li class="menu-item">
             <i class="fa-solid fa-envelope"></i>
             <a href="mailto:softclever@softclever.com.br"
-              >softclever@softclever.com.br</a
-            >
+              >softclever@softclever.com.br
+            </a>
           </li>
         </ul>
       </nav>
@@ -50,8 +50,8 @@
               [routerLink]="['']"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              >Home</a
-            >
+              >Home
+            </a>
           </li>
           <li class="menu-navigation-item">
             <a
@@ -59,8 +59,8 @@
               [routerLink]="['/about-enterprise']"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              >A Empresa</a
-            >
+              >A Empresa
+            </a>
           </li>
           <li class="menu-navigation-item" id="solution">
             <a
@@ -68,8 +68,8 @@
               (click)="clickEventSolutions()"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              >Soluções</a
-            >
+              >Soluções
+            </a>
             <app-solutions
               [ngClass]="{ 'display-solutions': display }"
               (onClickEvent)="display = false; toggle = false; topPage()"
@@ -81,8 +81,8 @@
               [routerLink]="['/clients']"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              >Clientes</a
-            >
+              >Clientes
+            </a>
           </li>
           <li class="menu-navigation-item">
             <a
@@ -90,11 +90,18 @@
               [routerLink]="['/contact']"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              >Contato</a
-            >
+              >Contato
+            </a>
           </li>
           <li class="menu-navigation-item">
-            <a (click)="close()" [routerLink]="['/support']">Suporte</a>
+            <a
+              (click)="close()"
+              [routerLink]="['/support']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              Suporte
+            </a>
           </li>
           <!--
                     <li class="menu-navigation-item">

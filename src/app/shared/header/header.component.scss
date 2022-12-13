@@ -55,7 +55,7 @@
           gap: 8px;
           margin: 0 auto;
 
-          >i {
+          > i {
             color: #72a0bf;
             cursor: pointer;
           }
@@ -64,7 +64,6 @@
             color: #72a0bf;
             cursor: pointer;
           }
-
 
           .cellphone {
             border-right: 1px solid #72a0bf;
@@ -94,7 +93,7 @@
         align-items: center;
 
         img {
-          width: 250px; 
+          width: 250px;
         }
       }
 
@@ -143,8 +142,6 @@
     }
 
     @media screen and (max-width: 730px) {
-
-
       .menu-navigation {
         flex-direction: column;
 
