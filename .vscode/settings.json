@@ -1,5 +1,5 @@
 {
-    "cSpell.words": [
-        "Cielo"
-    ]
+  "cSpell.words": ["Cielo"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }

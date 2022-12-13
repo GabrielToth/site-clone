@@ -1,74 +1,113 @@
 <header class="menu">
-    <div class="block"></div>
+  <div class="block"></div>
 
-    <div [ngClass]="{'background-menu-open': display}" (click)="close()"></div>
+  <div [ngClass]="{ 'background-menu-open': display }" (click)="close()"></div>
 
-    <div class="menu-container">
-        <div class="menu-inner" [ngClass]="{'active': toggle}">
-            <nav class="menu-top-line">
-                <div class="menu-logo">
-                    <img src="assets/images/webp/softclever-logo.webp" type="image/webp" alt="">
-                </div>
-                <ul class="menu-contact-items">
-                    <li class="menu-item">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5511992810253">+55 (11) 99281-0253</a>
-                    </li>
-                    <li class="menu-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+551139913923" class="cellphone">+55 (11) 3991-3923</a>
-                        <a href="tel:+551123618334">+55 (11) 2361-8334</a>
-                    </li>
-                    <li class="menu-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:softclever@softclever.com.br">softclever@softclever.com.br</a>
-                    </li>
-
-                </ul>
-            </nav>
-            <nav class="menu-navigation">
-                <div class="menu-navigation-logo">
-                    <img src="assets/images/webp/softclever-extended-logo.webp" type="image/jpg"
-                        alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'">
-                </div>
-                <ul class="menu-navigation-items">
-                    <li class="menu-navigation-item">
-                        <a autoscroll="true" class="teste" (click)="close()" [routerLink]="['']" routerLinkActive="active"
-                            ariaCurrentWhenActive="page">Home</a>
-                    </li>
-                    <li class="menu-navigation-item">
-                        <a (click)="close()" [routerLink]="['/about-enterprise']" routerLinkActive="active"
-                            ariaCurrentWhenActive="page">A
-                            Empresa</a>
-                    </li>
-                    <li class="menu-navigation-item" id="solution">
-                        <a [routerLink]="['#']" (click)="clickEventSolutions()">Soluções</a>
-                        <app-solutions [ngClass]="{'display-solutions': display}"
-                            (onClickEvent)="display = false;toggle=false; topPage()"></app-solutions>
-                    </li>
-                    <li class="menu-navigation-item">
-                        <a (click)="close()" [routerLink]="['/clients']" routerLinkActive="active"
-                            ariaCurrentWhenActive="page">Clientes</a>
-                    </li>
-                    <li class="menu-navigation-item">
-                        <a (click)="close()" [routerLink]="['/contact']" routerLinkActive="active"
-                            ariaCurrentWhenActive="page">Contato</a>
-                    </li>
-                    <li class="menu-navigation-item">
-                        <a (click)="close()" [routerLink]="['/support']">Suporte</a>
-                    </li>
-                    <!--
+  <div class="menu-container">
+    <div class="menu-inner" [ngClass]="{ active: toggle }">
+      <nav class="menu-top-line">
+        <div class="menu-logo">
+          <img
+            src="assets/images/webp/softclever-logo.webp"
+            type="image/webp"
+            alt=""
+          />
+        </div>
+        <ul class="menu-contact-items">
+          <li class="menu-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <a
+              href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5511992810253"
+              >+55 (11) 99281-0253</a
+            >
+          </li>
+          <li class="menu-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+551139913923" class="cellphone">+55 (11) 3991-3923</a>
+            <a href="tel:+551123618334">+55 (11) 2361-8334</a>
+          </li>
+          <li class="menu-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:softclever@softclever.com.br"
+              >softclever@softclever.com.br</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="menu-navigation">
+        <div class="menu-navigation-logo">
+          <img
+            src="assets/images/webp/softclever-extended-logo.webp"
+            type="image/jpg"
+            alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'"
+          />
+        </div>
+        <ul class="menu-navigation-items">
+          <li class="menu-navigation-item">
+            <a
+              autoscroll="true"
+              (click)="close()"
+              [routerLink]="['']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Home</a
+            >
+          </li>
+          <li class="menu-navigation-item">
+            <a
+              (click)="close()"
+              [routerLink]="['/about-enterprise']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >A Empresa</a
+            >
+          </li>
+          <li class="menu-navigation-item" id="solution">
+            <a
+              [routerLink]="['#']"
+              (click)="clickEventSolutions()"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Soluções</a
+            >
+            <app-solutions
+              [ngClass]="{ 'display-solutions': display }"
+              (onClickEvent)="display = false; toggle = false; topPage()"
+            ></app-solutions>
+          </li>
+          <li class="menu-navigation-item">
+            <a
+              (click)="close()"
+              [routerLink]="['/clients']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Clientes</a
+            >
+          </li>
+          <li class="menu-navigation-item">
+            <a
+              (click)="close()"
+              [routerLink]="['/contact']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Contato</a
+            >
+          </li>
+          <li class="menu-navigation-item">
+            <a (click)="close()" [routerLink]="['/support']">Suporte</a>
+          </li>
+          <!--
                     <li class="menu-navigation-item">
                         <a [routerLink]="['/faq']">FAQ</a>
                     </li>
                 -->
-                </ul>
-                <div class="menu-hamburger" (click)="clickEvent()">
-                    <button aria-label="botão de menu">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </div>
-            </nav>
+        </ul>
+        <div class="menu-hamburger" (click)="clickEvent()">
+          <button aria-label="botão de menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
+      </nav>
     </div>
+  </div>
 </header>
