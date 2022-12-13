@@ -68,12 +68,21 @@
 
   display: flex;
 
+  justify-content: center;
+  align-items: center;
+
   background-color: #F1F1F1;
 
   .content {
+    width: 90%;
+
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem 0;
 
     h2 {
       width: 100%;
@@ -82,13 +91,18 @@
     }
 
     .cards {
-      margin: 2rem 0;
+      width: 100%;
+
       display: flex;
-      flex-wrap: wrap;
+      
+      justify-content: center;
+      align-items: center;
+
+
       gap: 20px;
 
       .card {
-        width: 100%;
+        width: 450%;
 
         display: flex;
         justify-content: space-between;
@@ -121,13 +135,13 @@
             button {
               height: 80%;
 
-              background-color: #2AA0EF;
               border: none;
-
               border-radius: 5px;
 
               a {
                 padding: 1rem;
+
+                background-color: #2AA0EF;
               }
             }
           }
