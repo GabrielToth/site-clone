@@ -7,27 +7,29 @@
             <nav class="footer-section-navigation">
                 <ul>
                     <li>
-                        <a [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/about-enterprise']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>A Empresa</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/sat-fiscal']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/presentation-solutions']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Soluções</p>
+
                         </a>
+
                     </li>
                     <li>
-                        <a [routerLink]="['/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Vídeos</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Clientes</p>
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <a (click)="topPage()" [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <p>Fale Conosco</p>
                         </a>
                     </li>
@@ -41,12 +43,12 @@
             <nav class="footer-section-navigation">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a (click)="topPage()" href="/contact">
                             <p>Rua João Alves Pimenta, 880   Freguesia do Ó - São Paulo/SP</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="mailto:softclever@softclever.com.br">
                             <p>softclever@softclever.com.br</p>
                         </a>
                     </li>
@@ -56,7 +58,7 @@
                         </a>
                     </li>
                     <li>
-                        <a [routerLink]="['/privacy-policy']">
+                        <a (click)="topPage()" [routerLink]="['/privacy-policy']">
                             <p>Política de Privacidade</p>
                         </a>
                     </li>
@@ -70,25 +72,25 @@
             <nav class="footer-section-navigation">
                 <ul class="footer-section-social-media">
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/people/Soft-Clever-Informatica/100064251090022/?modal=admin_todo_tour" target="_blank">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/soft.clever/?hl=pt-br" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw" target="_blank">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>

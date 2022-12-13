@@ -1,5 +1,7 @@
 {
-    "cSpell.words": [
-        "Cielo"
-    ]
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.words": ["Cielo"],
+  "prettier.bracketSameLine": true,
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": true
 }

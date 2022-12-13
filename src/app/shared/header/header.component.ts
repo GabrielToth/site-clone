@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TopPageContentComponent } from '../top-page-content/top-page-content.component';
 
 @Component({
   selector: 'app-header',
@@ -8,6 +9,14 @@ import { Component } from '@angular/core';
 
 export class HeaderComponent {
 
+  topPage(){
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    })
+  }
+
   display: boolean = false;
   toggle: boolean = false;
 
@@ -16,6 +25,7 @@ export class HeaderComponent {
   }
 
   close(){
+    this.topPage()
     this.display = false;
     this.toggle = false;
   }
