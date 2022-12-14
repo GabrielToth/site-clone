@@ -1,50 +1,181 @@
-<nav class="solutions-container" (click)="clickEvent()" [ngClass]="{'active': toggle}">
-    <div class="left-solutions">
-        <div class="solutions-left-list">
-            <h2>SOLUÇÕES</h2>
-            <ul>
-                <li class="urlsPages"><a [routerLink]="['/presentation-solutions']"  (click)="clickToClose('presentation-solutions')"><p>Apresentação das Soluções</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/sat-fiscal']" (click)="clickToClose('sat-fiscal')" ><p>SAT Fiscal</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/nfc-e']" (click)="clickToClose('nfc-e')"><p>NFC-e</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/nfe']"  (click)="clickToClose('nfe')"><p>NFE</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/service-invoices']"  (click)="clickToClose('service-invoices')"><p>Notas Fiscais de Serviços</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/tax-and-fiscal']"  (click)="clickToClose('tax-and-fiscal')"><p>Impostos e Fiscal – SPED</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/restaurant']"  (click)="clickToClose('restaurant')"><p>Restaurante – Comanda – Delivery – Mesas das Soluções</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/wholesale']"  (click)="clickToClose('wholesale')"><p>Atacado >  Pedidos de Venda – Liberação – Expedição</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/balcony']"  (click)="clickToClose('balcony')"><p>Balcão</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/budget']"  (click)="clickToClose('budget')"><p>Orçamento de Venda – Produtos e Serviços.</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/electronic-transport']"  (click)="clickToClose('electronic-transport')"><p>Conhecimento Transporte Eletrônico</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/shopping']"  (click)="clickToClose('shopping')"><p>Compras – Pedidos e Notas de Entrada</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/financial']"  (click)="clickToClose('financial')"><p>Financeiro – Pagar – Receber – Boletos – Bancos</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/standard-production']"  (click)="clickToClose('standard-production')"><p>Produção Padrão e Produção Confecções</p></a></li>
-                <li class="urlsPages"><a [routerLink]="['/order-of-service']"  (click)="clickToClose('order-of-service')"><p>Ordens de Serviços</p></a></li>
-            </ul>
-        </div>
+<nav
+  class="solutions-container"
+  (click)="clickEvent()"
+  [ngClass]="{ active: toggle }"
+>
+  <div class="left-solutions">
+    <div class="solutions-left-list">
+      <h2>SOLUÇÕES</h2>
+      <ul>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/presentation-solutions']"
+            (click)="clickToClose('presentation-solutions')"
+          >
+            <p>Apresentação das Soluções</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/sat-fiscal']"
+            (click)="clickToClose('sat-fiscal')"
+          >
+            <p>SAT Fiscal</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/nfc-e']" (click)="clickToClose('nfc-e')">
+            <p>NFC-e</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/nfe']" (click)="clickToClose('nfe')">
+            <p>NFE</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/service-invoices']"
+            (click)="clickToClose('service-invoices')"
+          >
+            <p>Notas Fiscais de Serviços</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/tax-and-fiscal']"
+            (click)="clickToClose('tax-and-fiscal')"
+          >
+            <p>Impostos e Fiscal – SPED</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/restaurant']"
+            (click)="clickToClose('restaurant')"
+          >
+            <p>Restaurante – Comanda – Delivery – Mesas das Soluções</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/wholesale']" (click)="clickToClose('wholesale')">
+            <p>Atacado > Pedidos de Venda – Liberação – Expedição</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/balcony']" (click)="clickToClose('balcony')">
+            <p>Balcão</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/budget']" (click)="clickToClose('budget')">
+            <p>Orçamento de Venda – Produtos e Serviços.</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/electronic-transport']"
+            (click)="clickToClose('electronic-transport')"
+          >
+            <p>Conhecimento Transporte Eletrônico</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/shopping']" (click)="clickToClose('shopping')">
+            <p>Compras – Pedidos e Notas de Entrada</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a [routerLink]="['/financial']" (click)="clickToClose('financial')">
+            <p>Financeiro – Pagar – Receber – Boletos – Bancos</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/standard-production']"
+            (click)="clickToClose('standard-production')"
+          >
+            <p>Produção Padrão e Produção Confecções</p>
+          </a>
+        </li>
+        <li class="urlsPages">
+          <a
+            [routerLink]="['/order-of-service']"
+            (click)="clickToClose('order-of-service')"
+          >
+            <p>Ordens de Serviços</p>
+          </a>
+        </li>
+      </ul>
     </div>
-    <div class="right-solutions">
-        <div class="solutions-right-list">
-            <div class="solutions-right">
-                <h2>DEMONSTRAÇÕES</h2>
-                <ul>
-                    <li class="urlsPages"><a [routerLink]="['/presentation']"  (click)="clickToClose('/presentation')"><p>Vídeos Demonstrativos</p></a></li>
-                    <li class="urlsPages"><a (click)="clickToClose('/chart')"><p>Organograma do Sistema</p></a></li>
-                </ul>
-            </div>
-            <div class="solutions-right">
-                <h2>ERP</h2>
-                <ul>
-                    <li class="urlsPages"> <a [routerLink]="['/erp-system']" (click)="clickToClose('/erp-system')"><p>Sistema ERP</p></a></li>
-                    <li class="urlsPages"> <a [routerLink]="['/tax-sped']" (click)="clickToClose('/tax-sped')"><p>Sped Fiscal ICMS/IPI – Bloco K</p></a></li>
-                    <li class="urlsPages"> <a [routerLink]="['/erp-software']" (click)="clickToClose('/erp-software')"><p>Software ERP</p></a></li>
-                    <li class="urlsPages"> <a [routerLink]="['/business-management']" (click)="clickToClose('/business-management')"><p>Sistema / Software de Gestão Empresarial</p></a></li>
-                </ul>
-            </div>
-            <div class="solutions-right">
-                <h2>Aparelho</h2>
-                <ul>
-                    <li class="urlsPages"><a [routerLink]="['/sat-equipment']"  (click)="clickToClose('/sat-equipment')"><p>Equipamento SAT</p></a></li>
-                </ul>
-            </div>
-        </div>
+  </div>
+  <div class="right-solutions">
+    <div class="solutions-right-list">
+      <div class="solutions-right">
+        <h2>DEMONSTRAÇÕES</h2>
+        <ul>
+          <li class="urlsPages">
+            <a
+              [routerLink]="['/presentation']"
+              (click)="clickToClose('/presentation')"
+            >
+              <p>Vídeos Demonstrativos</p>
+            </a>
+          </li>
+          <li class="urlsPages">
+            <a (click)="clickToClose('/chart')">
+              <p>Organograma do Sistema</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="solutions-right">
+        <h2>ERP</h2>
+        <ul>
+          <li class="urlsPages">
+            <a
+              [routerLink]="['/erp-system']"
+              (click)="clickToClose('/erp-system')"
+            >
+              <p>Sistema ERP</p>
+            </a>
+          </li>
+          <li class="urlsPages">
+            <a [routerLink]="['/tax-sped']" (click)="clickToClose('/tax-sped')">
+              <p>Sped Fiscal ICMS/IPI – Bloco K</p>
+            </a>
+          </li>
+          <li class="urlsPages">
+            <a
+              [routerLink]="['/erp-software']"
+              (click)="clickToClose('/erp-software')"
+            >
+              <p>Software ERP</p>
+            </a>
+          </li>
+          <li class="urlsPages">
+            <a
+              [routerLink]="['/business-management']"
+              (click)="clickToClose('/business-management')"
+            >
+              <p>Sistema / Software de Gestão Empresarial</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="solutions-right">
+        <h2>Aparelho</h2>
+        <ul>
+          <li class="urlsPages">
+            <a
+              [routerLink]="['/sat-equipment']"
+              (click)="clickToClose('/sat-equipment')"
+            >
+              <p>Equipamento SAT</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </nav>
