@@ -21,8 +21,6 @@ export class SolutionsComponent{
 
   clickToClose(url:string) {
     this.onClickEvent.emit()
-    this.router.navigate([url])
-
   }
 
   constructor( private router:Router ){
