@@ -55,7 +55,6 @@ import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.com
 import { HeadlineComponent } from './shared/headline/headline.component';
 import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
 import { VideosMidPageComponent } from './shared/videos-mid-page/videos-mid-page.component';
-import { AngularResizeEventModule } from 'angular-resize-event';
 
 @NgModule({
   declarations: [
@@ -118,8 +117,7 @@ import { AngularResizeEventModule } from 'angular-resize-event';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
-    AngularResizeEventModule
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
