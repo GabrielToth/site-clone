@@ -1,25 +1,35 @@
-<app-solutions-title><ng-content select=".title" class="title-top"></ng-content></app-solutions-title>
+<app-solutions-title
+  ><ng-content select=".title" class="title-top"></ng-content
+></app-solutions-title>
 
 <section class="top-content">
-    <div class="top-content-container">
-        <div class="left-images">
-            <div class="image">
-                <ng-content select=".image-top" class="image-container"></ng-content>
-            </div>
-            <div class="image">
-                <ng-content select=".image-bottom" class="image-container"></ng-content>
-            </div>
-        </div>
-        <div class="right-content">
-            <app-solutions-top-content>
-                <ng-content select=".right-title" class="right-title-content"></ng-content>
-                <ng-content select=".list-extra" class="list-extra-content"></ng-content>
-            </app-solutions-top-content>
-        </div>
+  <div class="top-content-container">
+    <div class="left-images">
+      <div class="image">
+        <ng-content select=".image-top" class="image-container"></ng-content>
+      </div>
+      <div class="image">
+        <ng-content select=".image-bottom" class="image-container"></ng-content>
+      </div>
     </div>
-    <div class="button-bottom">
-        <button class="contact-button">
-            <a [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
-        </button>
+    <div class="right-content">
+      <app-solutions-top-content>
+        <ng-content
+          select=".right-title"
+          class="right-title-content"
+        ></ng-content>
+        <ng-content
+          select=".list-extra"
+          class="list-extra-content"
+        ></ng-content>
+      </app-solutions-top-content>
     </div>
+  </div>
+  <div class="button-bottom">
+    <button class="contact-button">
+      <a [routerLink]="['/contact']"
+        >Solicite contato ou agende uma demonstração</a
+      >
+    </button>
+  </div>
 </section>
