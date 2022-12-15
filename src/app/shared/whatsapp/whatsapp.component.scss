@@ -1,0 +1,15 @@
+.wp-button {
+  position: fixed;
+  border: none;
+  width: 20px;
+  top: 90%;
+  right: 5%;
+
+  @media screen and (max-width: 650px) {
+    position: fixed;
+    border: none;
+    width: 20px;
+    top: 90%;
+    right: 3rem;
+  }
+}

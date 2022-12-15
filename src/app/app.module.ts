@@ -55,6 +55,7 @@ import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.com
 import { HeadlineComponent } from './shared/headline/headline.component';
 import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
 import { VideosMidPageComponent } from './shared/videos-mid-page/videos-mid-page.component';
+import { WhatsappComponent } from './shared/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -112,7 +113,8 @@ import { VideosMidPageComponent } from './shared/videos-mid-page/videos-mid-page
     PrivacyPolicyComponent,
     HeadlineComponent,
     PromoErpComponent,
-    VideosMidPageComponent
+    VideosMidPageComponent,
+    WhatsappComponent
   ],
   imports: [
     BrowserModule,
