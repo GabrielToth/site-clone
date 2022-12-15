@@ -85,16 +85,16 @@
       z-index: 1;
 
       .menu-navigation-logo {
-        width: 250px;
+        width: 450px;
         height: 50px;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         img {
-          width: 250px;
-          height: 30px;
+          width: 450px;
+          height: 100%;
         }
       }
 
@@ -139,6 +139,17 @@
       .menu-navigation {
         justify-content: space-between;
         padding: 0 20px;
+
+        .menu-navigation-logo {
+          width: 250px;
+          height: 35px;
+          flex-direction: column;
+
+          img {
+            width: 250px;
+          }
+        }
+
       }
     }
 
@@ -153,6 +164,11 @@
         .menu-navigation-logo {
           width: 250px;
           height: 35px;
+          flex-direction: column;
+
+          img {
+            width: 250px;
+          }
         }
 
         .menu-hamburger {
