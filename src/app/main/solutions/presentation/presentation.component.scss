@@ -1,39 +1,39 @@
-
 .content {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-}
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
 
-.content h2 {
+  h2 {
     margin: 2rem 0;
     font-size: 2rem;
-}
+  }
 
-.box-videos {
+  .box-videos {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     gap: 20px;
-}
 
-.box-videos .video{
-    max-width: 300px;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    gap: 5px;
-}
+    .video {
+      max-width: 20rem;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2px;
 
-.box-videos .videos iframe, .iframe-in-box{
-    width: 300px;
-    border-radius: 5px;
+      iframe,
+      .iframe-in-box {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
 }
-
