@@ -1,9 +1,12 @@
 .wp-button {
-  position: fixed;
-  border: none;
   width: 20px;
+
+  position: fixed;
   top: 90%;
   right: 5%;
+
+  border: none;
+  background-color: transparent;
 
   @media screen and (max-width: 650px) {
     position: fixed;
