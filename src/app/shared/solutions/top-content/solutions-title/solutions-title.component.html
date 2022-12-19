@@ -1,13 +1,10 @@
 <div class="solutions-top-container">
-    <div class="solution-title">
-        <ng-content select=".title-top"></ng-content>
-    </div>
-    <div class="solution-right-benefits">
-        <a [routerLink]="['#']" class="benefits">
-            <p>Adquira o melhor custo x benefício para sua empresa</p>
-        </a>
-        <a [routerLink]="['/contact']" class="benefits benefits-right">
-            <p>Solicite contato ou agende uma demonstração</p>
-        </a>
-    </div>
+  <ng-content select=".title-top"></ng-content>
+
+  <a [routerLink]="['/contact']" class="benefits">
+    <p>
+      Para adquirir o melhor custo benefício para sua empresa solicite contato
+      ou a gente uma demonstração.
+    </p>
+  </a>
 </div>
