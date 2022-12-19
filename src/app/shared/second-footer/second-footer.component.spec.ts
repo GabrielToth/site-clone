@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IrrelevantTextComponent } from './irrelevant-text.component';
+import { SecondFooterComponent } from './second-footer.component';
 
-describe('IrrelevantTextComponent', () => {
-  let component: IrrelevantTextComponent;
-  let fixture: ComponentFixture<IrrelevantTextComponent>;
+describe('SecondFooterComponent', () => {
+  let component: SecondFooterComponent;
+  let fixture: ComponentFixture<SecondFooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IrrelevantTextComponent ]
+      declarations: [ SecondFooterComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IrrelevantTextComponent);
+    fixture = TestBed.createComponent(SecondFooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

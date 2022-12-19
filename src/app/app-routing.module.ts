@@ -57,7 +57,7 @@ const routes: Routes = [
     component: SupportComponent
   },
   {
-    path: "presentation",
+    path: "videos-demonstrativos",
     component: PresentationComponent
   },
   {
@@ -65,7 +65,7 @@ const routes: Routes = [
     component: SatFiscalComponent
   },
   {
-    path: "sat-equipment",
+    path: "equipamento-sat-2",
     component: SatEquipmentComponent
   },
   {
@@ -101,7 +101,7 @@ const routes: Routes = [
     component: TaxAndFiscalComponent
   },
   {
-    path: "budget",
+    path: "orcamento",
     component: BudgetComponent
   },
   {
@@ -109,23 +109,23 @@ const routes: Routes = [
     component: VideosPresentationComponent
   },
   {
-    path: "chart",
+    path: "organograma-do-sistema",
     component: ChartComponent
   },
   {
-    path: "erp-system",
+    path: "sirius-erp",
     component: ErpSystemComponent
   },
   {
-    path: "tax-sped",
+    path: "sped-fiscal-icmsipi-bloco-k",
     component: TaxSpedComponent
   },
   {
-    path: "erp-software",
+    path: "software-erp",
     component: ErpSoftwareComponent
   },
   {
-    path: "business-management",
+    path: "software-de-gestao-empresarial",
     component: BusinessManagementComponent
   },
   {
@@ -133,15 +133,15 @@ const routes: Routes = [
     component: ShoppingComponent
   },
   {
-    path: "order-of-service",
+    path: "ordens-de-servicos",
     component: OrderOfServiceComponent
   },
   {
-    path: "financial",
+    path: "financeiro",
     component: FinancialComponent
   },
   {
-    path: "standard-production",
+    path: "confeccao",
     component: standardProductionComponent
   },
   {

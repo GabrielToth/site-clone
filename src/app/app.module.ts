@@ -56,7 +56,7 @@ import { HeadlineComponent } from './shared/headline/headline.component';
 import { PromoErpComponent } from './shared/promo-erp/promo-erp.component';
 import { VideosMidPageComponent } from './shared/videos-mid-page/videos-mid-page.component';
 import { WhatsappComponent } from './shared/whatsapp/whatsapp.component';
-import { IrrelevantTextComponent } from './shared/irrelevant-text/irrelevant-text.component';
+import { SecondFooterComponent } from './shared/second-footer/second-footer.component';
 
 @NgModule({
   declarations: [
@@ -116,7 +116,7 @@ import { IrrelevantTextComponent } from './shared/irrelevant-text/irrelevant-tex
     PromoErpComponent,
     VideosMidPageComponent,
     WhatsappComponent,
-    IrrelevantTextComponent
+    SecondFooterComponent
   ],
   imports: [
     BrowserModule,
