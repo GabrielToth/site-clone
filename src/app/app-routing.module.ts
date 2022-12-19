@@ -37,11 +37,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "presentation-solutions",
+    path: "apresentacao-das-solucoes",
     component: PresentationSolutionsComponent
   },
   {
-    path: "about-enterprise",
+    path: "a-empresa",
     component: AboutEnterpriseComponent
   },
   {
@@ -49,7 +49,7 @@ const routes: Routes = [
     component: ClientsComponent
   },
   {
-    path: "contact",
+    path: "contato",
     component: ContactComponent
   },
   {
@@ -61,7 +61,7 @@ const routes: Routes = [
     component: PresentationComponent
   },
   {
-    path: "sat-fiscal",
+    path: "sat",
     component: SatFiscalComponent
   },
   {
@@ -69,15 +69,15 @@ const routes: Routes = [
     component: SatEquipmentComponent
   },
   {
-    path: "restaurant",
+    path: "restaurante",
     component: RestaurantComponent
   },
   {
-    path: "wholesale",
+    path: "orcamento-e-venda",
     component: WholesaleComponent
   },
   {
-    path: "balcony",
+    path: "pre-venda",
     component: BalconySellComponent
   },
   {
@@ -85,19 +85,19 @@ const routes: Routes = [
     component: NfcEComponent
   },
   {
-    path: "nfe",
+    path: "nota-fiscal-eletronica-nfe",
     component: NfeComponent
   },
   {
-    path: "electronic-transport",
+    path: "conhecimento-transporte-eletronico",
     component: ElectronicTransportComponent
   },
   {
-    path: "service-invoices",
+    path: "notas-fiscais-de-servicos",
     component: ServiceInvoicesComponent
   },
   {
-    path: "tax-and-fiscal",
+    path: "impostos-e-fiscal-sped",
     component: TaxAndFiscalComponent
   },
   {
@@ -129,7 +129,7 @@ const routes: Routes = [
     component: BusinessManagementComponent
   },
   {
-    path: "shopping",
+    path: "compras",
     component: ShoppingComponent
   },
   {
