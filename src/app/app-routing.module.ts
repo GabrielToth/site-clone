@@ -26,7 +26,7 @@ import { VideosPresentationComponent } from './shared/videos-presentation/videos
 import { ShoppingComponent } from './main/solutions/shopping/shopping.component';
 import { OrderOfServiceComponent } from './main/solutions/order-of-service/order-of-service.component';
 import { FinancialComponent } from './main/solutions/financial/financial.component';
-import { standardProductionComponent } from './main/solutions/standard-production/standard-production.component';
+import { StandardProductionComponent } from './main/solutions/standard-production/standard-production.component';
 import { PrivacyPolicyComponent } from './main/privacy-policy/privacy-policy.component';
 import { PresentationSolutionsComponent } from './main/solutions/presentation-solutions/presentation-solutions.component';
 
@@ -45,7 +45,7 @@ const routes: Routes = [
     component: AboutEnterpriseComponent
   },
   {
-    path: "clients",
+    path: "clientes",
     component: ClientsComponent
   },
   {
@@ -53,7 +53,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: "support",
+    path: "suporte",
     component: SupportComponent
   },
   {
@@ -61,11 +61,11 @@ const routes: Routes = [
     component: PresentationComponent
   },
   {
-    path: "sat",
+    path: "sat-fiscal",
     component: SatFiscalComponent
   },
   {
-    path: "sat-equipment",
+    path: "equipamento-sat-2",
     component: SatEquipmentComponent
   },
   {
@@ -73,7 +73,7 @@ const routes: Routes = [
     component: RestaurantComponent
   },
   {
-    path: "orcamento-e-venda",
+    path: "wholesale",
     component: WholesaleComponent
   },
   {
@@ -93,15 +93,15 @@ const routes: Routes = [
     component: ElectronicTransportComponent
   },
   {
-    path: "notas-fiscais-de-servicos",
+    path: "ordens-de-servicos",
     component: ServiceInvoicesComponent
   },
   {
-    path: "impostos-e-fiscal-sped",
+    path: "tax-and-fiscal",
     component: TaxAndFiscalComponent
   },
   {
-    path: "budget",
+    path: "orcamento",
     component: BudgetComponent
   },
   {
@@ -129,7 +129,7 @@ const routes: Routes = [
     component: BusinessManagementComponent
   },
   {
-    path: "compras",
+    path: "shopping",
     component: ShoppingComponent
   },
   {
@@ -142,7 +142,7 @@ const routes: Routes = [
   },
   {
     path: "standard-production",
-    component: standardProductionComponent
+    component: StandardProductionComponent
   },
   {
     path: "privacy-policy",

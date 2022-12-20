@@ -36,7 +36,7 @@
       </nav>
       <nav class="menu-navigation">
         <div class="menu-navigation-logo">
-          <img
+          <img 
             src="assets/images/webp/logo-mais-de-28-anos.webp"
             type="image/jpg"
             alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'"
@@ -45,11 +45,8 @@
         <ul class="menu-navigation-items">
           <li class="menu-navigation-item">
             <a
-              autoscroll="true"
               (click)="close()"
               [routerLink]="['']"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
               >Home
             </a>
           </li>
@@ -57,8 +54,6 @@
             <a
               (click)="close()"
               [routerLink]="['/a-empresa']"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
               >A Empresa
             </a>
           </li>
@@ -66,8 +61,6 @@
             <a
               [routerLink]="['#']"
               (click)="clickEventSolutions()"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
               >Soluções
             </a>
             <app-solutions
@@ -78,9 +71,7 @@
           <li class="menu-navigation-item">
             <a
               (click)="close()"
-              [routerLink]="['/clients']"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
+              [routerLink]="['/clientes']"
               >Clientes
             </a>
           </li>
@@ -88,8 +79,6 @@
             <a
               (click)="close()"
               [routerLink]="['/contato']"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
               >Contato
             </a>
           </li>
@@ -97,8 +86,6 @@
             <a
               (click)="close()"
               [routerLink]="['/suporte']"
-              routerLinkActive="active"
-              ariaCurrentWhenActive="page"
             >
               Suporte
             </a>

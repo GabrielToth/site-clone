@@ -19,7 +19,7 @@ export class SolutionsComponent{
     this.toggle = !this.toggle;
   }
 
-  clickToClose() {
+  clickToClose(url:string) {
     this.onClickEvent.emit()
   }
 

@@ -10,41 +10,41 @@
         <li class="urlsPages">
           <a
             [routerLink]="['/apresentacao-das-solucoes']"
-            (click)="clickToClose()"
+            (click)="clickToClose('apresentacao-das-solucoes')"
           >
             <p>Apresentação das Soluções</p>
           </a>
         </li>
         <li class="urlsPages">
           <a
-            [routerLink]="['/sat']"
-            (click)="clickToClose()"
+            [routerLink]="['/sat-fiscal']"
+            (click)="clickToClose('sat-fiscal')"
           >
             <p>SAT Fiscal</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/nfc-e']" (click)="clickToClose()">
+          <a [routerLink]="['/nfc-e']" (click)="clickToClose('nfc-e')">
             <p>NFC-e</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/nota-fiscal-eletronica-nfe']" (click)="clickToClose()">
+          <a [routerLink]="['/nota-fiscal-eletronica-nfe']" (click)="clickToClose('nota-fiscal-eletronica-nfe')">
             <p>NFE</p>
           </a>
         </li>
         <li class="urlsPages">
           <a
-            [routerLink]="['/notas-fiscais-de-servicos']"
-            (click)="clickToClose()"
+            [routerLink]="['/ordens-de-servicos']"
+            (click)="clickToClose('ordens-de-servicos')"
           >
             <p>Notas Fiscais de Serviços</p>
           </a>
         </li>
         <li class="urlsPages">
           <a
-            [routerLink]="['/impostos-e-fiscal-sped']"
-            (click)="clickToClose()"
+            [routerLink]="['/tax-and-fiscal']"
+            (click)="clickToClose('tax-and-fiscal')"
           >
             <p>Impostos e Fiscal – SPED</p>
           </a>
@@ -52,48 +52,48 @@
         <li class="urlsPages">
           <a
             [routerLink]="['/restaurante']"
-            (click)="clickToClose()"
+            (click)="clickToClose('restaurante')"
           >
             <p>Restaurante – Comanda – Delivery – Mesas das Soluções</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/orcamento-e-venda']" (click)="clickToClose()">
+          <a [routerLink]="['/wholesale']" (click)="clickToClose('wholesale')">
             <p>Atacado > Pedidos de Venda – Liberação – Expedição</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/pre-venda']" (click)="clickToClose()">
+          <a [routerLink]="['/pre-venda']" (click)="clickToClose('pre-venda')">
             <p>Balcão</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/budget']" (click)="clickToClose()">
+          <a [routerLink]="['/orcamento']" (click)="clickToClose('orcamento')">
             <p>Orçamento de Venda – Produtos e Serviços.</p>
           </a>
         </li>
         <li class="urlsPages">
           <a
             [routerLink]="['/conhecimento-transporte-eletronico']"
-            (click)="clickToClose()"
+            (click)="clickToClose('conhecimento-transporte-eletronico')"
           >
             <p>Conhecimento Transporte Eletrônico</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/compras']" (click)="clickToClose()">
+          <a [routerLink]="['/shopping']" (click)="clickToClose('shopping')">
             <p>Compras – Pedidos e Notas de Entrada</p>
           </a>
         </li>
         <li class="urlsPages">
-          <a [routerLink]="['/financial']" (click)="clickToClose()">
+          <a [routerLink]="['/financial']" (click)="clickToClose('financial')">
             <p>Financeiro – Pagar – Receber – Boletos – Bancos</p>
           </a>
         </li>
         <li class="urlsPages">
           <a
             [routerLink]="['/standard-production']"
-            (click)="clickToClose()"
+            (click)="clickToClose('standard-production')"
           >
             <p>Produção Padrão e Produção Confecções</p>
           </a>
@@ -101,7 +101,7 @@
         <li class="urlsPages">
           <a
             [routerLink]="['/order-of-service']"
-            (click)="clickToClose()"
+            (click)="clickToClose('order-of-service')"
           >
             <p>Ordens de Serviços</p>
           </a>
@@ -117,13 +117,13 @@
           <li class="urlsPages">
             <a
               [routerLink]="['/presentation']"
-              (click)="clickToClose()"
+              (click)="clickToClose('/presentation')"
             >
               <p>Vídeos Demonstrativos</p>
             </a>
           </li>
           <li class="urlsPages">
-            <a [routerLink]="['/chart']" (click)="clickToClose()">
+            <a [routerLink]="['/chart']" (click)="clickToClose('/chart')">
               <p>Organograma do Sistema</p>
             </a>
           </li>
@@ -135,20 +135,20 @@
           <li class="urlsPages">
             <a
               [routerLink]="['/erp-system']"
-              (click)="clickToClose()"
+              (click)="clickToClose('/erp-system')"
             >
               <p>Sistema ERP</p>
             </a>
           </li>
           <li class="urlsPages">
-            <a [routerLink]="['/tax-sped']" (click)="clickToClose()">
+            <a [routerLink]="['/tax-sped']" (click)="clickToClose('/tax-sped')">
               <p>Sped Fiscal ICMS/IPI – Bloco K</p>
             </a>
           </li>
           <li class="urlsPages">
             <a
               [routerLink]="['/erp-software']"
-              (click)="clickToClose()"
+              (click)="clickToClose('/erp-software')"
             >
               <p>Software ERP</p>
             </a>
@@ -156,7 +156,7 @@
           <li class="urlsPages">
             <a
               [routerLink]="['/business-management']"
-              (click)="clickToClose()"
+              (click)="clickToClose('/business-management')"
             >
               <p>Sistema / Software de Gestão Empresarial</p>
             </a>
@@ -168,8 +168,8 @@
         <ul>
           <li class="urlsPages">
             <a
-              [routerLink]="['/sat-equipment']"
-              (click)="clickToClose()"
+              [routerLink]="['/equipamento-sat-2']"
+              (click)="clickToClose('/equipamento-sat-2')"
             >
               <p>Equipamento SAT</p>
             </a>
