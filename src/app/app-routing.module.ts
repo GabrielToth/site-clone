@@ -53,7 +53,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: "support",
+    path: "suporte",
     component: SupportComponent
   },
   {
@@ -145,7 +145,7 @@ const routes: Routes = [
     component: standardProductionComponent
   },
   {
-    path: "privacy-policy",
+    path: "politica-de-privacidade",
     component: PrivacyPolicyComponent
   }
 ];
