@@ -24,6 +24,7 @@ import { OrderOfServiceComponent } from './order-of-service/order-of-service.com
 import { StandardProductionComponent } from './standard-production/standard-production.component';
 import { PresentationSolutionsComponent } from './presentation-solutions/presentation-solutions.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { SolutionsRoutingModule } from './solutions-routing.module';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    SolutionsRoutingModule
   ],
   exports: [
     BalconySellComponent,

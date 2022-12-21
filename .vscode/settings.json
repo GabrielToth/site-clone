@@ -7,9 +7,15 @@
     "eletronico",
     "orcamento",
     "servicos",
+    "sirius",
     "solucoes"
   ],
   "prettier.bracketSameLine": true,
   "prettier.tabWidth": 4,
-  "prettier.useTabs": true
+  "prettier.useTabs": true,
+  "cSpell.ignoreWords": [
+    "confeccao",
+    "gestao",
+    "icmsipi"
+  ]
 }

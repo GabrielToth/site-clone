@@ -18,6 +18,8 @@ import { VideosPresentationComponent } from './videos-presentation/videos-presen
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
 import { SolutionsComponent } from './header/solutions/solutions.component';
+import { HeaderRoutingModule } from './header/header-routing.module';
+import { HeaderModule } from './header/header.module';
 
 
 
@@ -48,16 +50,14 @@ import { SolutionsComponent } from './header/solutions/solutions.component';
     WhatsappComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HeaderModule
   ],
   exports: [
     ButtonsToKnowMoreComponent,
     CardsBottomComponent,
     CardsCategoryNavigationComponent,
     FooterComponent,
-
-    HeaderComponent,
-      SolutionsComponent,
 
     HeadlineComponent,
     PromoErpComponent,
