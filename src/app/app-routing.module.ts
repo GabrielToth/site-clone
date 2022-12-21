@@ -37,11 +37,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "apresentacao-das-solucoes",
+    path: "presentation-solutions",
     component: PresentationSolutionsComponent
   },
   {
-    path: "a-empresa",
+    path: "about-enterprise",
     component: AboutEnterpriseComponent
   },
   {
@@ -49,15 +49,15 @@ const routes: Routes = [
     component: ClientsComponent
   },
   {
-    path: "contato",
+    path: "contact",
     component: ContactComponent
   },
   {
-    path: "suporte",
+    path: "support",
     component: SupportComponent
   },
   {
-    path: "videos-demonstrativos",
+    path: "presentation",
     component: PresentationComponent
   },
   {
