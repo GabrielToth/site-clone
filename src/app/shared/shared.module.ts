@@ -16,11 +16,10 @@ import { VideosMidPageComponent } from './videos-mid-page/videos-mid-page.compon
 import { VideosPresentationComponent } from './videos-presentation/videos-presentation.component';
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
-import { HeaderModule } from './header/header.module';
-import { MainModule } from '../main/main.module';
+
 import { MainRoutingModule } from '../main/main-routing.module';
-
-
+import { SecondFooterComponent } from './second-footer/second-footer.component';
+import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.module';
 
 
 @NgModule({
@@ -45,10 +44,13 @@ import { MainRoutingModule } from '../main/main-routing.module';
     VideosPresentationComponent,
     VideosSatComponent,
     WhatsappComponent,
+
+    SecondFooterComponent
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
+    SolutionsRoutingModule,
   ],
   exports: [
     ButtonsToKnowMoreComponent,
@@ -70,7 +72,9 @@ import { MainRoutingModule } from '../main/main-routing.module';
     VideosMidPageComponent,
     VideosPresentationComponent,
     VideosSatComponent,
-    WhatsappComponent
+    WhatsappComponent,
+
+    SecondFooterComponent,
   ]
 })
 export class SharedModule { }

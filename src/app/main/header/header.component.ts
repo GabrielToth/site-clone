@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { TopPageContentComponent } from '../top-page-content/top-page-content.component';
 
 @Component({
   selector: 'app-header',

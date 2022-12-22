@@ -56,7 +56,7 @@ import { SolutionsRoutingModule } from './solutions-routing.module';
   imports: [
     CommonModule,
     SharedModule,
-    SolutionsRoutingModule
+    SolutionsRoutingModule,
   ],
   exports: [
     BalconySellComponent,

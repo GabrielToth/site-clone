@@ -9,6 +9,7 @@ import { SolutionsModule } from './solutions/solutions.module';
 import { ContactModule } from './contact/contact.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from '../shared/shared.module';
+import { HeaderModule } from './header/header.module';
 
 
 
@@ -21,17 +22,18 @@ import { SharedModule } from '../shared/shared.module';
   ],
   imports: [
     CommonModule,
+    SharedModule,
+    HeaderModule,
     HomeModule,
     ContactModule,
     SolutionsModule,
-    MainRoutingModule,
-    SharedModule
+    MainRoutingModule
   ],
   exports: [  
     AboutEnterpriseComponent,
     ClientsComponent,
     SupportComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
   ]
 })
 export class MainModule { }
