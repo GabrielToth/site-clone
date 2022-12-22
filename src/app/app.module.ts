@@ -5,6 +5,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { MainModule } from './main/main.module';
+import { HeaderModule } from './shared/header/header.module';
 
 
 @NgModule({
@@ -13,9 +15,10 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule,
     AppRoutingModule,
-    SharedModule
+    HeaderModule,
+    SharedModule,
+    MainModule
   ],
   providers: [],
   bootstrap: [AppComponent]

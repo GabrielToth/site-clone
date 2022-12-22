@@ -4,7 +4,6 @@ import { ButtonsToKnowMoreComponent } from './buttons-to-know-more/buttons-to-kn
 import { CardsBottomComponent } from './cards-bottom/cards-bottom.component';
 import { CardsCategoryNavigationComponent } from './cards-category-navigation/cards-category-navigation.component';
 import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
 import { HeadlineComponent } from './headline/headline.component';
 import { PromoErpComponent } from './promo-erp/promo-erp.component';
 import { ServicesCategoryComponent } from './services-category/services-category.component';
@@ -17,9 +16,10 @@ import { VideosMidPageComponent } from './videos-mid-page/videos-mid-page.compon
 import { VideosPresentationComponent } from './videos-presentation/videos-presentation.component';
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
-import { SolutionsComponent } from './header/solutions/solutions.component';
-import { HeaderRoutingModule } from './header/header-routing.module';
 import { HeaderModule } from './header/header.module';
+import { MainModule } from '../main/main.module';
+import { MainRoutingModule } from '../main/main-routing.module';
+
 
 
 
@@ -30,28 +30,25 @@ import { HeaderModule } from './header/header.module';
     CardsCategoryNavigationComponent,
     FooterComponent,
 
-    HeaderComponent,
-      SolutionsComponent,
-
     HeadlineComponent,
     PromoErpComponent,
     
     ServicesCategoryComponent,
 
     TopContentComponent,
-      ReducedTopContentComponent,
-      SolutionsTitleComponent,
-      SolutionsTopContentComponent,
+    ReducedTopContentComponent,
+    SolutionsTitleComponent,
+    SolutionsTopContentComponent,
     
     TopPageContentComponent,
     VideosMidPageComponent,
     VideosPresentationComponent,
     VideosSatComponent,
-    WhatsappComponent
+    WhatsappComponent,
   ],
   imports: [
     CommonModule,
-    HeaderModule
+    MainRoutingModule,
   ],
   exports: [
     ButtonsToKnowMoreComponent,
@@ -65,9 +62,9 @@ import { HeaderModule } from './header/header.module';
     ServicesCategoryComponent,
     
     TopContentComponent,
-      ReducedTopContentComponent,
-      SolutionsTitleComponent,
-      SolutionsTopContentComponent,
+    ReducedTopContentComponent,
+    SolutionsTitleComponent,
+    SolutionsTopContentComponent,
     
     TopPageContentComponent,
     VideosMidPageComponent,

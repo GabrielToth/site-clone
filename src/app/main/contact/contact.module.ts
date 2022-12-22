@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsComponent } from './forms/forms.component';
 import { ContactComponent } from './contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -11,7 +12,8 @@ import { ContactComponent } from './contact.component';
     FormsComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
   ],
   exports: [
     ContactComponent,

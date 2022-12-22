@@ -5,6 +5,8 @@ import { EntryContentComponent } from './entry-content/entry-content.component';
 import { HomeComponent } from './home.component';
 import { NavigationButtonsComponent } from './navigation-buttons/navigation-buttons.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { SolutionsModule } from '../solutions/solutions.module';
+import { SolutionsRoutingModule } from '../solutions/solutions-routing.module';
 
 
 
@@ -17,6 +19,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
   ],
   imports: [
     CommonModule,
+    SolutionsRoutingModule,
     SharedModule
   ],
   exports: [
