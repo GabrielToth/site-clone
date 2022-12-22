@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navigation-buttons.component.html',
   styleUrls: ['./navigation-buttons.component.scss']
 })
-export class NavigationButtonsComponent implements OnInit {
+export class NavigationButtonsComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  topPage(){
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    })
   }
-
 }
