@@ -1,7 +1,21 @@
 {
   "cSpell.language": "en,pt,pt_BR",
-  "cSpell.words": ["Cielo"],
+  "cSpell.words": [
+    "apresentacao",
+    "Cielo",
+    "eletronica",
+    "eletronico",
+    "orcamento",
+    "servicos",
+    "sirius",
+    "solucoes"
+  ],
   "prettier.bracketSameLine": true,
   "prettier.tabWidth": 4,
-  "prettier.useTabs": true
+  "prettier.useTabs": true,
+  "cSpell.ignoreWords": [
+    "confeccao",
+    "gestao",
+    "icmsipi"
+  ]
 }

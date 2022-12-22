@@ -149,7 +149,6 @@
             width: 250px;
           }
         }
-
       }
     }
 
@@ -180,7 +179,7 @@
     }
   }
 
-  @media screen and (max-width: 730px){
+  @media screen and (max-width: 730px) {
     .active {
       display: flex;
       flex-direction: column;
@@ -226,4 +225,8 @@ app-solutions {
 
 .display-solutions {
   display: flex;
+}
+
+.change-color {
+  color: #94bce0;
 }

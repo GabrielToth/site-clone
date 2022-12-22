@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './standard-production.component.html',
   styleUrls: ['./standard-production.component.scss']
 })
-export class standardProductionComponent{}
+export class StandardProductionComponent{}
