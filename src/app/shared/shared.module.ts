@@ -16,8 +16,6 @@ import { VideosMidPageComponent } from './videos-mid-page/videos-mid-page.compon
 import { VideosPresentationComponent } from './videos-presentation/videos-presentation.component';
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
-import { HeaderModule } from './header/header.module';
-import { MainModule } from '../main/main.module';
 import { MainRoutingModule } from '../main/main-routing.module';
 
 

@@ -21,10 +21,10 @@ import { SharedModule } from '../shared/shared.module';
   ],
   imports: [
     CommonModule,
+    MainRoutingModule,
     HomeModule,
     ContactModule,
     SolutionsModule,
-    MainRoutingModule,
     SharedModule
   ],
   exports: [  
