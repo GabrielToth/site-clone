@@ -32,4 +32,9 @@ export class HeaderComponent {
   clickEventSolutions() {
     this.display = !this.display;
   }
+
+
+  clique(){
+    alert('funcionou')
+  }
 }

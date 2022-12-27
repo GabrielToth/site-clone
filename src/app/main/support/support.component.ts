@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './support.component.html',
   styleUrls: ['./support.component.scss']
 })
-export class SupportComponent {}
+export class SupportComponent {
+
+  clique(){
+    alert('funcionou')
+  }
+}
