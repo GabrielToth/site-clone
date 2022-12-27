@@ -99,16 +99,20 @@
       gap: 20px;
 
       .card {
-        width: 45%;
-        min-width: 470px;
+        width: 500px;
 
         display: flex;
         justify-content: space-between;
 
         background-color: #ffffff;
 
+        img {
+          width: 200px;
+          height: 200px;
+        }
+
         .card-right-content {
-          width: 100%;
+          width: 300px;
 
           display: flex;
 
@@ -146,9 +150,10 @@
             }
           }
         }
+        
       }
 
-      @media screen and (max-width: 1000px) {
+      @media screen and (max-width: 1050px) {
         flex-direction: column;
         flex-wrap: nowrap;
 
@@ -156,9 +161,13 @@
         align-items: center;
 
         .card {
-          width: 80%;
+          width: 570px;
 
           justify-content: center;
+
+          .card-right-content {
+            width: 370px;
+          }
         }
       }
 

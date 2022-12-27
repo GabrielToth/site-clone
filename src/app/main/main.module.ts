@@ -9,6 +9,7 @@ import { SolutionsModule } from './solutions/solutions.module';
 import { ContactModule } from './contact/contact.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from '../shared/shared.module';
+import { SupportModule } from './support/support.module';
 
 
 
@@ -16,11 +17,11 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     AboutEnterpriseComponent,
     ClientsComponent,
-    SupportComponent,
     PrivacyPolicyComponent
   ],
   imports: [
     CommonModule,
+    MainRoutingModule,
     MainRoutingModule,
     HomeModule,
     ContactModule,
@@ -30,8 +31,7 @@ import { SharedModule } from '../shared/shared.module';
   exports: [  
     AboutEnterpriseComponent,
     ClientsComponent,
-    SupportComponent,
     PrivacyPolicyComponent
   ]
 })
-export class MainModule { }
+export class MainModule {}
