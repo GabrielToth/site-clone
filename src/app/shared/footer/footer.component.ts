@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
+import { HeaderComponent } from '../../shared/header/header.component';
 
 @Component({
   selector: 'app-footer',

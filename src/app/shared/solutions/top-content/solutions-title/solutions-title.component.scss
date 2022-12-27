@@ -10,9 +10,12 @@
 
   margin-top: 2%;
 
-  h1 {
+  ::ng-deep {
+    h1 {
     font-size: 36px;
+    font-weight: 600;
   }
+}
 
   .benefits {
     width: 35%;

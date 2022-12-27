@@ -5,14 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './entry-content.component.html',
   styleUrls: ['./entry-content.component.scss']
 })
-export class EntryContentComponent {
+export class EntryContentComponent implements OnInit {
 
-  topPage(){
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth"
-    })
+  constructor() { }
+
+  ngOnInit(): void {
   }
 
 }
