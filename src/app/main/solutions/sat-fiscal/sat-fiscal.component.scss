@@ -24,6 +24,34 @@
     }
 }
 
+.faq {
+    width: 90%;
+    margin: 0 auto;
+
+
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+
+        line-height: 3rem;
+
+        text-transform: uppercase;
+    }
+
+    h3 {
+        margin-top: 1rem;
+
+        font-size: 20px;
+        font-weight: 500;
+
+        line-height: 2rem;
+    }
+
+    p {
+        margin-bottom: 12px;
+
+        font-size: 16px;
+
 .text-content{
   .box-text{
     margin: 2rem ;
@@ -37,3 +65,53 @@
 }
 
 
+
+
+        line-height: 1.5rem;
+
+        text-indent: 3rem;
+    }
+
+    .advise {
+        font-weight: 600;
+
+        text-align: center;
+    }
+
+    ol {
+        margin-left: 16px;
+
+        li {
+            font-size: 20px;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+    }
+
+    ul {
+        margin: 0 0 16px 3rem;
+
+        li {
+            margin-left: 16px;
+            margin-bottom: 12px;
+
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        ul {
+            h4 {
+                font-weight: 500;
+
+                line-height: 2rem;
+            }
+
+            li {
+                font-size: 14px;
+                font-weight: 300;
+
+                line-height: 2rem;
+            }
+        }
+    }
+}

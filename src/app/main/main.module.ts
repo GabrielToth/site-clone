@@ -22,14 +22,15 @@ import { HeaderModule } from './header/header.module';
   ],
   imports: [
     CommonModule,
+    MainRoutingModule,
     SharedModule,
     HeaderModule,
     HomeModule,
     ContactModule,
     SolutionsModule,
-    MainRoutingModule
+    SharedModule
   ],
-  exports: [  
+  exports: [
     AboutEnterpriseComponent,
     ClientsComponent,
     SupportComponent,

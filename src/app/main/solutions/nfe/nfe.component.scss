@@ -1,7 +1,7 @@
 .banner {
   padding: 2rem 3rem;
   display: flex;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   gap: 0 120px;
 
   .left {
@@ -26,7 +26,7 @@
         width: auto;
         height: auto;
         padding: auto;
-        background-color: #F1F1F1;
+        background-color: #f1f1f1;
         border: none;
 
         a {
@@ -34,7 +34,7 @@
           border: none;
           border-radius: 5px;
           font-size: 1.5rem;
-          color: #F1F1F1;
+          color: #f1f1f1;
           background-color: #ffa500;
         }
       }
@@ -66,20 +66,20 @@
     font-size: 25px;
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width: 500px) {
     .banner {
       flex-wrap: wrap;
     }
 
     .left {
       img {
-      width: 10rem;
+        width: 10rem;
       }
     }
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .banner {
     flex-wrap: wrap;
   }
@@ -130,14 +130,34 @@
   }
 }
 
-.text-content{
-  .box-text{
-    margin: 2rem ;
-    background-color: green($color: #000000);
+.nfe-faq {
+  width: 80%;
 
-    .text{
-      font-size: 20px;
-      margin: 1rem 0;
-    }
+  margin: 0 auto 3rem auto;
+
+  h2 {
+    margin-bottom: 1rem;
+
+    font-weight: 500;
+
+    line-height: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+
+    font-size: 24px;
+
+    line-height: 2rem;
+  }
+
+  p {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+
+    line-height: 1.5rem;
+
+    text-indent: 3rem;
   }
 }

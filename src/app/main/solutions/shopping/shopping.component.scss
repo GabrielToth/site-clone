@@ -1,7 +1,7 @@
 .banner {
   padding: 2rem 3rem;
   display: flex;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   gap: 0 120px;
 
   .left {
@@ -26,7 +26,7 @@
         width: auto;
         height: auto;
         padding: auto;
-        background-color: #F1F1F1;
+        background-color: #f1f1f1;
         border: none;
 
         a {
@@ -34,7 +34,7 @@
           border: none;
           border-radius: 5px;
           font-size: 1.5rem;
-          color: #F1F1F1;
+          color: #f1f1f1;
           background-color: #ffa500;
         }
       }
@@ -66,27 +66,26 @@
     font-size: 25px;
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width: 500px) {
     .banner {
       flex-wrap: wrap;
     }
 
     .left {
       img {
-      width: 10rem;
+        width: 10rem;
       }
     }
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .banner {
     flex-wrap: wrap;
   }
 }
 
 .content {
-
   h2 {
     text-align: center;
   }
@@ -98,7 +97,7 @@
     justify-content: center;
     width: 100%;
     gap: 20px;
-  
+
     .video {
       max-width: 300px;
       margin-top: 1rem;
@@ -108,7 +107,7 @@
       text-align: center;
       align-items: center;
       gap: 5px;
-  
+
       iframe,
       .iframe-in-box {
         width: 300px;
@@ -116,9 +115,7 @@
       }
     }
   }
-  
 }
-
 
 #videos .buttons {
   display: flex;
@@ -135,6 +132,34 @@
     a {
       padding: 1rem 1.5rem;
       background-color: #ffa60000;
+    }
+  }
+}
+
+//GAMBIARRA PUTA ↑↑↑ - EXCLUIR MAIS TARDE
+
+.shopping-description {
+  width: 80%;
+
+  margin: 0 auto;
+
+  h2 {
+    margin-bottom: 1rem;
+
+    font-weight: 500;
+
+    line-height: 2rem;
+  }
+
+  ul {
+    margin: 0 0 16px 3rem;
+
+    li {
+      margin-left: 16px;
+      margin-bottom: 12px;
+
+      font-size: 16px;
+      font-weight: 300;
     }
   }
 }

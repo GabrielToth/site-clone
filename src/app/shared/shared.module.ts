@@ -16,7 +16,6 @@ import { VideosMidPageComponent } from './videos-mid-page/videos-mid-page.compon
 import { VideosPresentationComponent } from './videos-presentation/videos-presentation.component';
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
-
 import { MainRoutingModule } from '../main/main-routing.module';
 import { SecondFooterComponent } from './second-footer/second-footer.component';
 import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.module';
@@ -31,14 +30,14 @@ import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.modu
 
     HeadlineComponent,
     PromoErpComponent,
-    
+
     ServicesCategoryComponent,
 
     TopContentComponent,
     ReducedTopContentComponent,
     SolutionsTitleComponent,
     SolutionsTopContentComponent,
-    
+
     TopPageContentComponent,
     VideosMidPageComponent,
     VideosPresentationComponent,
@@ -60,14 +59,14 @@ import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.modu
 
     HeadlineComponent,
     PromoErpComponent,
-    
+
     ServicesCategoryComponent,
-    
+
     TopContentComponent,
     ReducedTopContentComponent,
     SolutionsTitleComponent,
     SolutionsTopContentComponent,
-    
+
     TopPageContentComponent,
     VideosMidPageComponent,
     VideosPresentationComponent,
