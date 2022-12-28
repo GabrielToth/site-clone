@@ -72,7 +72,7 @@
   background-color: #f1f1f1;
 
   .content {
-    width: 90%;
+    width: 100%;
 
     display: flex;
     flex-wrap: wrap;
@@ -89,14 +89,17 @@
     }
 
     .cards {
-      width: 100%;
+      width: 1050px;
 
       display: flex;
+      flex-wrap: wrap;
 
       justify-content: center;
       align-items: center;
 
       gap: 20px;
+
+      overflow: hidden;
 
       .card {
         width: 500px;
@@ -120,6 +123,8 @@
           align-items: center;
 
           .card-text {
+            width: 200px;
+
             display: flex;
 
             flex-direction: column;
@@ -129,31 +134,36 @@
           }
 
           .card-button {
+            width: 170px;
+            height: 50px;
+
             display: flex;
 
             justify-content: center;
             align-items: center;
 
             button {
-              height: 80%;
+              width: 120px;
+              height: 50px;
 
               border: none;
               border-radius: 5px;
 
-              a {
-                padding: 1rem;
+              background-color: #2aa0ef;
 
-                background-color: #2aa0ef;
+              a {
+                width: 120px;
 
                 border-radius: 5px;
               }
             }
           }
         }
-        
       }
 
-      @media screen and (max-width: 1050px) {
+      @media screen and (max-width: 1070px) {
+        width: 570px;
+
         flex-direction: column;
         flex-wrap: nowrap;
 
