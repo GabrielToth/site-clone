@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TopPageService } from 'src/app/services/top-page.service';
 
 @Component({
   selector: 'app-support',
@@ -7,7 +8,9 @@ import { Component } from '@angular/core';
 })
 export class SupportComponent {
 
-  clique(){
-    alert('funcionou')
+  constructor(private topPage:TopPageService) { }
+
+  execute(){
+    this.topPage.topPage()
   }
 }

@@ -4,7 +4,7 @@
         <p>Informações completas sobre nosso sistema.</p>
         <div class="button-container">
             <button>
-                <a [routerLink]="['/erp-system']">Saiba Mais</a>
+                <a (click)="execute()" [routerLink]="['/solutions/erp-system']">Saiba Mais</a>
             </button>
         </div>
     </div>
@@ -13,7 +13,7 @@
         <p>Veja organograma de funcionamento do sistema.</p>
         <div class="button-container">
             <button>
-                <a [routerLink]="['/chart']">Saiba Mais</a>
+                <a (click)="execute()" [routerLink]="['/solutions/chart']">Saiba Mais</a>
             </button>
         </div>
     </div>
@@ -22,7 +22,7 @@
         <p>Conheça mais sobre a Soft Clever.</p>
         <div class="button-container">
             <button>
-                <a [routerLink]="['/about']">Saiba Mais</a>
+                <a (click)="execute()" [routerLink]="['/about']">Saiba Mais</a>
             </button>
         </div>
     </div>
