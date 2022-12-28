@@ -17,6 +17,8 @@ import { VideosPresentationComponent } from './videos-presentation/videos-presen
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
 import { MainRoutingModule } from '../main/main-routing.module';
+import { RouterModule } from '@angular/router';
+import { routes } from '../main/solutions/solutions-routing.module';
 
 
 
@@ -47,6 +49,7 @@ import { MainRoutingModule } from '../main/main-routing.module';
   imports: [
     CommonModule,
     MainRoutingModule,
+    [RouterModule.forChild(routes)],
   ],
   exports: [
     ButtonsToKnowMoreComponent,
