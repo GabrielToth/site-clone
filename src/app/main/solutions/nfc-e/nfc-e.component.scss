@@ -63,6 +63,23 @@
       font-weight: 500;
     }
 
+    table {
+        margin: 0;
+        padding: 0;
+
+        tr {
+            margin: 0;
+            padding: 12px;
+            td {
+                padding: 0 12px;
+                
+                font-weight: 500;
+
+                line-height: 2rem;
+            }
+        }
+    }
+
     ol {
       li {
         font-size: 20px;
@@ -79,20 +96,6 @@
 
           line-height: 2rem;
         }
-      }
-    }
-  }
-}
-
-table {
-  tr {
-    td {
-      padding: 0 12px;
-
-      line-height: 2rem;
-
-      h1 {
-        font-weight: 500;
       }
     }
   }
