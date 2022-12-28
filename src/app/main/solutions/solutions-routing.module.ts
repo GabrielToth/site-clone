@@ -4,6 +4,7 @@ import { BalconySellComponent } from './balcony-sell/balcony-sell.component';
 import { BudgetComponent } from './budget/budget.component';
 import { BusinessManagementComponent } from './business-management/business-management.component';
 import { ChartComponent } from './chart/chart.component';
+import { CustomerRegistrationComponent } from './customer-registration/customer-registration.component';
 import { ElectronicTransportComponent } from './electronic-transport/electronic-transport.component';
 import { ErpSoftwareComponent } from './erp-software/erp-software.component';
 import { ErpSystemComponent } from './erp-system/erp-system.component';
@@ -43,6 +44,10 @@ export const routes: Routes = [
 			{
 				path: "chart",
 				component: ChartComponent
+			},
+			{
+				path: "customer-registration",
+				component: CustomerRegistrationComponent
 			},
 			{
 				path: "electronic-transport",
