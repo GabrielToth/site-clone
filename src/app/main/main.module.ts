@@ -9,7 +9,6 @@ import { SolutionsModule } from './solutions/solutions.module';
 import { ContactModule } from './contact/contact.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from '../shared/shared.module';
-import { SupportModule } from './support/support.module';
 
 
 
@@ -17,6 +16,7 @@ import { SupportModule } from './support/support.module';
   declarations: [
     AboutEnterpriseComponent,
     ClientsComponent,
+    SupportComponent,
     PrivacyPolicyComponent
   ],
   imports: [
@@ -25,13 +25,13 @@ import { SupportModule } from './support/support.module';
     HomeModule,
     ContactModule,
     SolutionsModule,
-    SupportModule,
-    SharedModule,
+    SharedModule
   ],
   exports: [  
     AboutEnterpriseComponent,
     ClientsComponent,
+    SupportComponent,
     PrivacyPolicyComponent
   ]
 })
-export class MainModule {}
+export class MainModule { }
