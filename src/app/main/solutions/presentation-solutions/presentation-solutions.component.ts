@@ -5,6 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './presentation-solutions.component.html',
   styleUrls: ['./presentation-solutions.component.scss']
 })
-export class PresentationSolutionsComponent {
+export class PresentationSolutionsComponent{
 
 }

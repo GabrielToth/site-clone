@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ButtonsToKnowMoreComponent } from 'src/app/shared/buttons-to-know-more/buttons-to-know-more.component';
 
 @Component({
   selector: 'app-sat-fiscal',

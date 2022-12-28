@@ -10,7 +10,7 @@
             <ng-content select=".right-list"></ng-content>
             <div class="button-bottom">
                 <button class="contact-button">
-                    <a [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
+                    <a (click)="execute()" [routerLink]="['/contact']">Solicite contato ou agende uma demonstração</a>
                 </button>
             </div>
         </div>

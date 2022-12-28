@@ -24,7 +24,7 @@ import { TaxAndFiscalComponent } from './tax-and-fiscal/tax-and-fiscal.component
 import { TaxSpedComponent } from './tax-sped/tax-sped.component';
 import { WholesaleComponent } from './wholesale/wholesale.component';
 
-const routes: Routes = [
+export const routes: Routes = [
 	{
 		path: 'solutions',
 		children: [

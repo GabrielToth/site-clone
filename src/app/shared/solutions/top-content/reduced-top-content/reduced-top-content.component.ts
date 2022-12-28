@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { TopPageService } from 'src/app/services/top-page.service';
 
 @Component({
   selector: 'app-reduced-top-content',
   templateUrl: './reduced-top-content.component.html',
   styleUrls: ['./reduced-top-content.component.scss']
 })
-export class ReducedTopContentComponent implements OnInit {
+export class ReducedTopContentComponent {
 
-  constructor() { }
+  constructor(private topPage:TopPageService) { }
 
-  ngOnInit(): void {
+  execute(){
+    this.topPage.topPage()
   }
 
 }

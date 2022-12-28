@@ -1,10 +1,10 @@
 <div class="solutions-top-container">
   <ng-content select=".title-top"></ng-content>
 
-  <a [routerLink]="['/contact']" class="benefits">
-    <p>
+  <a (click)="execute()" [routerLink]="['/contact']" class="benefits">
+    <p (click)="execute()">
       Para adquirir o melhor custo benefício para sua empresa solicite contato
-      ou a gente uma demonstração.
+      ou agende uma demonstração.
     </p>
   </a>
 </div>

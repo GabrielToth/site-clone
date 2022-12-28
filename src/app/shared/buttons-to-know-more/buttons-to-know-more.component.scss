@@ -3,7 +3,7 @@
 
   display: flex;
   flex-wrap: wrap;
-  
+
   justify-content: center;
   align-items: center;
 
@@ -29,6 +29,9 @@
     >a#b2 {
       background-color: #4DC247;
     }
+  }
+  button:hover{
+    cursor: pointer;
   }
 }
 

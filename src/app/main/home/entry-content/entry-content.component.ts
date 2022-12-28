@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import { TopPageService } from 'src/app/services/top-page.service';
 
 @Component({
   selector: 'app-entry-content',
   templateUrl: './entry-content.component.html',
   styleUrls: ['./entry-content.component.scss']
 })
-export class EntryContentComponent implements OnInit {
+export class EntryContentComponent {
 
-  constructor() { }
+  constructor(private topPage: TopPageService) { }
 
-  ngOnInit(): void {
+  execute(){
+    this.topPage.topPage()
   }
+
+
 
 }
