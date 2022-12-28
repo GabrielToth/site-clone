@@ -17,8 +17,8 @@ import { VideosPresentationComponent } from './videos-presentation/videos-presen
 import { VideosSatComponent } from './videos-sat/videos-sat.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
 import { MainRoutingModule } from '../main/main-routing.module';
-import { SecondFooterComponent } from './second-footer/second-footer.component';
-import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.module';
+
+
 
 
 @NgModule({
@@ -43,13 +43,10 @@ import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.modu
     VideosPresentationComponent,
     VideosSatComponent,
     WhatsappComponent,
-
-    SecondFooterComponent
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
-    SolutionsRoutingModule,
   ],
   exports: [
     ButtonsToKnowMoreComponent,
@@ -71,9 +68,7 @@ import { SolutionsRoutingModule } from '../main/solutions/solutions-routing.modu
     VideosMidPageComponent,
     VideosPresentationComponent,
     VideosSatComponent,
-    WhatsappComponent,
-
-    SecondFooterComponent,
+    WhatsappComponent
   ]
 })
 export class SharedModule { }

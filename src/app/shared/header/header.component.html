@@ -58,11 +58,7 @@
             </a>
           </li>
           <li class="menu-navigation-item" id="solution">
-            <a
-              [routerLink]="['#']"
-              (click)="clickEventSolutions()"
-              >Soluções
-            </a>
+            <p (click)="clickEventSolutions()"> Soluções</p>
             <app-solutions
               [ngClass]="{ 'display-solutions': display }"
               (onClickEvent)="display = false; toggle = false; topPage()"
