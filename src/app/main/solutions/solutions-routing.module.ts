@@ -21,6 +21,7 @@ import { SatFiscalComponent } from './sat-fiscal/sat-fiscal.component';
 import { ServiceInvoicesComponent } from './service-invoices/service-invoices.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { StandardProductionComponent } from './standard-production/standard-production.component';
+import { SupplierRegistrationComponent } from './supplier-registration/supplier-registration.component';
 import { TaxAndFiscalComponent } from './tax-and-fiscal/tax-and-fiscal.component';
 import { TaxSpedComponent } from './tax-sped/tax-sped.component';
 import { WholesaleComponent } from './wholesale/wholesale.component';
@@ -112,6 +113,10 @@ export const routes: Routes = [
 			{
 				path: "standard-production",
 				component: StandardProductionComponent
+			},
+			{
+				path: "supplier-registration",
+				component: SupplierRegistrationComponent
 			},
 			{
 				path: "tax-and-fiscal",

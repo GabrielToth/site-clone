@@ -26,6 +26,7 @@ import { PresentationSolutionsComponent } from './presentation-solutions/present
 import { SharedModule } from 'src/app/shared/shared.module';
 import { SolutionsRoutingModule } from './solutions-routing.module';
 import { CustomerRegistrationComponent } from './customer-registration/customer-registration.component';
+import { SupplierRegistrationComponent } from './supplier-registration/supplier-registration.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { CustomerRegistrationComponent } from './customer-registration/customer-
     TaxAndFiscalComponent,
     TaxSpedComponent,
     WholesaleComponent,
-    CustomerRegistrationComponent
+    CustomerRegistrationComponent,
+    SupplierRegistrationComponent
   ],
   imports: [
     CommonModule,
