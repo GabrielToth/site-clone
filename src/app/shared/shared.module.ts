@@ -19,6 +19,9 @@ import { WhatsappComponent } from './whatsapp/whatsapp.component';
 import { MainRoutingModule } from '../main/main-routing.module';
 import { RouterModule } from '@angular/router';
 import { routes } from '../main/solutions/solutions-routing.module';
+import { VideoSmallComponent } from './videos/video-small/video-small.component';
+import { VideoMediumComponent } from './videos/video-medium/video-medium.component';
+import { VideoLargeComponent } from './videos/video-large/video-large.component';
 
 
 
@@ -45,6 +48,9 @@ import { routes } from '../main/solutions/solutions-routing.module';
     VideosPresentationComponent,
     VideosSatComponent,
     WhatsappComponent,
+    VideoSmallComponent,
+    VideoMediumComponent,
+    VideoLargeComponent,
   ],
   imports: [
     CommonModule,
