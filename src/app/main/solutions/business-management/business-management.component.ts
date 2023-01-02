@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TopPageService } from 'src/app/services/top-page.service';
 
 @Component({
   selector: 'app-business-management',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BusinessManagementComponent implements OnInit {
 
-  constructor() { }
+  constructor(private topPage: TopPageService) { }
+
+  execute(){
+    this.topPage.topPage()
+  }
 
   ngOnInit(): void {
   }
