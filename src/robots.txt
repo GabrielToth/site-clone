@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /clients
+Allow: /contact
+Allow: /support
+Allow: /solutions/presentation-solutions
+Allow: /solutions/sat-fiscal
+Allow: /solutions/nfc-e
+Allow: /solutions/nfe
+Allow: /solutions/service-invoices
+Allow: /solutions/tax-and-fiscal
+Allow: /solutions/restaurant
+Allow: /solutions/wholesale
+Allow: /solutions/balcony-sell
+Allow: /solutions/budget
+Allow: /solutions/electronic-transport
+Allow: /solutions/shopping
+Allow: /solutions/financial
+Allow: /solutions/standard-production
+Allow: /solutions/order-of-service
+Allow: /solutions/presentation
+Allow: /solutions/chart
+Allow: /solutions/erp-system
+Allow: /solutions/tax-sped
+Allow: /solutions/erp-software
+Allow: /solutions/business-management
+Allow: /solutions/sat-equipment
+
+
+# Sitemaps
+Sitemap: ./sitemap.xml
