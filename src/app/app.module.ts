@@ -8,7 +8,6 @@ import { MainModule } from './main/main.module';
 import { HeaderModule } from './shared/header/header.module';
 
 
-
 @NgModule({
   declarations: [
     AppComponent
@@ -19,8 +18,9 @@ import { HeaderModule } from './shared/header/header.module';
     HeaderModule,
     SharedModule,
     MainModule,
+
   ],
-  providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
