@@ -43,7 +43,7 @@
         margin-bottom: 24px;
 
         >h1 {
-          color: #031D4C;
+          color: --color-blue-principal;
           text-size-adjust: 100%;
 
           font-weight: 900;
@@ -64,7 +64,7 @@
 
           >* {
             text-align: justify;
-            color: #031D4C;
+            color: --color-blue-principal;
           }
 
           >i {
@@ -114,12 +114,12 @@
       >a {
         font-size: 17px;
         font-weight: 600;
-        color: #031D4C;
+        color: --color-blue-principal;
       }
     }
 
     .button-know-more {
-      background-color: #031D4C;
+      background-color: --color-blue-principal;
       border: transparent;
       border-radius: 5px;
 
