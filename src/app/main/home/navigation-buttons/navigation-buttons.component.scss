@@ -28,7 +28,7 @@
 
       background-color: transparent;
 
-      > a {
+      a {
         width: 200px;
         height: 48px;
         
@@ -37,6 +37,7 @@
         border-radius: 5px;
 
         display: flex;
+
         justify-content: center;
         align-items: center;
 
@@ -45,7 +46,7 @@
 
         text-align: center;
         
-        background-color: #db6216;
+        background-color: #031D4C;
         color: #fff;
       }
     }
