@@ -1,98 +1,137 @@
 <footer>
-    <section class="footer-container">
-        <div class="footer-section">
-            <div class="footer-section-title">
-                <h2>Institucional</h2>
-            </div>
-            <nav class="footer-section-navigation">
-                <ul>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/about']" routerLinkActive="active" ariaCurrentWhenActive="page">
-                            <p>A Empresa</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/solutions/presentation-solutions']" routerLinkActive="active" ariaCurrentWhenActive="page">
-                            <p>Soluções</p>
-
-                        </a>
-
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/solutions/presentation']" routerLinkActive="active" ariaCurrentWhenActive="page">
-                            <p>Vídeos</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/clients']" routerLinkActive="active" ariaCurrentWhenActive="page">
-                            <p>Clientes</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/contact']" routerLinkActive="active" ariaCurrentWhenActive="page">
-                            <p>Fale Conosco</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="footer-section">
-            <div class="footer-section-title">
-                <h2>Contato</h2>
-            </div>
-            <nav class="footer-section-navigation">
-                <ul>
-                    <li>
-                        <a (click)="topPage()" href="/contact">
-                            <p>Rua João Alves Pimenta, 880<br> Freguesia do Ó - São Paulo/SP</p>
-                        </a>
-                    </li><br>
-                    <li>
-                        <a href="mailto:softclever@softclever.com.br">
-                            <p>softclever@softclever.com.br</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/contact']">
-                            <p (click)="topPage()">(11) 3991-3923  / 2361-8334</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a (click)="topPage()" [routerLink]="['/privacy-policy']">
-                            <p>Política de Privacidade</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="footer-section">
-            <div class="footer-section-title">
-                <h2>Redes Sociais</h2>
-            </div>
-            <nav class="footer-section-navigation">
-                <ul class="footer-section-social-media">
-                    <li>
-                        <a href="https://www.facebook.com/people/Soft-Clever-Informatica/100064251090022/?modal=admin_todo_tour" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/soft.clever/?hl=pt-br" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw" target="_blank">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <!-- <li>
+  <section class="footer-container">
+    <div class="footer-section">
+      <div class="footer-section-title">
+        <h2>Institucional</h2>
+      </div>
+      <nav class="footer-section-navigation">
+        <ul>
+          <li>
+            <a
+              (click)="topPage()"
+              [routerLink]="['/about']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              <p>A Empresa</p>
+            </a>
+          </li>
+          <li>
+            <a
+              (click)="topPage()"
+              [routerLink]="['/solutions/presentation-solutions']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              <p>Soluções</p>
+            </a>
+          </li>
+          <li>
+            <a
+              (click)="topPage()"
+              [routerLink]="['/solutions/presentation']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              <p>Vídeos</p>
+            </a>
+          </li>
+          <li>
+            <a
+              (click)="topPage()"
+              [routerLink]="['/clients']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              <p>Clientes</p>
+            </a>
+          </li>
+          <li>
+            <a
+              (click)="topPage()"
+              [routerLink]="['/contact']"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              <p>Fale Conosco</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-section">
+      <div class="footer-section-title">
+        <h2>Contato</h2>
+      </div>
+      <nav class="footer-section-navigation">
+        <ul>
+          <li>
+            <a (click)="topPage()" href="/contact">
+              <p>
+                Rua João Alves Pimenta, 880<br />
+                Freguesia do Ó - São Paulo/SP
+              </p>
+            </a>
+          </li>
+          <br />
+          <li>
+            <a href="mailto:softclever@softclever.com.br">
+              <p>softclever@softclever.com.br</p>
+            </a>
+          </li>
+          <li>
+            <a (click)="topPage()" [routerLink]="['/contact']">
+              <p (click)="topPage()">(11) 3991-3923 / 2361-8334</p>
+            </a>
+          </li>
+          <li>
+            <a (click)="topPage()" [routerLink]="['/privacy-policy']">
+              <p>Política de Privacidade</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-section">
+      <div class="footer-section-title">
+        <h2>Redes Sociais</h2>
+      </div>
+      <nav class="footer-section-navigation">
+        <ul class="footer-section-social-media">
+          <li>
+            <a
+              href="https://www.facebook.com/people/Soft-Clever-Informatica/100064251090022/?modal=admin_todo_tour"
+              target="_blank"
+              name="Facebook"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/soft.clever/?hl=pt-br"
+              target="_blank"
+              name="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
+              target="_blank"
+              name="YouTube"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+          <!-- <li>
                         <a href="#">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </li> -->
-                </ul>
-            </nav>
-        </div>
-    </section>
+        </ul>
+      </nav>
+    </div>
+  </section>
 </footer>
