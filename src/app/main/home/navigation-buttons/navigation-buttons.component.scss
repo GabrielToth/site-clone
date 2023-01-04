@@ -11,34 +11,43 @@
 
   .navigation-buttons {
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
 
     gap: 24px;
 
     .nav-button {
-      border-radius: 5px;
-
-      height: 80px;
-
       display: flex;
+
       justify-content: center;
       align-items: center;
 
       border: none;
 
-      > a {
-        margin: 5%;
+      background-color: transparent;
 
-        color: #fff;
-        text-align: center;
+      > a {
+        width: 200px;
+        height: 48px;
+        
+        padding: 18px;
+
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         font-size: 18px;
         font-weight: 700;
-      }
-    }
 
-    .button-color {
-      background-color: #db6216;
+        text-align: center;
+        
+        background-color: #db6216;
+        color: #fff;
+      }
     }
   }
 
