@@ -33,12 +33,13 @@
 
     .be-a-partnership-content{
         display: flex;
+        
         justify-content: center;
-        align-items: stretch;
 
 
         .content-text {
-            width: 65%;
+            width: 50%;
+            min-width: 350px;
 
             padding: 5%;
 
@@ -74,17 +75,14 @@
         }
 
         .content-image {
-            width: 500px;
-            max-width: 35%;
+            width: 50%;
 
             display: flex;
             justify-content: center;
             align-items: center;
             
             >img {
-                width: 500px;
-                max-width: 100%;
-                height: 500px;
+                width: 350px;
             }
         }
     }
@@ -100,7 +98,11 @@
             margin: 0;
 
             .content-text {
-                width: 300px;
+                max-width: 100%;
+
+                margin: 0 auto;
+                padding: 0;
+
 
                 h2 {
                     text-align: center;
@@ -108,8 +110,7 @@
             }
 
             .content-image {
-                width: 200px;
-                height: 200px;
+                margin: 24px auto;
             }
         }
     }
