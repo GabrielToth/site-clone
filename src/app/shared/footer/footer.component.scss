@@ -36,7 +36,6 @@
 
                 >li>a {
                     display: flex;
-                    height: 48px;
                     gap: 10px;
 
                     >p {
@@ -44,6 +43,8 @@
                         color: rgb(212, 212, 212);
 
                         font-size: 14px;
+
+                        line-height: 2rem;
                     }
 
                     >i {

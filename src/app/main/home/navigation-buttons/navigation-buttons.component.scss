@@ -1,65 +1,64 @@
 .navigation-buttons-container {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 2%;
+
+  .navigation-buttons {
     display: flex;
+    flex-wrap: wrap;
 
     justify-content: center;
     align-items: center;
 
-    padding: 2%;
+    gap: 24px;
 
+    .nav-button {
+      display: flex;
 
-    .navigation-buttons {
+      justify-content: center;
+      align-items: center;
+
+      border: none;
+
+      background-color: transparent;
+
+      a {
+        width: 200px;
+        height: 48px;
+        
+        padding: 18px;
+
+        border-radius: 5px;
+
         display: flex;
+
         justify-content: center;
         align-items: center;
 
-        gap: 24px;
+        font-size: 18px;
+        font-weight: 700;
 
-        .nav-button {
-            border-radius: 5px;
-
-            height: 80px;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            border: none;
-
-            >a {
-                margin: 5%;
-
-                color: #fff;
-                text-align: center;
-                font-size: 18px;
-                font-weight: 700;
-            }
-        }
-
-        .button-green {
-            background-color: #89AE11;
-        }
-        .button-orange {
-            background-color: #FFA500;
-        }
-        .button-blue {
-            background-color: #56AEE3;
-        }
-        .button-darkgreen {
-            background-color: #4DC247;
-        }
-
+        text-align: center;
+        
+        background-color: #031D4C;
+        color: #eee;
+      }
     }
+  }
 
-    @media screen and (max-width: 600px){
-        .navigation-buttons {
-            flex-wrap: wrap;
+  @media screen and (max-width: 600px) {
+    .navigation-buttons {
+      flex-wrap: wrap;
 
-            .nav-button {
-                width: 100%;
-            }
-        }
+      .nav-button {
+        width: 100%;
+      }
     }
+  }
 }
