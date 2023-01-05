@@ -47,6 +47,13 @@
                     line-height: 1.5rem;
                     font-size: 12px;
                     cursor: pointer;
+
+                    >a{
+                      p {
+                        color: rgb(0, 0, 0);
+                        font-weight: 500;
+                      }
+                    }
                 }
             }
         }
@@ -83,6 +90,13 @@
                     line-height: 1.5rem;
                     li {
                         cursor: pointer;
+
+                        >a{
+                          p {
+                            color: rgb(0, 0, 0);
+                            font-weight: 500;
+                          }
+                        }
                     }
                 }
             }

@@ -17,9 +17,10 @@ import { HeaderModule } from './shared/header/header.module';
     AppRoutingModule,
     HeaderModule,
     SharedModule,
-    MainModule
+    MainModule,
+
   ],
-  providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
