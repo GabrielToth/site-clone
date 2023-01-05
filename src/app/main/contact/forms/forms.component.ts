@@ -25,9 +25,4 @@ export class FormsComponent implements OnInit {
       message: new FormControl(client.message)
     });
   }
-
-  onSubmit(): void {
-     console.log(this.formClient.value);
-  }
-
 }

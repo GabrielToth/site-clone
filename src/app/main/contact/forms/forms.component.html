@@ -1,20 +1,20 @@
-<form [formGroup]="formClient" class="forms-inputs" (ngSubmit)="onSubmit()">
+<form [formGroup]="formClient" class="forms-inputs" target="_blank" action="https://formsubmit.co/gabrieltoth11@hotmail.com" method="POST">
     <div class="minor-inputs">
         <div class="input-camp">
-            <input type="text" placeholder="Nome" name="name" formControlName="name" aria-required="true" aria-invalid="false">
+            <input type="text" placeholder="Nome" name="name" formControlName="name" aria-required="true" aria-invalid="false" required>
         </div>
         <div class="input-camp">
-            <input type="text" placeholder="Empresa" name="enterprise" formControlName="enterprise" aria-required="true" aria-invalid="false">
+            <input type="text" placeholder="Empresa" name="enterprise" formControlName="enterprise" aria-required="true" aria-invalid="false" required>
         </div>
         <div class="input-camp">
-            <input type="text" placeholder="Email" name="email" formControlName="email" aria-required="true" aria-invalid="false">
+            <input type="text" placeholder="Email" name="email" formControlName="email" aria-required="true" aria-invalid="false" required>
         </div>
         <div class="input-camp">
-            <input type="text" placeholder="Telefone" name="phone" formControlName="phone" aria-required="true" aria-invalid="false">
+            <input type="text" placeholder="Telefone" name="phone" formControlName="phone" aria-required="true" aria-invalid="false" required>
         </div>
     </div>
     <div class="input-message">
-        <textarea placeholder="Mensagem" class="message" formControlName="message" aria-required="true" aria-invalid="false"></textarea>
+        <textarea placeholder="Mensagem" class="message" formControlName="message" aria-required="true" aria-invalid="false" required></textarea>
     </div>
     <button type="submit" value="Enviar">ENVIAR</button>
 </form>
