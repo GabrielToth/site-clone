@@ -7,7 +7,8 @@ import { Client } from './client/client';
   templateUrl: './forms.component.html',
   styleUrls: ['./forms.component.scss']
 })
-export class FormsComponent implements OnInit {
+export class FormsComponent {
+  /*
   formClient!: FormGroup;
 
   constructor() { }
@@ -25,4 +26,5 @@ export class FormsComponent implements OnInit {
       message: new FormControl(client.message)
     });
   }
+  */
 }
