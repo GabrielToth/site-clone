@@ -7,11 +7,9 @@ import { Client } from './client/client';
   templateUrl: './forms.component.html',
   styleUrls: ['./forms.component.scss']
 })
-export class FormsComponent {
-  /*
-  formClient!: FormGroup;
+export class FormsComponent implements OnInit {
 
-  constructor() { }
+  formClient!: FormGroup;
 
   ngOnInit() {
     this.createForm(new Client());
@@ -26,5 +24,5 @@ export class FormsComponent {
       message: new FormControl(client.message)
     });
   }
-  */
+
 }
