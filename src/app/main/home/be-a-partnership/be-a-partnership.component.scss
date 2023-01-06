@@ -1,118 +1,149 @@
 .be-a-partnership-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 24px;
+
+  padding: 2% 0;
+
+  width: 100%;
+
+  .be-a-partnership-title {
     display: flex;
-    flex-direction: column;
-
     justify-content: center;
-    align-items: center;
 
-    gap: 24px;
+    > h2 {
+      font-size: 48px;
+      font-weight: 700;
 
-    padding: 2% 0;
+      text-align: center;
+    }
+  }
 
+  .be-a-partnership-image {
     width: 100%;
 
-    .be-a-partnership-title {
-        display: flex;
-        justify-content: center;
+    background-color: #1b1757;
 
-        >h2 {
-            font-size: 48px;
-            font-weight: 700;
+    a {
+      width: 90%;
 
+      margin: auto;
+
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-around;
+      align-items: center;
+
+      h3 {
+        font-size: 36px;
+        font-weight: 500;
+
+        line-height: 2rem;
+
+        color: #fff;
+      }
+
+      img {
+        width: 291px;
+        height: 200px;
+      }
+    @media screen and (max-width: 650px){
+        flex-wrap: wrap;
+
+        height: 350px;
+
+        h3 {
             text-align: center;
         }
     }
 
-    .be-a-partnership-image {
-        width: 100%;
-
-        >img {
-            width: 100%;
-        }
     }
 
-    .be-a-partnership-content{
-        display: flex;
-        
-        justify-content: center;
+  }
 
+  .be-a-partnership-content {
+    display: flex;
 
-        .content-text {
-            width: 50%;
-            min-width: 350px;
+    justify-content: center;
 
-            padding: 5%;
+    .content-text {
+      width: 50%;
+      min-width: 350px;
 
-            >h2 {
-                font-size: 2rem;
-                font-weight: 700;
+      padding: 5%;
 
-                margin-bottom: 24px;
-            }
+      > h2 {
+        font-size: 2rem;
+        font-weight: 700;
 
-            >h3 {
-                font-size: 1.3rem;
-                font-weight: 600;
+        margin-bottom: 24px;
+      }
 
-                margin-bottom: 12px;
-            }
+      > h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
 
-            >.title-description {
-                font-size: 1rem;
-                line-height: 2rem;
+        margin-bottom: 12px;
+      }
 
-                margin-bottom: 18px;
-            }
+      > .title-description {
+        font-size: 1rem;
+        line-height: 2rem;
 
-            >p {
-                margin-bottom: 18px;
+        margin-bottom: 18px;
+      }
 
-                line-height: 1.5rem;
-                text-align: justify;
-            }
+      > p {
+        margin-bottom: 18px;
 
-
-        }
-
-        .content-image {
-            width: 50%;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            >img {
-                width: 350px;
-                height: 350px;
-            }
-        }
+        line-height: 1.5rem;
+        text-align: justify;
+      }
     }
 
-    @media screen and (max-width: 730px){
-        .be-a-partnership-content {
-            width: 90%;
+    .content-image {
+      width: 50%;
 
-            flex-direction: column;
-            align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-            padding: 0;
-            margin: 0;
-
-            .content-text {
-                max-width: 100%;
-
-                margin: 0 auto;
-                padding: 0;
-
-
-                h2 {
-                    text-align: center;
-                }
-            }
-
-            .content-image {
-                margin: 24px auto;
-            }
-        }
+      > img {
+        width: 350px;
+        height: 350px;
+      }
     }
+  }
+
+  @media screen and (max-width: 730px) {
+    .be-a-partnership-content {
+      width: 90%;
+
+      flex-direction: column;
+      align-items: center;
+
+      padding: 0;
+      margin: 0;
+
+      .content-text {
+        max-width: 100%;
+
+        margin: 0 auto;
+        padding: 0;
+
+        h2 {
+          text-align: center;
+        }
+      }
+
+      .content-image {
+        margin: 24px auto;
+      }
+    }
+  }
 }

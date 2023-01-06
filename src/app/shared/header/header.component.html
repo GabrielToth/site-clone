@@ -7,7 +7,7 @@
     <div class="menu-inner" [ngClass]="{ active: toggle }">
       <nav class="menu-top-line">
         <div class="menu-logo">
-          <img width="10%" height="10%"
+          <img
             src="assets/images/webp/softclever-logo.webp"
             type="image/webp"
             alt="Um triângulo azul com as letras S e C vazadas na cor branca"
@@ -36,11 +36,14 @@
       </nav>
       <nav class="menu-navigation">
         <div class="menu-navigation-logo">
-          <img
-            src="assets/images/webp/logo-mais-de-28-anos.webp"
-            type="image/jpg"
-            alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'"
-          />
+          <picture>
+            <source media="(max-width: 930px)" srcset="assets/images/webp/logo-mais-de-28-anos_250x32.webp" type="image/webp">
+            <img
+              src="assets/images/webp/logo-mais-de-28-anos.webp"
+              type="image/jpg"
+              alt="Logo da SoftClever com um painel ao lado escrito: 'Mais de 28 anos de experiência. Milhares de clientes atendidos.'"
+            />
+          </picture>
         </div>
         <ul class="menu-navigation-items">
           <li class="menu-navigation-item">
