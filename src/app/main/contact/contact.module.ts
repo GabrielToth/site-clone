@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsComponent } from './forms/forms.component';
 import { ContactComponent } from './contact.component';
@@ -14,6 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [
     ContactComponent,
