@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TopPageService } from 'src/app/services/top-page.service';
 
 @Component({
@@ -6,14 +6,11 @@ import { TopPageService } from 'src/app/services/top-page.service';
   templateUrl: './cards-category-navigation.component.html',
   styleUrls: ['./cards-category-navigation.component.scss']
 })
-export class CardsCategoryNavigationComponent implements OnInit {
+export class CardsCategoryNavigationComponent {
 
   constructor(private topPage:TopPageService) { }
 
   execute(){
     this.topPage.topPage()
   }
-  ngOnInit(): void {
-  }
-
 }

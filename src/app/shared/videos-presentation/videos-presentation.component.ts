@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 @Component({
   selector: 'app-videos-presentation',
   templateUrl: './videos-presentation.component.html',
   styleUrls: ['./videos-presentation.component.scss']
 })
-export class VideosPresentationComponent implements OnInit {
+export class VideosPresentationComponent {
 
   vimeoClicked() {
 
@@ -36,10 +36,4 @@ export class VideosPresentationComponent implements OnInit {
     document.querySelector('.youtube-thumbnail')?.remove();
     youtube_video?.classList.remove('youtube')
   }
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

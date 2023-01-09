@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadlineComponent implements OnInit {
   colorr: any; 
-
-  constructor() { }
-
+  
   ngOnInit(): void {
     this.colorr = document.getElementsByClassName('background-color').item(0)?.innerHTML;
   }

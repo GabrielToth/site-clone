@@ -8,8 +8,10 @@ import { Client } from './client/client';
   styleUrls: ['./forms.component.scss'],
 })
 export class FormsComponent implements OnInit {
+
   formClient!: FormGroup;
-  constructor() {}
+
+  constructor() { }
 
   ngOnInit() {
     this.createForm(new Client());
@@ -25,24 +27,4 @@ export class FormsComponent implements OnInit {
     });
   }
 
-  onSubmit(): void {
-    const { name } = this.formClient.value;
-    const { enterprise } = this.formClient.value;
-    const { email } = this.formClient.value;
-    const { phone } = this.formClient.value;
-    const { message } = this.formClient.value;
-
-    const sub = `Suporte | ${name} - ${enterprise}`;
-    const body = `
-    Nome: ${name}\n
-    Companhia: ${enterprise}\n
-    Email: ${email}\n
-    Telefone: ${phone}\n
-    Mensagem: ${message}\n
-	`;
-
-    window.open(
-      `mailto:softclever@softclever.com.br?subject=${sub}&body=${body}`
-    );
-  }
 }
