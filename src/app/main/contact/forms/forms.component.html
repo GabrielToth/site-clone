@@ -1,20 +1,20 @@
-<form class="forms-inputs" onsubmit="$event.preventDefault(); onSubmit()">
+<form class="forms-inputs" [formGroup]="formClient" (onSubmit)="onSubmit()">
     <div class="minor-inputs">
         <div class="input-camp">
-            <input type="text" placeholder="Nome" name="name" required>
+            <input type="text" placeholder="Nome" formControlName="name">
         </div>
         <div class="input-camp">
-            <input type="text" placeholder="Empresa" name="enterprise" required>
+            <input type="text" placeholder="Empresa" formControlName="enterprise">
         </div>
         <div class="input-camp">
-            <input type="email" placeholder="Email" name="email" required>
+            <input type="email" placeholder="Email" formControlName="email">
         </div>
         <div class="input-camp">
-            <input type="tel" placeholder="Telefone" name="phone" required>
+            <input type="tel" placeholder="Telefone" formControlName="phone">
         </div>
     </div>
     <div class="input-message">
-        <textarea type="text" placeholder="Mensagem" name="message" required></textarea>
+        <textarea type="text" placeholder="Mensagem" formControlName="message"></textarea>
     </div>
-    <button type="submit">ENVIAR</button>
+    <button type="submit" (click)="onSubmit()">ENVIAR</button>
 </form>

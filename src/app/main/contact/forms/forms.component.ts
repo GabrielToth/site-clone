@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Client } from './client/client';
 import { ContactService } from './services/contact.service';
 import { first } from 'rxjs';
@@ -12,32 +12,33 @@ import { first } from 'rxjs';
 export class FormsComponent implements OnInit {
   formClient!: FormGroup;
 
-  constructor(private contact: ContactService) {}
+  constructor(private contact: ContactService,
+    formBuilder:FormBuilder) {
+      this.formClient = formBuilder.group({
+        name:[null, Validators.required],
+        enterprise:[null, Validators.required],
+        email:[null, Validators.required],
+        phone: [null, [Validators.required, Validators.pattern('[- +()0-9]+')]],
+        message:[null, Validators.required],
+      })
+    }
 
   ngOnInit() {
-    this.createForm(new Client());
-  }
 
-  createForm(client: Client): void {
-    this.formClient = new FormGroup({
-      name: new FormControl(client.name),
-      enterprise: new FormControl(client.enterprise),
-      email: new FormControl(client.email),
-      phone: new FormControl(client.phone, Validators.pattern('[- +()0-9]+')),
-      message: new FormControl(client.message),
-    });
   }
 
   onSubmit(): void {
     this.contact
       .submit(
         this.formClient.controls['email'].value,
-        'Softclever Contato',
-        this.formClient.controls['message'].value
+        this.formClient.controls['name'].value,
+        this.formClient.controls['enterprise'].value,
+        this.formClient.controls['phone'].value,
+        this.formClient.controls['message'].value,
       )
       .pipe(first())
       .subscribe({ error(err) {}, next(value) {
-
+        alert("Email enviado!")
       }, });
   }
 }
